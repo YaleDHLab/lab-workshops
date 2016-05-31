@@ -1,5 +1,7 @@
-# to install the ggplot2 package
-#install.packages("ggplot2")
+# uncomment to install the ggplot2 package
+# install.packages("ggplot2")
+# uncomment to install the XML package
+# install.packages("XML")
 
 library(ggplot2)
 library(XML)
@@ -9,6 +11,7 @@ library(XML)
 ###############################
 
 # find all texts in the working directory
+# `intern` flag means to stuff the results into an internal variable
 all_files <- system("ls", intern=TRUE)
 
 # parse the hierarchical tree structure in the first document
@@ -24,13 +27,21 @@ file_one_speaker_table <- table(file_one_speakers)
 speakers.df <- as.data.frame(file_one_speaker_table)
 
 # rename columns
+# pass colnames function the data frame and the new names
 colnames(speakers.df) <- c("speaker", "frequency")
 
+# convert frequency column to a numeric type
 speakers.df$frequency <- as.numeric(as.character(speakers.df$frequency))
 
 # plot the distribution of speakers
+# give ggplot the dataframe, the "aesthetics", and 
+#      info on how to distinguish visually the bars in the graph
+# x axis is a reordered list of speakers in frequency descending
 ggplot(speakers.df, aes(x=reorder(speaker, -frequency), y=frequency, fill=reorder(speaker, -frequency))) +
   geom_bar(stat="identity")
+# remove fill arg to get monochrome
+# ggplot(speakers.df, aes(x=reorder(speaker, -frequency), y=frequency))
+#   geom_bar(stat="identity")
 
 
 ###################################
@@ -38,6 +49,7 @@ ggplot(speakers.df, aes(x=reorder(speaker, -frequency), y=frequency, fill=reorde
 ###################################
 
 # loop over those texts, and print each
+# just for demonstration purposes; no residual use of this in following code
 for (file in all_files) {
   print(file)
 }
@@ -95,22 +107,24 @@ for (file in all_files) {
   # select all of the speaker nodes
   speaker_nodes <- getNodeSet(file_tree, "//speaker")
   
-  # remove the speaker nodes from file_one_tree
+  # remove the speaker nodes from file_tree
+  # modifies file in place
   removeNodes(speaker_nodes)
   
-  # also remove the teiheader nodes
+  # also remove the teiHeader nodes
   removeNodes(getNodeSet(file_tree, "//teiHeader"))
   
   # get text between <text> tags
   file_text <- xpathSApply(file_tree, "//text", xmlValue)
   
+  # TEXT CLEANING
   # replace \n . , and ; with whitespace
   file_text_clean <- gsub("\n", " ", file_text)
   file_text_clean <- gsub("\\.", " ", file_text_clean)
   file_text_clean <- gsub(",", " ", file_text_clean)
   file_text_clean <- gsub(";", " ", file_text_clean)
   
-  # split the text on one or more whitespaces
+  # tokenize the text on one or more whitespaces
   split_text <- unlist(strsplit(file_text_clean, "\\s+"))
   
   # find all instances of one or more words from one group of words
@@ -169,6 +183,8 @@ plot <- ggplot(subset(all_text_data.df, contains_word != 0),
   labs(color="Word") +                                        # provide title for legend
   ggtitle("Distribution of selected words in Greek texts") +  # provide title for plot
   facet_wrap(~title, scale="free_x") 
+  # remove the scale arg for each plot to normalize to the same word count as longest file
+  # facet_wrap(~title) 
 
 
 # to save the plot to disk, pipe the output of the
