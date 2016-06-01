@@ -8,7 +8,7 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 
 # specify plotly api credentials
-py.sign_in('douglas.duhaime', '9t5gf5rkkf')
+py.sign_in('YOUR_PLOTLY_USERNAME', 'YOUR_PLOTLY_API_KEY')
 
 # make an empty list. Each member of this list will be a 0,1
 # to indicate whether the given word in the text is a word of interest
