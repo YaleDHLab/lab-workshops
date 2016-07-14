@@ -46,20 +46,30 @@ html = response.read()
 print html
 ```
 
-#### Parsing html with Html2text and BeautifulSoup
+#### Parsing HTML with BeautifulSoup
 
-There are a number of great libraries in Python for obtaining plaintext content from web pages, including [Html2text](https://github.com/aaronsw/html2text) and [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/). The following snippet uses the former to allow one to retrieve all the plaintext content within a page:
+There are a number of great libraries in Python for obtaining plaintext content from web pages. The most popular is [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/). The following snippet uses BeautifulSoup to retrieve all the plaintext content within a page:
 
 ```
-# pip install html2text
-import urllib2, html2text
+# pip install bs4
+import urllib2
+from bs4 import BeautifulSoup
 
+# Request the html page
 response = urllib2.urlopen('http://www.google.com')
 html = response.read()
-print html2text.html2text(html)  
+
+# Transform the html into a BeautifulSoup object
+soup = BeautifulSoup(html)
+
+# Extract all style, script, and head elements from the page
+[s.extract() for s in soup(['style', 'script', 'head'])]
+
+# Print each plaintext element on a unique line
+print soup.getText(separator = "\n")
 ```
 
-Using Beautiful Soup, one can parse out fields of interest within a page. For instance, one can parse out the plaintext content between two specified tags:
+Using Beautiful Soup, one can also parse out fields of interest within a page. For instance, one can parse out the plaintext content between two specified tags:
 
 ```
 # pip install bs4
