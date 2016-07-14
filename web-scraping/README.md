@@ -26,9 +26,9 @@ After running this command, you'll see a file named index.html in your current d
 
 To obtain the full content of **multiple web pages on a single domain**, one can run the following command:
 
-```wget -r -l4 http://www.google.com```
+```wget -r -l 4 http://www.google.com```
 
-This command says: Go to google.com, retrieve the content of that page, then find all of the links within the page and follow those links. Then repeat the same operation, continuing in this recursive (designated by `-r`) fashion a maximum number of 14 times. 
+This command says: Go to google.com, retrieve the content of that page, then find all of the links within the page and follow those links. Then repeat the same operation, continuing in this recursive (designated by `-r`) fashion a maximum number of 4 times (designated by `-l 4`). 
 
 ### Web Scraping with Python
 
