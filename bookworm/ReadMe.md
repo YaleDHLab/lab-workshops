@@ -31,6 +31,12 @@
 * `sudo yum update -y`
 * Next, we'll install a few pieces of software that Bookworm will need to run:
 * `sudo yum install -y git gcc gcc-c++ httpd24 php56 mysql55-server mysql55-devel php56-mysqlnd`
+* `wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2`
+* `tar -xvjf parallel*`
+* `cd parallel-20160722`
+* `./configure`
+* `make`
+* `sudo make install`
 * Now that all that software is installed, we'll need to turn on the web server and database (MySQL) so that they're available:
 * `sudo service httpd start`
 * `sudo service mysqld start`
@@ -45,3 +51,11 @@
 * Control-X to save.
 * `python get_and_unzip_data.py`
 * `python congress_parser.py`
+* `mv jsoncatalog.txt ../BookwormDB`
+* `mv input.txt ../BookwormDB`
+* `cd ..`
+* `cd BookwormDB`
+* `bookworm init`
+* You can leave the default name or change it
+* mysql password
+* mysqlk username
