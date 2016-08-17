@@ -17,3 +17,9 @@
 * You can now use this file, together with some information on your web browser screen, to get a remote terminal on the newly-launched Amazon Linux instance.
 * In your Terminal, type `ssh -i ~/.ssh/MyKeyPair.pem ec2-user@` followed (without a space) by the IP number you see in the "Public IP" column on the Amazon web page. (If you lose track of that page, it's [here](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances)
 * The entire command should look something like `ssh -i ~/.ssh/MyKeyPair.pem ec2-user@54.166.243.250`, with your own IP address instead.
+* You will need to approve connecting to the machine for the first time; hit `y` for Yes.
+* Now you should see a Unix command prompt in front of you in the Terminal. We'll do some updates first:
+* `sudo yum update -y`
+* Next, we'll install a few pieces of software that Bookworm will need to run:
+* `sudo yum install -y git gcc gcc-c++ httpd24 php56 mysql55-server mysql55-devel php56-mysqlnd`
+* 
