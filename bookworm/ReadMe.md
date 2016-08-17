@@ -29,4 +29,6 @@
 * We'll also want to ensure that our web server and database start back up if the machine is ever rebooted. To do that,
 * `sudo chkconfig httpd on`
 * `sudo chkconfig mysqld on`
-* And finally, we'll need to open up Amazon's default network security to allow us to actually visit the new web server in our browsers. To do that, we'll need to go here...
+* And finally, we'll need to open up Amazon's default network security to allow us to actually visit the new web server in our browsers. To do that, we'll need to go [here](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#SecurityGroups:sort=groupId)
+* You'll probably have only one Security Group listed, unless you've created other Amazon servers in the past.
+* 
