@@ -1,10 +1,11 @@
 * Click [here](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#) to launch the Amazon EC2 Console.
 * Click Launch Instance
 * Select the top option, "Amazon Linux AMI 2016.03.3 (HVM), SSD Volume Type"
-* Leave the default choice selected (the second from the top that says "Free tier eligible".
+* Choose `t2.large`
 * Choose "Next: Configure Instance Details"
 * Choose "Next: Add Storage"
 * Change the default 8 gigabytes to 16
+* Choose "Network" (TO COME: ADD HTTP PORT 80)
 * Choose "Review and Launch"
 * Choose "Launch" at the bottom of the screen
 * You will now set up a key pair so that you can securely log in to the server.
