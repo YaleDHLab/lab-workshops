@@ -22,4 +22,11 @@
 * `sudo yum update -y`
 * Next, we'll install a few pieces of software that Bookworm will need to run:
 * `sudo yum install -y git gcc gcc-c++ httpd24 php56 mysql55-server mysql55-devel php56-mysqlnd`
-* 
+* Now that all that software is installed, we'll need to turn on the web server and database (MySQL) so that they're available:
+* `sudo service httpd start`
+* `sudo service mysqld start`
+* (You'll see a bunch of informational messages about MySQL. You can ignore those for now; we'll return to this in a little bit.)
+* We'll also want to ensure that our web server and database start back up if the machine is ever rebooted. To do that,
+* `sudo chkconfig httpd on`
+* `sudo chkconfig mysqld on`
+* And finally, we'll need to open up Amazon's default network security to allow us to actually visit the new web server in our browsers. To do that, we'll need to go here...
