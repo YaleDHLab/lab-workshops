@@ -40,4 +40,8 @@
 * `sudo chkconfig mysqld on`
 * And finally, we'll need to open up Amazon's default network security to allow us to actually visit the new web server in our browsers. To do that, we'll need to go [here](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#SecurityGroups:sort=groupId)
 * You'll probably have only one Security Group listed, unless you've created other Amazon servers in the past.
-* 
+* We're going to reduce the number of the files to save time. Type `nano get_and_unzip_data.py`
+* Change the 2nd-to-last line to say `pool.map(getCongressData, range(93, 98))`
+* Control-X to save.
+* `python get_and_unzip_data.py`
+* `python congress_parser.py`
