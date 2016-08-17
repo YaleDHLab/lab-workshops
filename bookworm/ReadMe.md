@@ -53,9 +53,11 @@
 * `python congress_parser.py`
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
+* `mv field_descriptions.json ../BookwormDB`
 * `cd ..`
 * `cd BookwormDB`
 * `bookworm init`
 * You can leave the default name or change it
 * mysql password
-* mysqlk username
+* mysql username
+* `bookworm build all`
