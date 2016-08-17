@@ -57,6 +57,7 @@
 * Change the 2nd-to-last line to say `pool.map(getCongressData, range(93, 98))`
 * Control-X to save.
 * `python get_and_unzip_data.py`
+* TIME NOTE: 46 seconds (FULL DATA SET)
 * `python congress_parser.py`
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
