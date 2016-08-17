@@ -53,12 +53,10 @@
 * `cd ..`
 * `git clone https://github.com/bmschmidt/congress_api.git`
 * `cd congress_api`
-* We're going to reduce the number of the files to save time. Type `nano get_and_unzip_data.py`
-* Change the 2nd-to-last line to say `pool.map(getCongressData, range(93, 98))`
-* Control-X to save.
 * `python get_and_unzip_data.py`
 * TIME NOTE: 46 seconds (FULL DATA SET)
 * `python congress_parser.py`
+* TIME NOTE: 30 seconds (FULL DATA SET(!))
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
 * `mv field_descriptions.json ../BookwormDB`
