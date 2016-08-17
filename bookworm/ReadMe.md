@@ -46,6 +46,8 @@
 * `sudo chkconfig mysqld on`
 * `cd ~/`
 * `git clone git://github.com/Bookworm-project/BookwormDB`
+* `cd BookwormDB`
+* `python setup.py`
 * We're going to reduce the number of the files to save time. Type `nano get_and_unzip_data.py`
 * Change the 2nd-to-last line to say `pool.map(getCongressData, range(93, 98))`
 * Control-X to save.
