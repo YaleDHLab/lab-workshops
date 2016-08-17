@@ -15,3 +15,5 @@
 * Open the Downloads folder and make sure that your web browswer has not suffixed .txt to the downloaded file; it should end in .pem
 * Move this file from the Downloads folder to the ~/.ssh directory. 
 * You can now use this file, together with some information on your web browser screen, to get a remote terminal on the newly-launched Amazon Linux instance.
+* In your Terminal, type `ssh -i ~/.ssh/MyKeyPair.pem ec2-user@` followed (without a space) by the IP number you see in the "Public IP" column on the Amazon web page. (If you lose track of that page, it's [here](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances)
+* The entire command should look something like `ssh -i ~/.ssh/MyKeyPair.pem ec2-user@54.166.243.250`, with your own IP address instead.
