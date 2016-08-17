@@ -12,9 +12,18 @@
 * Click the "Download Key Pair" button.
 * Once that file has sucessfully downloaded (it's very small), click the "Launch" button.
 * On the resulting screen, click the linked name of your instance to be taken to the next page. Keep this page open in your browser for now.
+* MAC:
 * Open the Downloads folder and make sure that your web browswer has not suffixed .txt to the downloaded file; it should end in .pem
 * Move this file from the Downloads folder to the ~/.ssh directory. 
 * You can now use this file, together with some information on your web browser screen, to get a remote terminal on the newly-launched Amazon Linux instance.
+* PC:
+* General instructions for using Putty with Amazon are [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+* Start Menu > All Apps > Putty > PuttyGen
+* Load, and choose "all files".
+* Press "Save private key"
+* Launch Putty and connect using `ec2-user@` followed by your public IP# with no space.
+* In the left-hand panel, Connection > SSH > Auth > Private Key File for Authentication, browse to the key location.
+* RETURN TO ALL PLATFORMS:
 * In your Terminal, type `ssh -i ~/.ssh/MyKeyPair.pem ec2-user@` followed (without a space) by the IP number you see in the "Public IP" column on the Amazon web page. (If you lose track of that page, it's [here](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances)
 * The entire command should look something like `ssh -i ~/.ssh/MyKeyPair.pem ec2-user@54.166.243.250`, with your own IP address instead.
 * You will need to approve connecting to the machine for the first time; hit `y` for Yes.
