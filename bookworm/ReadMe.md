@@ -60,8 +60,10 @@
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
 * `mv field_descriptions.json ../BookwormDB`
-* `cd ..`
-* `cd BookwormDB`
+* `cd ../BookwormDB`
+* `bookworm config mysql`
+* Answer `/home/ec2-user` when it queries you for the home directory path.
+
 * `bookworm init`
 * You can leave the default name or change it
 * mysql password
