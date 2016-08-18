@@ -127,3 +127,7 @@ password = bookwormpw`
 > Time Estimate: 8 mins.
 
 * `bookworm build all`
+
+# Build the LineChart Web Interface
+`sudo env "PATH=$PATH" bookworm build linechartGUI`
+
