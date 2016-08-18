@@ -44,9 +44,9 @@
 * `git clone https://github.com/bmschmidt/congress_api.git`
 * `cd congress_api`
 * `python get_and_unzip_data.py`
-* TIME NOTE: 46 seconds (FULL DATA SET)
+> Time Estimate: 46 secs.
 * `python congress_parser.py`
-* TIME NOTE: 30 seconds (FULL DATA SET(!))
+> Time Estimate: 30 secs.
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
 * `mv field_descriptions.json ../BookwormDB`
@@ -75,7 +75,7 @@ password = bookwormpw`
 
 * `cd ../BookwormDB`
 * `bookworm config mysql`
-* * Answer `/home/ec2-user` when it queries you for the home directory path.
+* Answer `/home/ec2-user` when it queries you for the home directory path.
 
 # Initializing a new project
 
@@ -85,4 +85,5 @@ password = bookwormpw`
 * The Client Usernaame should already be set to `bwadmin`, so you can hit return.
 
 # Building the Bookworm
+> Time Estimate: 8 mins.
 * `bookworm build all`
