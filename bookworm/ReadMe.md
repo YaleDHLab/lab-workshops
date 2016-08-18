@@ -46,9 +46,11 @@
 * `python get_and_unzip_data.py`
 
 > Time Estimate: 46 secs.
+
 * `python congress_parser.py`
 
 > Time Estimate: 30 secs.
+
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
 * `mv field_descriptions.json ../BookwormDB`
