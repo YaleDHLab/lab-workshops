@@ -78,6 +78,11 @@
 
 ### Bookworm Database Setup
 
+* `nano ~/.my.cnf` and insert the following lines:
+`[client]
+user = bwadmin
+password = bookwormpw`
+
 * `cd ../BookwormDB`
 * `bookworm config mysql`
 * * Answer `/home/ec2-user` when it queries you for the home directory path.
@@ -85,7 +90,9 @@
 ### Initializing a new project
 
 * `bookworm init`
-* You can leave the default name or change it
-* mysql password
-* mysql username
+* You can leave the default name of the Bookworm, or change it to something like "Congressional Data"
+* The Client Password should be already set to `bookwormpw`, so you can hit return.
+* The Client Usernaame should already be set to `bwadmin`, so you can hit return.
+
+### Building the Bookworm
 * `bookworm build all`
