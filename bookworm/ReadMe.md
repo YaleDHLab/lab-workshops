@@ -134,4 +134,7 @@ password = bookwormpw`
 * `sudo mv /var/www/CongressionalData/ /var/www/html/`
 * Now we need the back-end script that serves the data:
 * `sudo cp ~/BookwormDB/bookwormdb/bin/dbbindings.py /var/www/cgi-bin/`
+* FIXME: Python Egg Cache is set to a whacko value.
+* FIXME: Workaround: `sudo mkdir /var/www/.python-eggs`
+* FIXME `sudo chmod 777 /var/www/.python-eggs`
 
