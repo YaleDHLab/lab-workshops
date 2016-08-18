@@ -64,9 +64,6 @@
 
 ### MySQL Database Setup
 
-* `cd ../BookwormDB`
-* `bookworm config mysql`
-* Answer `/home/ec2-user` when it queries you for the home directory path.
 * `sudo mysql_secure_installation`
 * Your database doesn't have a root password yet, so just hit return when queried.
 * Answer Yes to "Set root password?"
@@ -78,6 +75,12 @@
 * Use 'bwadmin' as the name for the admin user.
 * Use 'bookwormpw' as the password for user bwadmin
 * Enter 'bookwormpw' again to confirm.
+
+### Bookworm Database Setup
+
+* `cd ../BookwormDB`
+* `bookworm config mysql`
+* * Answer `/home/ec2-user` when it queries you for the home directory path.
 
 ### Initializing a new project
 
