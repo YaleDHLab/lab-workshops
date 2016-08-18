@@ -63,6 +63,19 @@
 * `cd ../BookwormDB`
 * `bookworm config mysql`
 * Answer `/home/ec2-user` when it queries you for the home directory path.
+* `sudo mysql_secure_installation`
+* Your database doesn't have a root password yet, so just hit return when queried.
+* Answer Yes to "Set root password?"
+* For this temporary instance that has no important data, you can use 'bookwormpw' as a password.
+* Answer Yes to "Remove anonymous user?"
+* Answer Yes to "Disallow root login remotely?"
+* Answer Yes to "Remove test database?"
+* Answer Yes to "Reload privelege tables?"
+* Use 'bwadmin' as the name for the admin user.
+* Use 'bookwormpw' as the password for user bwadmin
+* Enter 'bookwormpw' again to confirm.
+
+
 
 * `bookworm init`
 * You can leave the default name or change it
