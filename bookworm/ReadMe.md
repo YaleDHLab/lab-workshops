@@ -22,12 +22,42 @@
 * `sudo yum update -y`
 * Next, we'll install a few pieces of software that Bookworm will need to run:
 * `sudo yum install -y git gcc gcc-c++ httpd24 php56 mysql55-server mysql55-devel php56-mysqlnd`
+
+# Customizing MySQL Install
+* `sudo nano /etc/my.cnf` and insert the following lines:
+===
+[client]
+max_allowed_packet=1073741824
+
+[mysqld]
+max_allowed_packet=1073741824
+myisam_sort_buffer_size = 512M
+read_rnd_buffer_size = 8M
+read_buffer_size = 4M
+max_heap_table_size = 1024M
+tmp_table_size = 1024M
+
+character_set_server = utf8
+query_cache_size = 128M
+query_cache_type = 1
+query_cache_limit = 2M
+
+bulk_insert_buffer_size = 512M
+myisam_max_sort_file_size = 1500G
+sort_buffer_size = 8M
+
+key_buffer_size=1500M
+===
+
+# Compiling Gnu Parallel
 * `wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2`
 * `tar -xvjf parallel*`
 * `cd parallel-20160722`
 * `./configure`
 * `make`
 * `sudo make install`
+
+# Running Web Server + Database
 * Now that all that software is installed, we'll need to turn on the web server and database (MySQL) so that they're available:
 * `sudo service httpd start`
 * `sudo service mysqld start`
@@ -39,7 +69,9 @@
 * `git clone git://github.com/Bookworm-project/BookwormDB`
 * `cd BookwormDB`
 * `sudo python setup.py install`
-* TIME NOTE: 8 minutes to compile
+
+> Time Estimate: 8 mins.
+
 * `cd ..`
 * `git clone https://github.com/bmschmidt/congress_api.git`
 * `cd congress_api`
@@ -76,6 +108,7 @@
 `[client]
 user = bwadmin
 password = bookwormpw`
+
 
 * `cd ../BookwormDB`
 * `bookworm config mysql`
