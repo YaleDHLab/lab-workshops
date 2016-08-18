@@ -130,6 +130,8 @@ password = bookwormpw`
 
 # Build the LineChart Web Interface
 * `sudo env "PATH=$PATH" bookworm build linechartGUI`
-For some reason this directory ends up in the wrong place, so:
+* For some reason this directory ends up in the wrong place, so:
 * `sudo mv /var/www/CongressionalData/ /var/www/html/`
+* Now we need the back-end script that serves the data:
+* `sudo cp ~/BookwormDB/bookwormdb/bin/dbbindings.py /var/www/cgi-bin/`
 
