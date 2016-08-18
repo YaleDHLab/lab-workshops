@@ -25,7 +25,7 @@
 
 # Customizing MySQL Install
 
-* `sudo nano /etc/my.cnf` and insert the following lines:
+* `sudo nano /etc/my.cnf` and insert the following lines at the end of the file:
 
 ```
 [client]
