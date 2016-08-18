@@ -60,6 +60,10 @@
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
 * `mv field_descriptions.json ../BookwormDB`
+
+
+### MySQL Database Setup
+
 * `cd ../BookwormDB`
 * `bookworm config mysql`
 * Answer `/home/ec2-user` when it queries you for the home directory path.
@@ -75,7 +79,7 @@
 * Use 'bookwormpw' as the password for user bwadmin
 * Enter 'bookwormpw' again to confirm.
 
-
+### Initializing a new project
 
 * `bookworm init`
 * You can leave the default name or change it
