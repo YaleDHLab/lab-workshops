@@ -30,6 +30,8 @@
 ```
 [client]
 max_allowed_packet=1073741824
+user = bwadmin
+password = bookwormpw
 
 [mysqld]
 max_allowed_packet=1073741824
