@@ -24,7 +24,9 @@
 * `sudo yum install -y git gcc gcc-c++ httpd24 php56 mysql55-server mysql55-devel php56-mysqlnd`
 
 # Customizing MySQL Install
+
 * `sudo nano /etc/my.cnf` and insert the following lines:
+
 ===
 [client]
 max_allowed_packet=1073741824
