@@ -44,8 +44,10 @@
 * `git clone https://github.com/bmschmidt/congress_api.git`
 * `cd congress_api`
 * `python get_and_unzip_data.py`
+
 > Time Estimate: 46 secs.
 * `python congress_parser.py`
+
 > Time Estimate: 30 secs.
 * `mv jsoncatalog.txt ../BookwormDB`
 * `mv input.txt ../BookwormDB`
@@ -86,4 +88,5 @@ password = bookwormpw`
 
 # Building the Bookworm
 > Time Estimate: 8 mins.
+
 * `bookworm build all`
