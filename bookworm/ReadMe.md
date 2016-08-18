@@ -140,3 +140,6 @@ password = bookwormpw`
 * FIXME: Workaround: `sudo mkdir /var/www/.python-eggs`
 * FIXME `sudo chmod 777 /var/www/.python-eggs`
 
+# Transforming individual text files into input.txt
+
+`find * -type f -print  | while read file; do echo -n ${file%.txt} >>../input.txt; echo -ne '\t' >> ../input.txt; cat $file >> ../input.txt; echo '' >> ../input.txt; done`
