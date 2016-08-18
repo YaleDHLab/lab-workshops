@@ -27,7 +27,7 @@
 
 * `sudo nano /etc/my.cnf` and insert the following lines:
 
-===
+`
 [client]
 max_allowed_packet=1073741824
 
@@ -49,7 +49,7 @@ myisam_max_sort_file_size = 1500G
 sort_buffer_size = 8M
 
 key_buffer_size=1500M
-===
+`
 
 # Compiling Gnu Parallel
 * `wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2`
