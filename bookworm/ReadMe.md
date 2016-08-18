@@ -1,9 +1,9 @@
-### Setting up the connection to the Amazon Linux machine
+# Setting up the connection to the Amazon Linux machine
 * Download the .pem (Mac) or .ppk (Windows) file from the Google Doc.
 * Once that file has sucessfully downloaded (it's very small), click the "Launch" button.
 * On the resulting screen, click the linked name of your instance to be taken to the next page. Keep this page open in your browser for now.
 
-#### Macintosh
+## Macintosh
 * Open the Downloads folder and make sure that your web browswer has not suffixed .txt to the downloaded file; it should end in .pem
 * Move this file from the Downloads folder to the ~/.ssh directory. 
 * You can now use this file, together with some information on your web browser screen, to get a remote terminal on the newly-launched Amazon Linux instance.
@@ -11,12 +11,12 @@
 * The entire command should look something like `ssh -i ~/.ssh/MyKeyPair.pem ec2-user@54.166.243.250`, with your own IP address instead.
 
 
-#### Windows
+## Windows
 * General instructions for using Putty with Amazon are [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
 * Launch Putty and connect using `ec2-user@` followed by your public IP# with no space.
 * In the left-hand panel, Connection > SSH > Auth > Private Key File for Authentication, browse to the key location.
 
-### Connecting to the Amazon Linux machine
+# Connecting to the Amazon Linux machine
 * You will need to approve connecting to the machine for the first time; hit `y` for Yes.
 * Now you should see a Unix command prompt in front of you in the Terminal. We'll do some updates first:
 * `sudo yum update -y`
@@ -52,7 +52,7 @@
 * `mv field_descriptions.json ../BookwormDB`
 
 
-### MySQL Database Setup
+# MySQL Database Setup
 
 * `sudo mysql_secure_installation`
 * Your database doesn't have a root password yet, so just hit return when queried.
@@ -66,7 +66,7 @@
 * Use 'bookwormpw' as the password for user bwadmin
 * Enter 'bookwormpw' again to confirm.
 
-### Bookworm Database Setup
+# Bookworm Database Setup
 
 * `nano ~/.my.cnf` and insert the following lines:
 `[client]
@@ -77,12 +77,12 @@ password = bookwormpw`
 * `bookworm config mysql`
 * * Answer `/home/ec2-user` when it queries you for the home directory path.
 
-### Initializing a new project
+# Initializing a new project
 
 * `bookworm init`
 * You can leave the default name of the Bookworm, or change it to something like "Congressional Data"
 * The Client Password should be already set to `bookwormpw`, so you can hit return.
 * The Client Usernaame should already be set to `bwadmin`, so you can hit return.
 
-### Building the Bookworm
+# Building the Bookworm
 * `bookworm build all`
