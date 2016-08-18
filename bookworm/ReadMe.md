@@ -130,4 +130,5 @@ password = bookwormpw`
 
 # Build the LineChart Web Interface
 `sudo env "PATH=$PATH" bookworm build linechartGUI`
+`sudo mv /var/www/CongressionalData/ /var/www/html/`
 
