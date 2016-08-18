@@ -1,7 +1,6 @@
 # Setting up the connection to the Amazon Linux machine
 * Download the .pem (Mac) or .ppk (Windows) file from the Google Doc.
-* Once that file has sucessfully downloaded (it's very small), click the "Launch" button.
-* On the resulting screen, click the linked name of your instance to be taken to the next page. Keep this page open in your browser for now.
+
 
 ## Macintosh
 * Open the Downloads folder and make sure that your web browswer has not suffixed .txt to the downloaded file; it should end in .pem
