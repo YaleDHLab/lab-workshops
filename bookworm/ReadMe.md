@@ -23,35 +23,7 @@
 * Next, we'll install a few pieces of software that Bookworm will need to run:
 * `sudo yum install -y git gcc gcc-c++ httpd24 php56 mysql55-server mysql55-devel php56-mysqlnd`
 
-# Customizing MySQL Install
 
-* `sudo nano /etc/my.cnf` and insert the following lines at the end of the file:
-
-```
-[client]
-max_allowed_packet=1073741824
-user = bwadmin
-password = bookwormpw
-
-[mysqld]
-max_allowed_packet=1073741824
-myisam_sort_buffer_size = 512M
-read_rnd_buffer_size = 8M
-read_buffer_size = 4M
-max_heap_table_size = 1024M
-tmp_table_size = 1024M
-
-character_set_server = utf8
-query_cache_size = 128M
-query_cache_type = 1
-query_cache_limit = 2M
-
-bulk_insert_buffer_size = 512M
-myisam_max_sort_file_size = 1500G
-sort_buffer_size = 8M
-
-key_buffer_size=1500M
-```
 
 # Compiling Gnu Parallel
 * `wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2`
@@ -107,6 +79,36 @@ key_buffer_size=1500M
 * Enter 'bookwormpw' again to confirm.
 
 # Bookworm Database Setup
+
+# Customizing MySQL Install
+
+* `sudo nano /etc/my.cnf` and insert the following lines at the end of the file:
+
+```
+[client]
+max_allowed_packet=1073741824
+user = bwadmin
+password = bookwormpw
+
+[mysqld]
+max_allowed_packet=1073741824
+myisam_sort_buffer_size = 512M
+read_rnd_buffer_size = 8M
+read_buffer_size = 4M
+max_heap_table_size = 1024M
+tmp_table_size = 1024M
+
+character_set_server = utf8
+query_cache_size = 128M
+query_cache_type = 1
+query_cache_limit = 2M
+
+bulk_insert_buffer_size = 512M
+myisam_max_sort_file_size = 1500G
+sort_buffer_size = 8M
+
+key_buffer_size=1500M
+```
 
 * `nano ~/.my.cnf` and insert the following lines:
 `[client]
