@@ -6,7 +6,7 @@ Bookworm is an open-source data visualization package that helps reveal trends i
 
 ## Getting Started with Amazon Web Services
 
-To get started, we will need access to a Linux server. To do so, we'll [register for an account](aws.amazon.com/free) with Amazon Web Services (AWS), which gives students one year of free services. After registering, you'll be able to create Linux servers with just a few mouse clicks by following this step-by-step guide to [creating an Ubuntu 14.04 m4.large instance](https://github.com/YaleDHLab/lab-workshops/wiki/Creating-an-EC2-Instance-on-AWS).
+To get started, we will need access to a Linux server. To do so, we'll [register for an account](https://aws.amazon.com/free) with Amazon Web Services (AWS), which gives students one year of free services. After registering, you'll be able to create Linux servers with just a few mouse clicks by following this step-by-step guide to [creating an Ubuntu 14.04 m4.large instance](https://github.com/YaleDHLab/lab-workshops/wiki/Creating-an-EC2-Instance-on-AWS).
 
 ## Connecting to your AWS Instance
 
