@@ -87,14 +87,14 @@ done
 echo
 echo "Log into MySQL with your original root password:"
 
-mysql -u root -p --execute="CREATE USER '$keeper'@'127.0.0.1' IDENTIFIED BY '$keeperpass'; \
-  GRANT ALL PRIVILEGES ON *.* TO '$keeper'@'127.0.0.1' WITH GRANT OPTION; \
+mysql -u root -p --execute="CREATE USER '$keeper'@'localhost' IDENTIFIED BY '$keeperpass'; \
+  GRANT ALL PRIVILEGES ON *.* TO '$keeper'@'localhost' WITH GRANT OPTION; \
   CREATE USER '$keeper'@'%' IDENTIFIED BY '$keeperpass'; \
   GRANT ALL PRIVILEGES ON *.* TO '$keeper'@'%' WITH GRANT OPTION; \
-  CREATE USER 'admin'@'127.0.0.1'; \
-  GRANT RELOAD,PROCESS ON *.* TO 'admin'@'127.0.0.1'; \
-  CREATE USER '$reader'@'127.0.0.1' IDENTIFIED BY '$readerpass'; \
-  GRANT SELECT ON *.* TO '$reader'@'127.0.0.1' WITH GRANT OPTION; \
+  CREATE USER 'admin'@'localhost'; \
+  GRANT RELOAD,PROCESS ON *.* TO 'admin'@'localhost'; \
+  CREATE USER '$reader'@'localhost' IDENTIFIED BY '$readerpass'; \
+  GRANT SELECT ON *.* TO '$reader'@'localhost' WITH GRANT OPTION; \
   CREATE USER '$reader'@'%' IDENTIFIED BY '$readerpass'; \
   GRANT SELECT ON *.* TO '$reader'@'%' WITH GRANT OPTION; \
   GRANT SELECT ON *.* TO 'www-data'@'localhost'; \
