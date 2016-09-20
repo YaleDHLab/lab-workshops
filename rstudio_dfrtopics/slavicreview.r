@@ -1,3 +1,6 @@
+# download:
+https://yale.box.com/s/icu69vs2m7ygww38lor7d3laoibpfk6x
+
 #Create a new project in the folder that has the JSTOR data.
 
 install.packages("devtools")
