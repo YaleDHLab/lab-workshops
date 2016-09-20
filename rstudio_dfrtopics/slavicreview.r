@@ -1,4 +1,4 @@
-Create a new project in the folder that has the JSTOR data.
+#Create a new project in the folder that has the JSTOR data.
 
 install.packages("devtools")
 install_github("agoldst/dfrtopics")
@@ -22,14 +22,10 @@ library(rJava)
 library(mallet)
 
 
+data_dir <- file.path("/Users/[YOUR USERNAME HERE]/Desktop/slavic")
 
+# First we load metadata: 
 
-data_dir <- file.path("/Users/trip/Coding/TextMining/Bozovic-Rosenkranz-S15/slavic-review-all-names")
-# First we load metadata: it won’t be used in “vanilla” LDA modeling, 
-# but it is useful to have at this stage in case we want to filter the corpus.
-#
-# (Using the altered metadata file where we invented the title field for the book reviews)
-#
 metadata_file <- file.path(data_dir, "citations.tsv")
 meta <- read_dfr_metadata(metadata_file)
 # 
