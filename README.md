@@ -10,3 +10,4 @@ Date | Topic |
 05-31-2016 | [Plotting the distributions of keywords in multiple texts with R](https://github.com/YaleDHLab/lab-workshops/tree/master/greek-text-analysis/multiple-texts)
 07-14-2016 | [Web scraping with Unix and Python](https://github.com/YaleDHLab/lab-workshops/tree/master/web-scraping)
 08-18-2016 | [Building a Bookworm on a Linux Server](https://github.com/YaleDHLab/lab-workshops/tree/master/bookworm)
+09-20-2016 | [Topic modeling with R](https://github.com/YaleDHLab/lab-workshops/tree/master/rstudio_dfrtopics)
