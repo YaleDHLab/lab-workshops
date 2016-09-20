@@ -75,7 +75,12 @@ topic_model <- train_model(ilist, n_topics=50,
                  threads=4,
                  metadata=meta
 )
+#this can take quite a long time...
 write_mallet_model(topic_model, "modeling_results")
+
+
+
+
 summary(topic_model)
 # create folder for topic browsing. note that folder name is 'browser-'+number of topics+formatted datetime
 dfr_browser(topic_model, "slavic-review-browser", internalize=F)
