@@ -8,6 +8,7 @@ Date | Topic |
 :-------------- |:-------------
 05-24-2016 | [Plotting the distribution of keywords in a single text with R](https://github.com/YaleDHLab/lab-workshops/tree/master/greek-text-analysis/single-text)
 05-31-2016 | [Plotting the distributions of keywords in multiple texts with R](https://github.com/YaleDHLab/lab-workshops/tree/master/greek-text-analysis/multiple-texts)
-07-14-2016 | [Web scraping with Unix and Python](https://github.com/YaleDHLab/lab-workshops/tree/master/web-scraping)
+07-14-2016 | [Web Scraping with Unix and Python](https://github.com/YaleDHLab/lab-workshops/tree/master/web-scraping)
 08-18-2016 | [Building a Bookworm on a Linux Server](https://github.com/YaleDHLab/lab-workshops/tree/master/bookworm)
-09-20-2016 | [Topic modeling with R](https://github.com/YaleDHLab/lab-workshops/tree/master/rstudio_dfrtopics)
+09-20-2016 | [Topic Modeling with R](https://github.com/YaleDHLab/lab-workshops/tree/master/rstudio_dfrtopics)
+09-27-2016 | [Introduction to the Command Line](https://github.com/YaleDHLab/lab-workshops/tree/master/command-line)
