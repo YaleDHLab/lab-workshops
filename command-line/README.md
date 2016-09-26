@@ -221,7 +221,7 @@ One useful series of commands focus on searching through data or counting items 
 <i>Examples</i>:
 ```
 # get some sample song lyric data
-wget https://github.com/YaleDHLab/lab-workshops/tree/command-line/command-line/data/lyrics.tar.gz
+wget https://github.com/YaleDHLab/lab-workshops/blob/command-line/command-line/data/lyrics.tar.gz?raw=true
 
 tar -zxf lyrics.tar.gz   # unzip the data
 cd lyrics                # change into the lyrics folder
