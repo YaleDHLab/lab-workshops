@@ -16,6 +16,7 @@
     #for example: topicexplorer init Desktop/wikimedia_russian_texts/txt
     ```
     When prompted, name your corpus (ex: wikimedia_russian_texts).
+    
     The init command will generate a configuration file called *CONFIG*.
 
 2.  Set a min and max frequency for word occurence:
@@ -25,6 +26,7 @@
     #for example: topicexplorer prep Desktop/wikimedia_russian_texts/txt
     ```
     When prompted, enter max number (ex: 500).
+   
     When prompted, enter min number (ex: 1).
     
 3.  Train LDA models using the on-screen instructions:
@@ -34,6 +36,7 @@
     #for example: topicexplorer train Desktop/wikimedia_russian_texts/txt.ini
     ```
     When prompted, specify the number of topics you would like (defaults: 20, 40, 60, 80).
+    
     When prompted, specify the number of training iterations (default: 200).
     
 4.  Launch the topic explorer:
