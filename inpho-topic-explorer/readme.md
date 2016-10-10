@@ -7,7 +7,7 @@
 4.  Test installation by typing `topicexplorer -h` to print usage instructions.
 
 
-## Usage
+## Generating Topics
 
 1.  Initialize the Topic Explorer on a file, folder of text files, or folder of folders:
 
