@@ -25,7 +25,8 @@
     topicexplorer train CONFIG
     #for example: topicexplorer train Desktop/wikimedia_russian_texts/txt.ini
     ```
-    When prompted, specify the number of topics you would like (defaults: 20, 40, 60, 80)
+    When prompted, specify the number of topics you would like (defaults: 20, 40, 60, 80).
+    When prompted, specify the number of training iterations (default: 200).
     
 3.  Launch the topic explorer:
 
