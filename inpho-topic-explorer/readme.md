@@ -19,6 +19,7 @@
     
     The init command will generate a configuration file called *CONFIG*.
 
+
 2.  Set a min and max frequency for word occurence:
     
     ```
@@ -29,6 +30,7 @@
    
     When prompted, enter min number (ex: 1).
     
+
 3.  Train LDA models using the on-screen instructions:
 
     ```
@@ -39,11 +41,13 @@
     
     When prompted, specify the number of training iterations (default: 200).
     
+
 4.  Launch the topic explorer:
 
     ```
     topicexplorer launch CONFIG
     #for example: topicexplorer launch Desktop/wikimedia_russian_texts/txt
     ```
+
 
 5.  Press Ctrl+C to quit all servers.
