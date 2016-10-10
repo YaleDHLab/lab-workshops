@@ -10,7 +10,7 @@
 ## Usage
 ![Workflow](http://inphodata.cogs.indiana.edu/img/workflow.png)
 
-1.  Initialize the Topic Explorer on a file, folder of text files, or folder of folders in order to generate a CONFIG file:
+1.  Initialize the Topic Explorer on a file, folder of text files, or folder of folders:
 
     ```
     topicexplorer init insertPathToFiles 
