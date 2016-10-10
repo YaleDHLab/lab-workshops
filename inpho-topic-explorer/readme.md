@@ -25,7 +25,7 @@
     #for example: topicexplorer prep Desktop/wikimedia_russian_texts/txt
     ```
     When prompted, enter max number (ex: 500).
-    When prompted, enter min number (ex: 1)
+    When prompted, enter min number (ex: 1).
     
 3.  Train LDA models using the on-screen instructions:
 
