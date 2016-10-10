@@ -12,13 +12,22 @@
 1.  Initialize the Topic Explorer on a file, folder of text files, or folder of folders:
 
     ```
-    topicexplorer init insertPathToFiles 
+    topicexplorer init insertPathToCorpus
     #for example: topicexplorer init Desktop/wikimedia_russian_texts/txt
     ```
     When prompted, name your corpus (ex: wikimedia_russian_texts).
     The init command will generate a configuration file called *CONFIG*.
 
-2.  Train LDA models using the on-screen instructions:
+2.  Set a min and max frequency for word occurence:
+    
+    ```
+    topicexplorer prep insertPathToCorpus
+    #for example: topicexplorer prep Desktop/wikimedia_russian_texts/txt
+    ```
+    When prompted, enter max number (ex: 500)
+    When prompted, enter min number (ex: 1)
+    
+3.  Train LDA models using the on-screen instructions:
 
     ```
     topicexplorer train CONFIG
@@ -27,11 +36,11 @@
     When prompted, specify the number of topics you would like (defaults: 20, 40, 60, 80).
     When prompted, specify the number of training iterations (default: 200).
     
-3.  Launch the topic explorer:
+4.  Launch the topic explorer:
 
     ```
     topicexplorer launch CONFIG
     #for example: topicexplorer launch Desktop/wikimedia_russian_texts/txt
     ```
 
-4.  Press Ctrl+C to quit all servers.
+5.  Press Ctrl+C to quit all servers.
