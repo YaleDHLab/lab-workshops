@@ -16,15 +16,17 @@
     topicexplorer init insertPathToFiles 
     #for example: topicexplorer init Desktop/wikimedia_russian_texts/txt
     ```
-
-    This will generate a configuration file called *CONFIG*.
+    When prompted, name your corpus (ex: wikimedia_russian_texts).
+    The init command will generate a configuration file called *CONFIG*.
 
 2.  Train LDA models using the on-screen instructions:
 
     ```
     topicexplorer train CONFIG
+    #for example: topicexplorer train Desktop/wikimedia_russian_texts/txt.ini
     ```
-
+    When prompted, specify the number of topics you would like (defaults: 20, 40, 60, 80)
+    
 3.  Launch the topic explorer:
 
     ```
