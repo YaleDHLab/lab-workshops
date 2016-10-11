@@ -1,3 +1,11 @@
+### Get Russian Poetry Data
+
+To get a zip archive of Russian poetry, visit:
+
+https://s3-us-west-2.amazonaws.com/russian-poetry/wikimedia_russian_texts.zip
+
+Then move this directory to your Desktop to make it easier to find.
+
 ### Default Install
 1.  Install the [Anaconda Python 2.7 Distribution](http://continuum.io/downloads) - click on "Graphical Installer" under Python 2.7 
 2.  Open a Terminal (Mac and Linux) or PowerShell (Windows).
