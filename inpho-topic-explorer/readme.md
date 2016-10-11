@@ -2,7 +2,7 @@
 
 To get a zip archive of Russian poetry, visit:
 
-https://s3-us-west-2.amazonaws.com/russian-poetry/wikimedia_russian_texts.zip
+https://s3-us-west-2.amazonaws.com/lab-workshops/russian-poetry.zip
 
 Then move this directory to your Desktop to make it easier to find.
 
