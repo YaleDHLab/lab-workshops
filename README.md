@@ -12,3 +12,4 @@ Date | Topic |
 08-18-2016 | [Building a Bookworm on a Linux Server](https://github.com/YaleDHLab/lab-workshops/tree/master/bookworm)
 09-20-2016 | [Topic Modeling with R](https://github.com/YaleDHLab/lab-workshops/tree/master/rstudio_dfrtopics)
 09-27-2016 | [Introduction to the Command Line](https://github.com/YaleDHLab/lab-workshops/tree/master/command-line)
+10-11-2016 | [InPho Topic Explorer](https://github.com/YaleDHLab/lab-workshops/tree/master/inpho-topic-explorer)
