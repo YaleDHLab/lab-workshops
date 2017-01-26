@@ -1,0 +1,4 @@
+*.swp
+*.pem
+node_modules
+build/bundle.js
