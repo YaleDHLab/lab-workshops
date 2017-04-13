@@ -13,7 +13,7 @@ To get started with Google Analytics, you'll need to [install Google Analytics](
 Once Google Analytics is installed, you'll need to identify the "View Id" for your given domain. You can obtain this by visiting the [Google Analytics Query Explorer](https://ga-dev-tools.appspot.com/query-explorer/). The "View" dropdown will contain a list of all domains on which you've installed Google Analytics. Select an option from that dropdown and note the value within the `ids` field. The value after the `ga:` prefix is the View Id you need to use for what follows:
 
 ![Google Analytics view id]
-(./images/google-analytics-view-id.png)
+(https://github.com/YaleDHLab/lab-workshops/raw/master/google-analytics/images/google-analytics-view-id.png)
 
 Once you have a view id, you're ready to process some data!
 
@@ -263,7 +263,7 @@ hchart(heatmap_matrix, type = "heatmap")
 This returns a chart that looks like this:
 
 ![Views Heatmap]
-(./plots/views-heatmap.png)
+(https://github.com/YaleDHLab/lab-workshops/raw/master/google-analytics/plots/views-heatmap.png)
 
 Congratulations--you've produced a heatmap of pageviews with R!
 
@@ -287,7 +287,7 @@ plot
 ```
 
 ![Page views on Wednesdays and Friday]
-(./plots/page-views.png)
+(https://github.com/YaleDHLab/lab-workshops/raw/master/google-analytics/plots/page-views.png)
 
 ## Going Further
 
