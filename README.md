@@ -14,3 +14,4 @@ Date | Topic |
 09-27-2016 | [Introduction to the Command Line](https://github.com/YaleDHLab/lab-workshops/tree/master/command-line)
 10-11-2016 | [InPho Topic Explorer](https://github.com/YaleDHLab/lab-workshops/tree/master/inpho-topic-explorer)
 01-26-2017 | [Introduction to React.js](https://github.com/YaleDHLab/lab-workshops/tree/master/react)
+04-13-2017 | [Google Analytics with R](https://github.com/YaleDHLab/lab-workshops/tree/master/google-analytics)
