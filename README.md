@@ -17,3 +17,4 @@ Date | Topic |
 04-13-2017 | [Google Analytics with R](https://github.com/YaleDHLab/lab-workshops/tree/master/google-analytics)
 04-18-2017 | [Introduction to Git and Github](https://github.com/YaleDHLab/lab-workshops/tree/master/intro-to-git)
 04-20-2017 | [Introduction to ggplot2](https://github.com/YaleDHLab/lab-workshops/tree/master/intro-to-ggplot)
+09-26-2017 | [Named Entity Recognition with Stanford's CoreNLP](https://github.com/YaleDHLab/lab-workshops/tree/master/named-entity-recognition)
