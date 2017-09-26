@@ -168,7 +168,7 @@ This will generate a folder called corenlp_output in your CoreNLP folder, and wi
 
 ## Analyzing CoreNLP Output
 
-Given these output files, we can perform various kinds of analysis. One of the simplest kinds of analysis is to count the number of times each entity occurs. To do so, download [this file](https://gist.githubusercontent.com/duhaime/08f8ac4962f53c185e705189a3f6e9b5/raw/d66e20aa2fabc086211f2f2cf09e3e0fde4a6cdf/count_corenlp_entities.py) to your CoreNLP folder and save it as count_corenlp_entities.py.
+Given these output files, we can perform various kinds of analysis. One of the simplest kinds of analysis is to count the number of times each entity occurs. To do so, download [this file](https://gist.githubusercontent.com/duhaime/08f8ac4962f53c185e705189a3f6e9b5/raw/80dae809815d0311fa2e46fef8edecc75db41a5c/count_corenlp_entities.py) to your CoreNLP folder and save it as count_corenlp_entities.py.
 
 Once that's all set, you can run:
 
@@ -177,3 +177,7 @@ python count_corenlp_entities.py corenlp_output/
 ```
 
 This will generate a file named `open ner_counts.txt` that identifies the number of times each entity occurs in your dataset. Et voila, you now have tabluar data you can visualize!
+
+To help others with the visualization task, we've built a simple application that visualizes the frequencies of entities identified by the Stanford CoreNLP package. To do so, you can visit [this site](https://bl.ocks.org/duhaime/raw/cd61b320bd5601cff5553f0820cf4dfa/) and upload your `ner_counts.txt` file into the file uploader. This will generate a plot that looks something like this:
+
+![screenshot](./images/ner_counts_preview.png)
