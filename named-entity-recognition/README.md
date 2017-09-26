@@ -153,7 +153,7 @@ You can then run the CoreNLP on this list of files by running:
 
 Let's suppose we wish to perform NER on all of the [Sherlock Holmes tales](https://sherlock-holm.es/ascii/). To do so, we would need to gain access to plain text copies of all the tales available here, and we'd want to place them all in a common directory. For now, let's download a sample of the Holmes tales from [here](https://s3-us-west-2.amazonaws.com/lab-workshops/sherlock_holmes_sample.zip) and drag them into the CoreNLP folder on your desktop.
 
-Once those files are in your CoreNLP folder, let's generate an `input_files.txt` using the commands mentioned above:
+Once the `sherlock_holmes_sample` directory is in your CoreNLP folder, let's generate an `input_files.txt` using the commands mentioned above:
 
 | Operating System | Command |
 |---|---|
@@ -176,7 +176,7 @@ Once that's all set, you can run:
 python count_corenlp_entities.py corenlp_output/
 ```
 
-This will generate a file named `open ner_counts.txt` that identifies the number of times each entity occurs in your dataset. Et voila, you now have tabluar data you can visualize!
+This will generate a file named `ner_counts.txt` that identifies the number of times each entity occurs in your dataset. Et voila, you now have tabluar data you can visualize!
 
 To help others with the visualization task, we've built a simple application that visualizes the frequencies of entities identified by the Stanford CoreNLP package. To do so, you can visit [this site](https://bl.ocks.org/duhaime/raw/cd61b320bd5601cff5553f0820cf4dfa/) and upload your `ner_counts.txt` file into the file uploader. This will generate a plot that looks something like this:
 
