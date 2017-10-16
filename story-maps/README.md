@@ -1,18 +1,11 @@
 # Story Maps
 
-Story Maps is a platform for combining texts, images, and videos alongside maps.
+Story Maps is a free, open-source platform for combining texts, images, and videos alongside maps (though technically, maps aren't required!).
 
-## Getting Started
+## First Exercise: Pizza Beyond New Haven
 
-Anyone can sign up for a free account with Esri. For this workshop, we encourage you to sign in with your Yale NetID, which will give you access to additional content created and shared by members of the Yale community. To sign in, follow the steps below.
 
-1. Go to http://storymaps.arcgis.com/en/
-2. Click "Sign In" in the upper right-hand corner
-3. Click "Sign in with Enterprise Account"
-4. Type "yalemaps" into the address as indicated ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/yale_login.png) and press "Continue"
-5. Sign in with your NetID
-
-## Templates
+## Story Maps Templates
 
 Story Maps offers a number of templates that you can choose from. Some will be better if you have a lot of textual data, whereas others work especially well if you have geographic data or high-quality visual content. Each template also provides a different user experience. Is chronology important to your argument? If yes, you might choose a template that requires users to scroll through your Story Map, rather than one that gives users the flexibility to jump around to different sections. 
 
@@ -31,3 +24,22 @@ Story Maps offers a number of templates that you can choose from. Some will be b
 [Tropical Storm Harvey](https://napsg.maps.arcgis.com/apps/StoryMapCrowdsource/index.html?appid=b6ef838e4d26489e8f62102639dc3d91) - example of how you can crowdsource photographs in real time
 
 [1Frame4Nature](https://conservationphotographers.org/1f4n/) - example of how you can embed a Story Map within your own site
+
+## ArcGIS 
+
+## Example Map Journal: New Haven Pizza
+
+## Getting Started
+
+Anyone can sign up for a free account with Esri. For this workshop, we encourage you to sign in with your Yale NetID, which will give you access to additional content created and shared by members of the Yale community. To sign in, follow the steps below.
+
+1. Go to http://storymaps.arcgis.com/en/
+2. Click "Sign In" in the upper right-hand corner
+3. Click "Sign in with Enterprise Account"
+4. Type "yalemaps" into the address as indicated ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/yale_login.png) and press "Continue"
+5. Sign in with your NetID
+6. Click on "My Stories" to create your first story!
+
+## Next Steps
+
+Want to customize your Story Map beyond what's immediately available? Google "Story Map \[insert template name here] GitHub," and you'll be taken to the underlying code.
