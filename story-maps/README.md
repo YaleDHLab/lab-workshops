@@ -7,14 +7,14 @@ In preparation for creating a Story Map tour, we're asking for your help to gath
 
 ### To find latitude and longitude
 1. Enter the name of your pizza place in [Google Maps](https://www.google.com/maps)
-2. Right click on the location and select "What's Here?"![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/latlong_google.png) The box that appears will contain the latitude and longitude. 
-2.5 Altneratively, if you look at the URL, you will find the latitude and longitude has been there all along! ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/url_google.png)
+2. Right click on the location and select "What's Here?"![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/latlong_googlemaps.png) The box that appears will contain the latitude and longitude. 
+2.5 Altneratively, if you look at the URL, you will find the latitude and longitude has been there all along! ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/url_googlemaps.png)
 3. Add the latitude and longitude to the corresponding columns in the spreadsheet
 
 ### To find photos for the spreadsheet
 1. Go to [Google images](https://images.google.com/)
 2. Search for a related photo of your choosing
-3. Under "Tools," click "Labeled for Reuse" (more on this later in the workshop) ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/google_images.png)
+3. Under "Tools," click "Labeled for Reuse" (more on this later in the workshop) ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/google_images_reuse.png)
 4. Right-click on an image in the results and click "Copy Image Location"
 5. Paste the image location into columns "E" and "F" in the spreadsheet
 
