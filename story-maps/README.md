@@ -1,9 +1,24 @@
 # Story Maps
 
-Story Maps is a free, open-source platform for combining texts, images, and videos alongside maps (though technically, maps aren't required!).
+Story Maps is a free, open-source platform for combining texts, images, and videos alongside maps (though technically, maps aren't required!). In this workshop, we'll discuss the pros and cons of the various templates, offering tips along the way for how you might collect, analyze, and visualize your data that will serve as the basis for your Story Map.
 
 ## First Exercise: Pizza Beyond New Haven
+In preparation for creating a Story Map tour, we're asking for your help to gather data on pizza places outside of New Haven. Do you favor New York style pizza? Add your favorite place to our spreadsheet [here](https://docs.google.com/spreadsheets/d/1cyvfWfeoQ4vXeTkcvkFHRUCpQSik5lBgJK39MFkeeKY/edit?usp=sharing). Include the name of the place under the "name" column, along with a brief description about why you selected that place (maybe they have the best deep dish in Chicago?). 
 
+### To find latitude and longitude
+1. Enter the name of your pizza place in [Google Maps](https://www.google.com/maps)
+2. Right click on the location and select "What's Here?"![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/latlong_google.png) The box that appears will contain the latitude and longitude. 
+2.5 Altneratively, if you look at the URL, you will find the latitude and longitude has been there all along!
+3. Add the latitude and longitude to the corresponding columns in the spreadsheet
+
+### To find photos for the spreadsheet
+1. Go to [Google images](https://images.google.com/)
+2. Search for a related photo of your choosing
+3. Under "Tools," click "Labeled for Reuse" (more on this later in the workshop)
+4. Right-click on an image in the results and click "Copy Image Location"
+5. Paste the image location into columns "E" and "F" in the spreadsheet
+
+Columns "G" and "H" can be ignored.
 
 ## Story Maps Templates
 
@@ -25,9 +40,18 @@ Story Maps offers a number of templates that you can choose from. Some will be b
 
 [1Frame4Nature](https://conservationphotographers.org/1f4n/) - example of how you can embed a Story Map within your own site
 
-## ArcGIS 
-
 ## Example Map Journal: New Haven Pizza
+Let's create a Story Map using the Map Journal template that showcases New Haven pizza. Gathering content is the hardest part of creating a Story Map. For the purposes of this workshop, we'll provide sample data. For after this workshop, here are a few places you might go to collect and map data.
+
+#### Places you might go to collect data
+[Connecticut Open Data](https://data.ct.gov/) - many states have complementary sites
+[Reference USA](http://search.library.yale.edu/databases/12540702) - good for finding business data
+
+#### Map data
+Log in to ArcGIS.com (see instructions in "Getting Started" section below) and go to "Map." Drag a .csv spreadsheet that has a "latitude" and "longitude" column over the map. Voila!   
+
+### Add content to Map Journal
+
 
 ## Getting Started
 
