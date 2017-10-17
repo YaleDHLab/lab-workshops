@@ -2,25 +2,25 @@
 
 Story Maps is a free, open-source platform for combining texts, images, and videos alongside maps (though technically, maps aren't required!). In this workshop, we'll discuss the pros and cons of the various templates, offering tips along the way for how you might collect, analyze, and visualize your data that will serve as the basis for your Story Map.
 
-## First Exercise: Pizza Beyond New Haven
+## First exercise: Pizza Beyond New Haven
 In preparation for creating a Story Map tour, we're asking for your help to gather data on pizza places outside of New Haven. Do you favor New York style pizza? Add your favorite place to our spreadsheet [here](https://docs.google.com/spreadsheets/d/1cyvfWfeoQ4vXeTkcvkFHRUCpQSik5lBgJK39MFkeeKY/edit?usp=sharing). Include the name of the place under the "name" column, along with a brief description about why you selected that place (maybe they have the best deep dish in Chicago?). 
 
 ### To find latitude and longitude
 1. Enter the name of your pizza place in [Google Maps](https://www.google.com/maps)
 2. Right click on the location and select "What's Here?"![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/latlong_google.png) The box that appears will contain the latitude and longitude. 
-2.5 Altneratively, if you look at the URL, you will find the latitude and longitude has been there all along!
+2.5 Altneratively, if you look at the URL, you will find the latitude and longitude has been there all along! ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/url_google.png)
 3. Add the latitude and longitude to the corresponding columns in the spreadsheet
 
 ### To find photos for the spreadsheet
 1. Go to [Google images](https://images.google.com/)
 2. Search for a related photo of your choosing
-3. Under "Tools," click "Labeled for Reuse" (more on this later in the workshop)
+3. Under "Tools," click "Labeled for Reuse" (more on this later in the workshop) ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/google_images.png)
 4. Right-click on an image in the results and click "Copy Image Location"
 5. Paste the image location into columns "E" and "F" in the spreadsheet
 
 Columns "G" and "H" can be ignored.
 
-## Story Maps Templates
+## Story Maps templates
 
 Story Maps offers a number of templates that you can choose from. Some will be better if you have a lot of textual data, whereas others work especially well if you have geographic data or high-quality visual content. Each template also provides a different user experience. Is chronology important to your argument? If yes, you might choose a template that requires users to scroll through your Story Map, rather than one that gives users the flexibility to jump around to different sections. 
 
@@ -54,7 +54,8 @@ Log in to [ArcGIS.com](http://www.arcgis.com/home/index.html) (see instructions 
 ### Add content to Map Journal
 
 
-## Getting Started
+
+## Getting started with your own Story Map
 
 Anyone can sign up for a free account with Esri. For this workshop, we encourage you to sign in with your Yale NetID, which will give you access to additional content created and shared by members of the Yale community. To sign in, follow the steps below.
 
@@ -65,6 +66,6 @@ Anyone can sign up for a free account with Esri. For this workshop, we encourage
 5. Sign in with your NetID
 6. Click on "My Stories" to create your first story!
 
-## Next Steps
+## Next steps
 
 Want to customize your Story Map beyond what's immediately available? Google "Story Map \[insert template name here] GitHub," and you'll be taken to the underlying code.
