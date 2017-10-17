@@ -132,14 +132,14 @@ With the remaining time in the workshop, expand on New Haven Pizza Rivalries or 
 
 ## Next steps and additional tips
 
-Want to customize your Story Map beyond what's immediately available? Google "Story Map \[insert template name here] GitHub," and you'll be taken to the underlying code.
+* Want to customize your Story Map beyond what's immediately available? Google "Story Map \[insert template name here] GitHub," and you'll be taken to the underlying code.
 
-Experiment with embedding Story Maps within one another. 
+* Experiment with embedding Story Maps within one another. For example, you could embed an existing Map Tour inside a Map Journal.
 
-To find latitude and longitude:
+* Find latitude and longitude:
 
 1. Enter the name of your pizza place in [Google Maps](https://www.google.com/maps)
 2. Right click on the location and select "What's Here?"![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/latlong_googlemaps.png) The box that appears will contain the latitude and longitude. 
 2.5 Altneratively, if you look at the URL, you will find the latitude and longitude has been there all along! ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/url_googlemaps.png)
-3. Add the latitude and longitude to the corresponding columns in the spreadsheet 
+3. Add the latitude and longitude to a corresponding columns in the spreadsheet 
 
