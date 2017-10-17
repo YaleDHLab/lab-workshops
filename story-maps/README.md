@@ -134,7 +134,7 @@ With the remaining time in the workshop, expand on New Haven Pizza Rivalries or 
 
 * Want to customize your Story Map beyond what's immediately available? Google "Story Map \[insert template name here] GitHub," and you'll be taken to the underlying code.
 
-* Experiment with embedding Story Maps within one another. For example, you could embed an existing Map Tour inside a Map Journal.
+* Experiment with embedding Story Maps within one another. For example, you could embed an existing Map Tour inside a Map Journal. Follow this [Esri guide](https://blogs.esri.com/esri/arcgis/2016/07/15/embed-story-map-in-story-map/) to try it out.
 
 * Find latitude and longitude:
 
