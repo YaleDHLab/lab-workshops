@@ -77,7 +77,9 @@ New Haven Pizza
 4. For our main page, we'll go with a map. We can use the one we just created by searching for it in "My Organization." After selecting the map, click on "Custom configuration" to set the map extent. This is the region of the map that will appear when visitors first load the page
 5. Click "Next" to add a description to introduce visitors to the site
 ```
-Looking for pizza in New Haven? Here are some places to try! Click on a "pizza" for the name and neighborhood of the restaurant. This data was gathered from Reference USA. http://resource.referenceusa.com/
+Looking for pizza in New Haven? Here are some places to try! 
+Click on a "pizza" for the name and neighborhood of the restaurant. 
+This data was gathered from Reference USA. http://resource.referenceusa.com/
 ```
 Congratulations! We have made our first page. Now let's add a second page.
 
@@ -91,7 +93,10 @@ Link to video: https://youtu.be/aTRKEOdONhI
 ```
 8. Add content on New Haven pizza wars
 ```
-New Haven is famous for its long-standing pizza wars. Watch this video for a quick history of one of the oldest rivalries: Pepe's Pizzeria versus Sally's Apizza. Located in Wooster Square, the two restaurants are only one block away from each other. It's a New Haven tradition for people to line up outside the restaurants, waiting for their chance to get in.  
+New Haven is famous for its long-standing pizza wars. Watch this video for a quick history of one 
+of the oldest rivalries: Pepe's Pizzeria versus Sally's Apizza. Located in Wooster Square, the two 
+restaurants are only one block away from each other. It's a New Haven tradition for people to line up 
+outside the restaurants, waiting for their chance to get in.  
 ```
 Two pages down! Let's add a third.
 
@@ -105,9 +110,17 @@ Link to image: https://upload.wikimedia.org/wikipedia/commons/a/aa/Frank_pepe_cl
 ```
 11. Add content on Pepe's
 ```
-Known locally as "Pepe's," this pizzeria first opened in 1925. According to Wikipedia, "Pepe's originated the New Haven-style thin-crust apizza(closely related to Neapolitan-style Italian pizza) which he baked in a coal-fired brick oven. Originally, Frank Pepe only made two varieties of pizza: the "tomato pie" (tomatoes with grated pecorino romano cheese, garlic, oregano, and olive oil) and the other with the addition of anchovy.
+Known locally as "Pepe's," this pizzeria first opened in 1925. According to Wikipedia, 
+"Pepe's originated the New Haven-style thin-crust apizza(closely related to Neapolitan-style 
+Italian pizza) which he baked in a coal-fired brick oven. Originally, Frank Pepe only made two 
+varieties of pizza: the "tomato pie" (tomatoes with grated pecorino romano cheese, garlic, oregano, 
+and olive oil) and the other with the addition of anchovy.
 
-The piece of land which Pepe's restaurant sat on was owned by the Boccamiello family. They later made Frank Pepe leave so that they could start their own pizzeria at the establishment, which they renamed The Spot. Pepe moved his restaurant to its current location next door to The Spot in 1936. The Pepe family later bought back The Spot from the Boccamiello family in 1981 and it now serves the same menu as the newer restaurant." Link: https://en.wikipedia.org/wiki/Frank_Pepe_Pizzeria_Napoletana
+The piece of land which Pepe's restaurant sat on was owned by the Boccamiello family. They later 
+made Frank Pepe leave so that they could start their own pizzeria at the establishment, which they 
+renamed The Spot. Pepe moved his restaurant to its current location next door to The Spot in 1936. 
+The Pepe family later bought back The Spot from the Boccamiello family in 1981 and it now serves the 
+same menu as the newer restaurant." Link: https://en.wikipedia.org/wiki/Frank_Pepe_Pizzeria_Napoletana
 ```
 Now that we have a page on Pepe's, let's add Sally's.
 
@@ -119,9 +132,16 @@ Sally's Apizza
 
 14. Add content on Sally's
 ```
-Sally's Apizza first opened in 1938. According to Wikipedia: "The restaurant was purchased for $500 in 1938 by Filomena Pepe Consiglio, sister of Frank Pepe, who was the owner of Frank Pepe Pizzeria Napoletana, another Wooster Street pizza restaurant. Sal Consiglio, a son of Filomena, ran it until his death in May 1989. His wife Flo died in September 2012. Their children Richard and Robert still operate the restaurant.
+Sally's Apizza first opened in 1938. According to Wikipedia: "The restaurant was purchased for 
+$500 in 1938 by Filomena Pepe Consiglio, sister of Frank Pepe, who was the owner of Frank Pepe 
+Pizzeria Napoletana, another Wooster Street pizza restaurant. Sal Consiglio, a son of Filomena, 
+ran it until his death in May 1989. His wife Flo died in September 2012. Their children Richard 
+and Robert still operate the restaurant.
 
-Sally's serves New Haven-style thin-crust apizza, which is baked in coal-fired brick ovens. By default, a New Haven pizza is a "plain" pizza topped with only tomato sauce, garlic, and mozzarella and Parmesan. Sally's is a small restaurant, and often, patrons must wait in line, sometimes for hours." Link: https://en.wikipedia.org/wiki/Sally%27s_Apizza
+Sally's serves New Haven-style thin-crust apizza, which is baked in coal-fired brick ovens. By 
+default, a New Haven pizza is a "plain" pizza topped with only tomato sauce, garlic, and mozzarella
+and Parmesan. Sally's is a small restaurant, and often, patrons must wait in line, sometimes for 
+hours." Link: https://en.wikipedia.org/wiki/Sally%27s_Apizza
 ```
 We now have a Story Map that celebrates one famous pizza rivalry in New Haven. 
 
