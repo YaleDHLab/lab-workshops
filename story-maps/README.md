@@ -108,7 +108,22 @@ The piece of land which Pepe's restaurant sat on was owned by the Boccamiello fa
 ```
 Now that we have a page on Pepe's let's add Sally's!
 
-12. 
+12. Click "Add Section" and give it a title
+```
+Sally's Apizza
+```
+13. Select "Image," but this time, select "Upload" to add a file from the computer. You can download the file [here](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/sallys_apizza.jpg)
+
+14. Add content on Sally's.
+```
+Sally's Apizza first opened in 1938. According to Wikipedia: "The restaurant was purchased for $500 in 1938 by Filomena Pepe Consiglio, sister of Frank Pepe, who was the owner of Frank Pepe Pizzeria Napoletana, another Wooster Street pizza restaurant. Sal Consiglio, a son of Filomena, ran it until his death in May 1989. His wife Flo died in September 2012. Their children Richard and Robert still operate the restaurant.
+
+Sally's serves New Haven-style thin-crust apizza, which is baked in coal-fired brick ovens. By default, a New Haven pizza is a "plain" pizza topped with only tomato sauce, garlic, and mozzarella and Parmesan. Sally's is a small restaurant, and often, patrons must wait in line, sometimes for hours." Link: https://en.wikipedia.org/wiki/Sally%27s_Apizza
+```
+We now have a Story Map that celebrates pizza in New Haven. But what about pizza from other cities? For that, we can use the Map Journal we created.
+
+### Embed one Story Map within another
+
 
 ## Next steps
 
