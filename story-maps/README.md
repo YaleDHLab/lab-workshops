@@ -45,10 +45,11 @@ Let's create a Story Map using the Map Journal template that showcases New Haven
 
 #### Places you might go to collect data
 [Connecticut Open Data](https://data.ct.gov/) - many states have complementary sites
+
 [Reference USA](http://search.library.yale.edu/databases/12540702) - good for finding business data
 
-#### Map data
-Log in to ArcGIS.com (see instructions in "Getting Started" section below) and go to "Map." Drag a .csv spreadsheet that has a "latitude" and "longitude" column over the map. Voila!   
+#### Tool for mapping data
+Log in to [ArcGIS.com](http://www.arcgis.com/home/index.html) (see instructions in "Getting Started" section below) and go to "Map." Drag a .csv spreadsheet that has a "latitude" and "longitude" column over the map. Voila!   
 
 ### Add content to Map Journal
 
