@@ -141,6 +141,6 @@ With the remaining time in the workshop, expand on New Haven Pizza Rivalries or 
 1. Enter the name of your pizza place in [Google Maps](https://www.google.com/maps)
 2. Right click on the location and select "What's Here?"![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/latlong_googlemaps.png) The box that appears will contain the latitude and longitude. 
 
-2.5 Alternatively, if you look at the URL, you will find the latitude and longitude has been there all along! ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/url_googlemaps.png)
+2.5 Alternatively, if you look at the URL, you will find that the latitude and longitude have been there all along! ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/url_googlemaps.png)
 3. Add the latitude and longitude to corresponding columns in a spreadsheet 
 
