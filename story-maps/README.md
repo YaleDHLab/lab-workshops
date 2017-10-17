@@ -12,7 +12,7 @@ Story Maps offers a number of templates that you can choose from. Some will be b
 
 ### Map Journal template
 
-[Aeneid](http://www.arcgis.com/apps/MapJournal/index.html?appid=33be151cbe1942d99a300da085884729)- great example for how you can move through a timeline that's linked to a map - you could easily replace any of the photos in the left-hand column with videos, if desired
+[Aeneid](http://www.arcgis.com/apps/MapJournal/index.html?appid=33be151cbe1942d99a300da085884729) - great example for how you can move through a timeline that's linked to a map - you could easily replace any of the photos in the left-hand column with videos, if desired
 
 ### Cascade template
 
