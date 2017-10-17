@@ -51,11 +51,7 @@ Let's create a Story Map using the Map Journal template that showcases New Haven
 #### Tool for mapping data
 Log in to [ArcGIS.com](http://www.arcgis.com/home/index.html) (see instructions in "Getting Started" section below) and go to "Map." Drag a .csv spreadsheet that has a "latitude" and "longitude" column over the map. Voila!   
 
-### Add content to Map Journal
-
-
-
-## Getting started with your own Story Map
+## Sign-in to Story Maps
 
 Anyone can sign up for a free account with Esri. For this workshop, we encourage you to sign in with your Yale NetID, which will give you access to additional content created and shared by members of the Yale community. To sign in, follow the steps below.
 
@@ -65,6 +61,54 @@ Anyone can sign up for a free account with Esri. For this workshop, we encourage
 4. Type "yalemaps" into the address as indicated ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/yale_login.png) and press "Continue"
 5. Sign in with your NetID
 6. Click on "My Stories" to create your first story!
+
+## Add content to Map Journal
+
+1. Click on "Create Story"
+2. Click "Map Journal" and select either "Side Panel" or "Floating Panel"
+3. Give the Story Map a title and click on the right arrow
+```
+New Haven Pizza
+```
+4. Let's start with a map. We can use the one we just created by searching for it in "My Organization." After selecting the map, click on "Custom configuration" to set the map extent. This is the region of the map that will show when visitors first load the page.
+
+5. Click "Next" to add a description to introduce visitors to the site. 
+```
+Looking for pizza? Here are some places to try! Click on a "pizza" for the name and neighborhood of the restaurant. This data was gathered from Reference USA. http://resource.referenceusa.com/
+```
+Congratulations! We have made our first page. Now let's add a second page.
+
+6. Click "Add Section" and give it a title. This time, we'll go with a video to give further context to our site
+```
+Famous Pizza Wars
+```
+7. Select "Video" and "YouTube." Search for the link below and select the video. Click "Fit" and "Next"
+```
+YouTube link: https://youtu.be/aTRKEOdONhI
+```
+8. Add content on the Pizza Wars.
+```
+New Haven is famous for its long-standing pizza wars. Watch this video for a quick history of its oldest rivalry: Pepe's Pizzeria versus Sally's Apizza. 
+```
+Two pages down! Let's add a third.
+
+9. Let's dive deeper in the rivalries and create pages for Pepe's Pizzeria and Sally's Apizza, starting with Pepe's. Click "Add Section" and give it a title. 
+```
+Frank Pepe Pizzeria Napoletana
+```
+10. This time, select "Image" and "Link" to add a photo from the web. 
+```
+Link to image: https://upload.wikimedia.org/wikipedia/commons/a/aa/Frank_pepe_clam_pie.jpg
+```
+11. Add content on Pepe's.
+```
+Known locally as "Pepe's," this pizzeria first opened in 1925. According to Wikipedia, "Pepe's originated the New Haven-style thin-crust apizza(closely related to Neapolitan-style Italian pizza) which he baked in a coal-fired brick oven. Originally, Frank Pepe only made two varieties of pizza: the "tomato pie" (tomatoes with grated pecorino romano cheese, garlic, oregano, and olive oil) and the other with the addition of anchovy.
+
+The piece of land which Pepe's restaurant sat on was owned by the Boccamiello family. They later made Frank Pepe leave so that they could start their own pizzeria at the establishment, which they renamed The Spot. Pepe moved his restaurant to its current location next door to The Spot in 1936. The Pepe family later bought back The Spot from the Boccamiello family in 1981 and it now serves the same menu as the newer restaurant." Link: https://en.wikipedia.org/wiki/Frank_Pepe_Pizzeria_Napoletana
+```
+Now that we have a page on Pepe's let's add Sally's!
+
+12. 
 
 ## Next steps
 
