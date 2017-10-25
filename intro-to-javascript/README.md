@@ -1,6 +1,6 @@
 # Intro to JavaScript
 
-JavaScript is a high-level object-oriented programming language that's easy to learn and fun to use. JavaScript recently became the most popular programming language in the world, perhaps because it powers a wide range of interactive applications on the web and native devices. This session aims to offer a quick introduction to the power of the JavaScript language.
+JavaScript is a high-level, object-oriented programming language that's easy to learn and fun to use. JavaScript recently became [the most popular programming language in the world](./images/programming_languages.png), perhaps because it powers an enormous range of interactive applications on the web and native devices. This session aims to offer a quick introduction to the power of the JavaScript language.
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ To get started, you'll need to install the following dependencies on your develo
 * [Sublime Text](https://www.sublimetext.com/) on your development machine.
 * [Python](https://www.python.org/)
 
-Once those are installed, you'll want to create a simple html page into which you can write your JavaScript. To do so, create a file named `index.html` on your desktop and copy the following into a document and title that document `index.html`:
+Once those are installed, you'll want to create a simple html page into which you can write your JavaScript. To do so, create a file named `index.html` on your desktop and copy the following into that file:
 
 ```
 <!DOCTYPE html>
@@ -32,12 +32,19 @@ This file above is an example of an HTML document. HTML is the language in which
 
 ## Starting a web server
 
-Once you've saved your index.html file, we'll want to start a web server on your desktop. To do so, you'll need to `cd` to your desktop:
+Once you've saved your index.html file, we'll want to start a web server on your desktop. To do so, you'll need to open a terminal:
 
 | Operating System | Command |
 |---|---|
 | OSX | type COMMAND+SPACE_BAR, type <i>terminal</i>, and hit ENTER |
 | Windows | go to Programs/Apps -> Anaconda3 -> Anaconda Prompt |
+
+After starting your terminal, we'll need to change directories to your desktop:
+
+| Operating System | Command |
+|---|---|
+| OSX | `cd ~/Desktop`  |
+| Windows | `cd C:\Users\YOUR_USERNAME\Desktop` |
 
 Once your terminal is on your desktop, you can start a local webserver by running:
 
@@ -46,11 +53,17 @@ Once your terminal is on your desktop, you can start a local webserver by runnin
 | 2.7 | python -m SimpleHTTPServer 7000 |
 | 3.x | python -m http.server 7000 |
 
-You can now open Chrome
+You can now open Chrome and navigate to `localhost:7000`, which should display a friendly greeting:
+
+![Server running](./images/server-running.png)
+
+If you don't see this greeting, let us know so we can help you!
 
 ## Chrome's Developer Tools
 
-After starting Chrome you'll want to open the <b>Chrome developer tools</b> by going to `View -> Developer -> Developer Tools`. The developer tools should look something like this:
+After starting Chrome you'll want to open the <b>Chrome developer tools</b>. On OSX, you can access the developer tools by going to `View -> Developer -> Developer Tools`. On Windows, you can click the `three dots in the upper right hand corner -> More Tools -> Developer Tools`.
+
+Once the developer tools are open, click the three dots at the top of the developer tools toolbar, and click `Show console drawer` so you can see your console (we'll discuss this below). Once this is done, the developer tools should look something like this:
 
 ![Chrome dev tools](./images/chrome-dev-tools.png)
 
@@ -62,7 +75,7 @@ Let's start with a quick example that shows the power of JavaScript. Open up you
 
 `document.querySelector('body').style.background = 'orange'`
 
-Voila, the body tag of your page now has a background color orange! JavaScript is the primary tool used to make webpages dynamic and interactive. Suppose you want to continually change some aspect of a webpage, such as the color of some text. You could do so like this:
+Voila, the body tag of your page now has a background color orange! Now suppose you want to continually change some aspect of a webpage, such as the color of text on the page. You could do so like this:
 
 ```
 setInterval(function() {
@@ -77,14 +90,9 @@ Your page should now look a little spooky:
 
 With just a few lines of JavaScript, you can unlock a tremendous range of dynamic and interactive functionality. To get you started with JavaScript, we'll walk through the basics below.
 
-## JavaScript Fundamentals
-
-The following sections are meant to provide quick overviews of different aspects of the JavaScript programming language.
-
 ### Element selections
 
 You will often need to select elements on a page in order to modify their styles or attach event listeners to them. To explore element selections, let's add some things to our web page that we can select. Update your index.html so that it looks like this:
-
 
 ```
 <!DOCTYPE html>
@@ -170,7 +178,7 @@ As we see above, to initialize a variable in JavaScript, we must use the `var` s
 
 ### Adding Event Listeners
 
-`Event listeners` trigger changes on a page as a result of some user action.
+Event listeners trigger changes on a page as a result of some user action.
 
 For example, suppose we want to change the color of our Top Secret message to red when users click our page. To do so we can do as follows:
 
@@ -188,7 +196,9 @@ Here we call the `.addEventListner()` method on an element, which has the follow
 
 `ELEMENT.addEventListner(EVENT_TYPE, CALLBACK_FUNCTION)`
 
-Here are some commonly used <b>[EVENT TYPES](https://developer.mozilla.org/en-US/docs/Web/Events)</b>:
+<b>ELEMENT</b> is a selection of an element, such as the result of `document.querySelector('h2');`.
+
+<b>EVENT_TYPE</b> is the type of event that should trigger some change. Here are some commonly used event types [[comprehensive list here](https://developer.mozilla.org/en-US/docs/Web/Events)]:
 
 | Event | Description |
 |---|---|
@@ -197,7 +207,7 @@ Here are some commonly used <b>[EVENT TYPES](https://developer.mozilla.org/en-US
 | mouseout | The user moves the mouse away from an HTML element |
 | keydown | The user pushes a keyboard key |
 
-The <b>CALLBACK FUNCTION</b> defines the lines of code to run when the given event type is triggered. In the example above, our callback function changes the title's color to red. We will explore additional examples below.
+The <b>CALLBACK FUNCTION</b> defines the lines of code to run when the given event type is triggered. In the example above, our callback function changes the title's color to red. We will explore additional examples of callback functions below.
 
 ***
 
@@ -224,7 +234,7 @@ function() {
 }
 ```
 
-This is an example of an "anonymous" function, as this function is not given a variable name. To make this a "named" function, we could do as follows:
+This is an example of an "anonymous" function, as this function is not assigned to a variable name. To make this a "named" function, we can assign our function to a variable name:
 
 ```
 var colorTitle = function() {
@@ -244,11 +254,21 @@ var colorTitle = function() {
 title.addEventListener('click', colorTitle);
 ```
 
-This is now much easier to read, which is great!
+The last line of this snippet says: when a user initalizes a `click` event on the `title`, call the function assigned to the `colorTitle` variable name. This does exactly what we did above, but this code is a bit easier to read because the lines are shorter and less complex, which is great!
 
 ### Event Callbacks
 
-In the examples above, our event listener callback functions take no parameters. That's okay, but we should note that the callback function one provides for `.addEventListener()` receives by default a special argument we should discuss. This special argument is an `event` object, and it allows us to put together interesting interaction patterns.
+In the example above, our event listener callback function looked like this:
+
+```
+var colorTitle = function() {
+  title.style.color = 'red';
+}
+```
+
+We can see here that there is nothing between the parentheses right after the `function` keyword. This means that this function takes no parameters. <b>Parameters</b> are the things we pass into functions--they are also called inputs or arguments. If the function did take parameters, the function would look more like this: `function(parameterOne, parameterTwo) { ... }`.
+
+Functions without parameters are perfectly fine, but we should note that the callback function provided for `.addEventListener()` receives by default a special parameter we should discuss. This special parameter is an `event` object, and it allows us to put together interesting interaction patterns.
 
 To see this in action, let's run the following lines:
 
@@ -268,7 +288,7 @@ body.addEventListener('click', colorRed);
 
 After running those lines in your Chrome dev tools, try clicking some text elements on the page. You should see those elements turn red.
 
-To understand how this works, we need to investigate that special `event` argument that's passed by default to all event listener callback functions. Let's investigate it by running the following in Chrome's dev tools:
+To understand how this works, we need to investigate that special `event` argument that's passed by default to all event listener callback functions. Let's investigate it by running the following lines of code:
 
 ```
 var colorRed = function(event) {
@@ -285,11 +305,13 @@ var body = document.querySelector('body');
 body.addEventListener('click', colorRed);
 ```
 
-If you run these lines and you click a few elements, you should see some output in your console. Those output lines display the contents of the `event` object that's passed to your `colorRed()` function. If you click some of the triangles within that object, you should see that the `event` object has lots of information within it:
+Here we've added the most important JavaScript function to remember: `console.log()`. This function takes as input one or more variables, and it displays each of those variables in the browser's console. That lets you inspect those variables to figure out what's going on inside them, which is tremendously helpful when building real applications.
+
+If you run the lines above and you click a few elements, you should see some output in your console. Those output lines display the contents of the `event` object that's passed to your `colorRed()` function. If you click some of the triangles within that object, you should see that the `event` object has lots of information within it:
 
 ![Event Object](./images/event-object.png)
 
-There's a lot of information in this event object! The portion we care about right now is the `target` attribute within the event object, as the `target` attribute indicates the "target" of a given object--i.e. the element that received the event. If you click the triangle next to `target`, you'll be able to learn more about the element that received your click object. For now, it's enough to note that `style` is an attribute within `event.target`, which means we can change the style of the clicked element inside of our click listener callback. This is how the code above works!
+There's a lot of information in this event object! The portion we care about right now is the `target` attribute within the event object. The `target` attribute indicates the "target" of a given object--i.e. the element that received the event. If you click the triangle to the left of the word `target`, you'll be able to learn more about the element that received your click object. For now, it's enough to note that `style` is an attribute within `event.target`, which means we can change the style of the clicked element inside of our click listener callback. This is how the code above works!
 
 ### Adding Elements to a Page
 
@@ -316,7 +338,7 @@ Our todo list now has another item!
 ***
 
 #### CHALLENGE
-<b>Given what we've covered above, see if you can change the text content of your todo list's items, then see if you can add another todo list item to your page.</b>
+<b>Given what we've covered above, see if you can change the text content of each of your todo list's items. Once you accomplish that, see if you can add another todo list item to your page.</b>
 
 ***
 
