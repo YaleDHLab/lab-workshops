@@ -192,7 +192,7 @@ title.addEventListener('click', function() {
 })
 ```
 
-Here we call the `.addEventListner()` method on an element, which has the following syntax:
+Here we call the `.addEventListener()` method on an element, which has the following syntax:
 
 `ELEMENT.addEventListner(EVENT_TYPE, CALLBACK_FUNCTION)`
 
