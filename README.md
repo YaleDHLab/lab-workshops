@@ -19,3 +19,4 @@ Date | Topic |
 04-20-2017 | [Introduction to ggplot2](https://github.com/YaleDHLab/lab-workshops/tree/master/intro-to-ggplot)
 09-26-2017 | [Named Entity Recognition with Stanford's CoreNLP](https://github.com/YaleDHLab/lab-workshops/tree/master/named-entity-recognition)
 10-17-2017 | [Introduction to Story Maps](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/README.md)
+10-25-2017 | [Introduction to JavaScript](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-javascript/README.md)
