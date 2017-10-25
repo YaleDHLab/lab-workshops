@@ -194,7 +194,7 @@ title.addEventListener('click', function() {
 
 Here we call the `.addEventListener()` method on an element, which has the following syntax:
 
-`ELEMENT.addEventListner(EVENT_TYPE, CALLBACK_FUNCTION)`
+`ELEMENT.addEventListener(EVENT_TYPE, CALLBACK_FUNCTION)`
 
 <b>ELEMENT</b> is a selection of an element, such as the result of `document.querySelector('h2');`.
 
