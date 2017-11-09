@@ -1,7 +1,7 @@
 (function() {
 
   // Globals
-  var url = '../parts-of-speech/',
+  var url = '../command-line-git/parts-of-speech/',
       taret = document.querySelector('#target');
 
   // HTTP fetcher
