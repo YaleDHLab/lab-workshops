@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #72bbe8;
+  color: #fff;
+  padding: 15% 100px;
+}
+
+.content {
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+#target {
+  font-family: courier;
+  font-size: 2.5em;
+  color: #fff;
+}
