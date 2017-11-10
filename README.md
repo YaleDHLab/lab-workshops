@@ -20,3 +20,4 @@ Date | Topic |
 09-26-2017 | [Named Entity Recognition with Stanford's CoreNLP](https://github.com/YaleDHLab/lab-workshops/tree/master/named-entity-recognition)
 10-17-2017 | [Introduction to Story Maps](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/README.md)
 10-25-2017 | [Introduction to JavaScript](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-javascript/README.md)
+11-10-2017 | [Command Line Git](https://github.com/YaleDHLab/lab-workshops/blob/master/command-line-git/README.md)
