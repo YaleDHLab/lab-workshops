@@ -11,7 +11,7 @@ To get started, you'll need to install the following dependencies on your develo
 
 Once those are installed, you'll want to create a simple html page into which you can write your JavaScript. To do so, create a file named `index.html` on your desktop and copy the following into that file:
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -77,7 +77,7 @@ Let's start with a quick example that shows the power of JavaScript. Open up you
 
 Voila, the body tag of your page now has a background color orange! Now suppose you want to continually change some aspect of a webpage, such as the color of text on the page. You could do so like this:
 
-```
+```javascript
 setInterval(function() {
   var colors = ['red', 'purple', 'green'];
   document.querySelector('h1').style.color = colors[parseInt(Math.random() * 3)]
@@ -94,7 +94,7 @@ With just a few lines of JavaScript, you can unlock a tremendous range of dynami
 
 You will often need to select elements on a page in order to modify their styles or attach event listeners to them. To explore element selections, let's add some things to our web page that we can select. Update your index.html so that it looks like this:
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -122,31 +122,31 @@ In Chrome, your web page should now look something like this:
 
 Given that updated webpage, let's practice some element selections. First let's select the `<h2>` tag at the top of the page. To do so, we can use the following syntax :
 
-```
+```javascript
 document.querySelector('h2')
 ```
 
 This function returns an element, which you'll see displayed in your console if you run the line above in Chrome. If we wanted, we could change the matching element's style attributes like so:
 
-```
+```javascript
 document.querySelector('h2').style.color = 'red';
 ```
 
 Here we select the first `<h2>` tag on our page and set its font color to red. We could instead change the text content of the `<h2>` tag by using:
 
-```
+```javascript
 document.querySelector('h2').innerHTML = 'Weekend Plans';
 ```
 
 We can also select multiple elements at once using the following syntax:
 
-```
+```javascript
 document.querySelectorAll('li');
 ```
 
 This line selects all of the li tags on our page. To modify the first `<li>` tag, we can use:
 
-```
+```javascript
 document.querySelectorAll('li')[0].style.textDecoration = 'line-through';
 ```
 
@@ -163,13 +163,13 @@ This line says: Find all `<li>` tags on our page, take the 0-th member of the re
 
 Some of the lines we wrote above were rather long. For example:
 
-```
+```javascript
 document.querySelectorAll('li')[0].style.textDecoration = 'line-through';
 ```
 
 This line accomplishes its goal, but it's a little hard to read beacuse it chains lots of logic together. We can simplify long lines like this by using variables. Variables allow us to assign a value to a variable name. For example, we can break the line above into:
 
-```
+```javascript
 var elements = document.querySelectorAll('li');
 elements[0].style.textDecoration = 'line-through';
 ```
@@ -182,7 +182,7 @@ Event listeners trigger changes on a page as a result of some user action.
 
 For example, suppose we want to change the color of our Top Secret message to red when users click our page. To do so we can do as follows:
 
-```
+```javascript
 // Store the title element in a variable named title
 var title = document.querySelector('h2');
 
@@ -220,7 +220,7 @@ The <b>CALLBACK FUNCTION</b> defines the lines of code to run when the given eve
 
 In the last example, we saw an example of a JavaScript function:
 
-```
+```javascript
 title.addEventListener('click', function() {
   title.style.color = 'red';
 })
@@ -228,7 +228,7 @@ title.addEventListener('click', function() {
 
 Here we define a function that looks like this:
 
-```
+```javascript
 function() {
   title.style.color = 'red';
 }
@@ -236,7 +236,7 @@ function() {
 
 This is an example of an "anonymous" function, as this function is not assigned to a variable name. To make this a "named" function, we can assign our function to a variable name:
 
-```
+```javascript
 var colorTitle = function() {
   title.style.color = 'red';
 }
@@ -244,7 +244,7 @@ var colorTitle = function() {
 
 Here we use the `var` keyword to initialize a variable, as we did above. We then assign our anonymous function to that variable name. After doing so, we can rewrite our event listener as follows:
 
-```
+```javascript
 var title = document.querySelector('h2');
 
 var colorTitle = function() {
@@ -260,7 +260,7 @@ The last line of this snippet says: when a user initalizes a `click` event on th
 
 In the example above, our event listener callback function looked like this:
 
-```
+```javascript
 var colorTitle = function() {
   title.style.color = 'red';
 }
@@ -272,7 +272,7 @@ Functions without parameters are perfectly fine, but we should note that the cal
 
 To see this in action, let's run the following lines:
 
-```
+```javascript
 var colorRed = function(event) {
 
   // Color the clicked element red
@@ -290,7 +290,7 @@ After running those lines in your Chrome dev tools, try clicking some text eleme
 
 To understand how this works, we need to investigate that special `event` argument that's passed by default to all event listener callback functions. Let's investigate it by running the following lines of code:
 
-```
+```javascript
 var colorRed = function(event) {
 
   // Print out the event object contents
@@ -317,7 +317,7 @@ There's a lot of information in this event object! The portion we care about rig
 
 So far we've discussed modifying elements already on a page, but sometimes you might want to use JavaScript to add new elements to the page. To see how this works, let's add some new elements to the page with the following lines:
 
-```
+```javascript
 // Create a new element
 var newElement = document.createElement('li');
 
@@ -346,7 +346,7 @@ Our todo list now has another item!
 
 In the examples above, we added a click listener to a single element selection. Sometimes, though, you might want to add click listeners to lots of items all at once. To do so, you'll need to "loop" over your elements and add an event listener to each. Here's an example of this functionality:
 
-```
+```javascript
 // Select all of the li tags on the page
 var elements = document.querySelectorAll('li');
 
@@ -368,7 +368,7 @@ Here we loop over our `<li>` tags and add a click listener to each such that whe
 
 The interesting part of the code above is the for loop. To understand that for loop, paste the following into Chrome's dev tools:
 
-```
+```javascript
 for (var i = 0; i < 12; i++) {
   console.log(i)
 }
@@ -393,7 +393,7 @@ So far, we've typed our JavaScript code into Chrome's developer tools. That's a 
 
 Let's practice that idea by creating a new file named `myscript.js` with the following content:
 
-```
+```javascript
 console.log('begin!');
 var body = document.querySelector('body');
 body.style.background = 'coral';
@@ -401,7 +401,7 @@ body.style.background = 'coral';
 
 Then let's load that file into our webpage by editing `index.html` so it looks like this:
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -424,7 +424,7 @@ So far we've added elements to our page one-by-one, but sometimes you'll want to
 
 First, let's write a function that adds a rectangle to the page:
 
-```
+```javascript
 // Define a function that adds an element to the page
 var addElement = function() {
   // Create the base element we'll add to our page
@@ -465,7 +465,7 @@ All of the events we've issued in the lines above were executed immediately. Som
 
 To see setInterval in action, let's add a series of circles to our page one by one:
 
-```
+```javascript
 var addCircle = function() {
   
   // Create a circle element
@@ -503,7 +503,7 @@ Many times it's helpful to read the current "state" of user interface elements s
 
 First let's update our `index.html` page so it looks like this:
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -545,7 +545,7 @@ Your page should now look like this:
 
 Now let's add an event listener to our text input such that when the text input changes, we change the text displayed on the page:
 
-```
+```javascript
 var handleInputChange = function(e) {
   
   // Get the new value of the input
