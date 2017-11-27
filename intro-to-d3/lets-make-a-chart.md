@@ -441,6 +441,10 @@ And at last, we have a decent looking chart [[full code](https://codepen.io/duha
 
 ![adding legend](./images/adding-legend.png)
 
-## Helpful Resources
+## Going Further
 
-http://blockbuilder.org/search
+We've reached the end of our tutorial, but we've barely scrateched the surface of what's possible with D3.js. To go further, you might want to check out any of the following resources:
+
+* [D3.js course on Udacity](https://www.udacity.com/course/data-visualization-and-d3js--ud507)  
+* [Searchable gallery of D3.js visualizations](http://blockbuilder.org/search)  
+* [D3.js example charts](https://github.com/d3/d3/wiki/Gallery)  
