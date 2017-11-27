@@ -296,4 +296,4 @@ If you refresh the page and click the button a few times, you'll see your points
 
 # Next Steps
 
-Great work! Next [let's build a proper chart with D3]('https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-d3/lets-make-a-chart.md').
+Great work! Next [let's build a proper chart with D3](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-d3/lets-make-a-chart.md).
