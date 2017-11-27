@@ -368,4 +368,4 @@ atob("SnVzdCBvbmUgKCJTVkciKSwgYmVjYXVzZSBvdXIgZGF0YSBjb250YWlucyBvbmx5IG9uZSBpdG
 
 # Next Steps
 
-Great work! Next let's discuss Great work! Next let's discuss [working with SVG in D3]('https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-d3/working-with-svg.md').
+Great work! Next let's discuss [working with SVG in D3](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-d3/working-with-svg.md).
