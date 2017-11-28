@@ -4,7 +4,7 @@ D3.js is a popular JavaScript library that renders data to SVG or to an HTML can
 
 ## Getting Set Up
 
-D3 creates interactive content for web pages, so to get started we need to set up your machine for web-development related work. To do so, let's follow this [guide to setting up your machine for web programming](https://github.com/YaleDHLab/lab-workshops/wiki/Setting-up-your-machine-for-web-development).
+D3 creates interactive content for web pages, so to get started we need to set up your machine for web-development related work. To do so, let's follow this [guide to setting up your machine for web development](https://github.com/YaleDHLab/lab-workshops/wiki/Setting-up-your-machine-for-web-development).
 
 You should now have three files on your Desktop: `index.html`, `style.css`, and `script.js`, and you should have a web server serving that content on port 7000. If that's not the case, let us know so we can help you!
 
@@ -28,13 +28,13 @@ To get started with D3, we'll first need to load the library into our web page. 
 </html>
 ```
 
-Now let's refresh the page, type `d3`, and hit enter. If you get output like the following, then something has gone wrong and D3 is not loaded on your page:
+Now let's refresh the page, open the console within your developer tools, type `d3`, and hit enter. If you get output like the following, then something has gone wrong and D3 is not loaded on your page:
 
 ![d3 not loaded](./images/d3-not-loaded.png)
 
 If your output looks like the image above, check to make sure your `index.html` file looks exactly like the `index.html` file above.
 
-Once D3 is loaded on your page, you should be able to refresh the page, type `d3`, hit enter, and get output like the following:
+Once D3 is loaded on your page, you should be able to refresh the page, type `d3` into the console, hit enter, and get output like the following:
 
 ![testing for d3](./images/testing-for-d3.png)
 
@@ -66,10 +66,10 @@ Here's the same method chaining in D3:
 d3.select('body').style('background', 'orange');
 ```
 
-In the examples above, we select the body tag by its tag name. One can also select elements by their class or id attributes. Here's a brief overview of some different selection types we can perform:
+In the examples above, we select the body tag by its tag name. D3 uses [standard CSS selector syntax](https://www.w3schools.com/cssref/css_selectors.asp), so one can also select elements by their class or id attributes. Here's a brief overview of some different selection types we can perform:
 
 | Select By | Sample Tag | D3 Example |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | tag | `<div>These</div>` | `d3.select('div')` |
 | class | `<span class='active'>are</span>` | `d3.select('.active')` |
 | id | `<header id='#nav'>examples</header>` | `d3.select('#nav')` |
@@ -90,13 +90,13 @@ We've previously discussed one way to add an element to a web page:
 document.querySelector('body').appendChild( document.createElement('new-element') )
 ```
 
-If you run that line on an empty page, you'll see it creates a new tag `new-element`. To achieve the same in D3, we could run:
+If you run that line in the console, you'll see it creates a new tag `new-element`. To achieve the same in D3, we could run:
 
 ```javascript
 d3.select('body').append('new-element')
 ```
 
-To add attributes to the new element in D3, we can just add some additional methods to the method chain:
+To add attributes to the new element in D3, we can just "chain" some additional methods to the selection:
 
 ```javascript
 d3.select('body').append('new-element').text('hi!').style('background', 'orange')
