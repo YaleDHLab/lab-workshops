@@ -2,40 +2,6 @@
 
 Having examined some of the building blocks of D3 charts above, let's now build a proper chart. Doing so will introduce more complexity into the code, but will help show how one might go about building a chart "in the wild".
 
-### Loading Data
-
-Usually when creating a D3 chart, one begins by preparing some data into a CSV or JSON file. For this work, we'll use [this JSON file](https://s3-us-west-2.amazonaws.com/lab-workshops/intro-to-d3/gdp.json), which documents the GDP of the United States and China over the last fifty years or so.
-
-D3 makes it easy to read a JSON file like this into a web page:
-
-```javascript
-var url = 'https://s3-us-west-2.amazonaws.com/lab-workshops/intro-to-d3/gdp.json'
-d3.json(url, function(data) {
-  console.log(data)
-})
-```
-
-The data looks like this:
-
-```javascript
-[
-  {
-    "Country Name": "China",
-    "Country Code": "CHN",
-    "Year": 1960,
-    "Value": 59716467625.3148
-  },
-  {
-    "Country Name": "China",
-    "Country Code": "CHN",
-    "Year": 1961,
-    "Value": 50056868957.6732
-  }, ...
-]
-```
-
-Each observation is a JavaScript Object with attributes that describe the GDP of either China or the United States in a given year. In what follows below we'll use the `Year` for the x-axis, the `Value` for the y-axis, and the `Country Name` for the color scale.
-
 ### Building the Chart Foundations
 
 Let's start the chart by building the HTML shell:
@@ -86,7 +52,45 @@ h1 {
 }
 ```
 
-Once those files are set, we can turn to the D3 code. To start the chart, let's specify the chart dimensions, add an SVG element to the page, and load the data to be plotted:
+Once those files are set, we can add some data to our page.
+
+### Loading Data
+
+Usually when creating a D3 chart, one begins by preparing some data into a CSV or JSON file. For this work, we'll use [this JSON file](https://s3-us-west-2.amazonaws.com/lab-workshops/intro-to-d3/gdp.json), which documents the GDP of the United States and China over the last fifty years or so.
+
+D3 makes it easy to read a JSON file like this into a web page:
+
+```javascript
+var url = 'https://s3-us-west-2.amazonaws.com/lab-workshops/intro-to-d3/gdp.json'
+d3.json(url, function(data) {
+  console.log(data)
+})
+```
+
+The data looks like this:
+
+```javascript
+[
+  {
+    "Country Name": "China",
+    "Country Code": "CHN",
+    "Year": 1960,
+    "Value": 59716467625.3148
+  },
+  {
+    "Country Name": "China",
+    "Country Code": "CHN",
+    "Year": 1961,
+    "Value": 50056868957.6732
+  }, ...
+]
+```
+
+Each observation is a JavaScript Object with attributes that describe the GDP of either China or the United States in a given year. In what follows below we'll use the `Year` for the x-axis, the `Value` for the y-axis, and the `Country Name` for the color scale.
+
+### Creating the Basic Chart
+
+Once the data is available, we can create the chart foundations with D3. To start the chart, let's specify the chart dimensions, add an SVG element to the page, and load the data to be plotted:
 
 ```javascript
 // Define the chart width and height
@@ -106,7 +110,7 @@ var svg = d3.select('body').append('svg')
 var url = 'https://s3-us-west-2.amazonaws.com/lab-workshops/intro-to-d3/gdp.json'
 
 // Load the json and pass the result to the render() function
-d3.json('data/gdp.json', render)
+d3.json(url, render)
 
 /**
 * Main render function
