@@ -1,0 +1,14 @@
+ipykernel==4.6.1
+ipython==5.3.0
+ipython-genutils==0.2.0
+ipywidgets==6.0.0
+jupyter==1.0.0
+jupyter-client==5.0.1
+jupyter-console==5.1.0
+jupyter-core==4.3.0
+matplotlib==2.1.0
+nmf==0.0.5
+numpy==1.13.3
+scikit-learn==0.19.1
+scipy==1.0.0
+umap==0.1.1
