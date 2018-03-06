@@ -1,5 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/YaleDHLab/lab-workshops.png?label=ready&title=Ready)](https://waffle.io/YaleDHLab/lab-workshops)
-[![Stories in Ready](https://badge.waffle.io/YaleDHLab/lab-workshops.png?label=ready&title=Ready)](https://waffle.io/YaleDHLab/lab-workshops)
+
 ### DHLab Workshops
 
 Welcome to the landing page for Yale University's DHLab workshops. This repository contains code, data, and visualizations from past workshops. If you're interested in examining the results of past workshops, feel free to follow the links below to the relevant subdirectories in this repository. If you'd like to cover a different area of data mining or humanities programming in a future session, feel free to open up an issue or get in touch!
@@ -22,3 +22,4 @@ Date | Topic |
 10-25-2017 | [Introduction to JavaScript](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-javascript)
 11-10-2017 | [Command Line Git](https://github.com/YaleDHLab/lab-workshops/blob/master/command-line-git)
 11-28-2017 | [Introduction to D3](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-d3)
+03-09-2018 | [Topic Modeling with Python](https://github.com/YaleDHLab/lab-workshops/blob/master/topic-modeling-python)
