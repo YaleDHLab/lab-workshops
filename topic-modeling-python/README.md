@@ -12,7 +12,7 @@ Once Anaconda is installed, create and activate a virtual environment:
 # create a virtual environment with Python 3.6 named "3.6"
 conda create python=3.6 --name=3.6
 
-# activate the virutal environment
+# activate the virtual environment
 source activate 3.6
 ```
 
