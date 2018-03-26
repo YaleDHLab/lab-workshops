@@ -23,3 +23,4 @@ Date | Topic |
 11-10-2017 | [Command Line Git](https://github.com/YaleDHLab/lab-workshops/blob/master/command-line-git)
 11-28-2017 | [Introduction to D3](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-d3)
 03-09-2018 | [Topic Modeling with Python](https://github.com/YaleDHLab/lab-workshops/blob/master/topic-modeling-python)
+03-26-2018 | [GitHub Pages](https://github.com/YaleDHLab/lab-workshops/blob/master/github-pages/README.md)
