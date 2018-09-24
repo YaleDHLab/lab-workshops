@@ -10,7 +10,7 @@ Once Anaconda is installed, create and activate a virtual environment:
 
 ```
 # create a virtual environment with Python 3.6 named "3.6"
-conda create python=3.6 --name=3.6
+conda create python=3.6 --name=3.6 -y
 
 # activate the virtual environment
 source activate 3.6
@@ -18,7 +18,7 @@ source activate 3.6
 
 ### Running the Workshop Notebook
 
-You should now see `(3.6)` prepended on your path. Once you see that prefix, you can start the notebook with the following commands:
+You should now see `(3.6)` is a prefix in your terminal prompt. Once you see that prefix, you can start the notebook with the following commands:
 
 ```
 git clone https://github.com/YaleDHLab/lab-workshops
