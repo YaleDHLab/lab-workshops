@@ -25,8 +25,14 @@ def plot_decision_boundary(clf, X, labels, margin=0.2, mesh_unit=0.01, proba=Fal
   From: http://scikit-learn.org/stable/auto_examples/neighbors/plot_classification.html
 
   @args:
-    {function} func: a function that takes as input an observation from a
-      numpy array and returns a class label for that observation
+    {class} clf: a class that has a method .predict() that takes as input
+      an array of k dimensional values and returns an array with shape n,1
+      where n = the number of observations in the input array. This returned
+      array of values should contain class predictions--one per input element.
+      nb: if proba=True, the class should contain a method `.decision_function()`
+      that should return an array with shape n,1 that contains probability
+      values for a given class prediction. See scikit classifiers for examples
+      of both methods.
 
   @returns:
     void
@@ -109,10 +115,9 @@ def plot_distance_2d(arr):
 
   # line data: pattern for drawing lines is:
   # ax.plot([x_start, x_end], [y_start, y_end], zs=[z_start, z_end])
-  plt.plot( [a[0], b[0]], [a[0], a[0]], c='red' )  # x-line
-  plt.plot( [b[0], b[0]], [a[0], b[0]], c='purple' ) # y-line
-  plt.plot( [b[0], b[0]], [b[0], b[0]], c='green' )  # z-line
-  plt.plot( [a[0], b[0]], [a[0], b[0]], c='gray', linestyle=':' )  # direct line
+  plt.plot( [a[0], b[0]], [a[1], a[1]], c='red' )    # x-line
+  plt.plot( [b[0], b[0]], [a[1], b[1]], c='purple' ) # y-line
+  plt.plot( [a[0], b[0]], [a[1], b[1]], c='gray', linestyle=':' )  # direct line
 
   # add axis labels
   plt.xlabel('X')
