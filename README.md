@@ -24,4 +24,4 @@ Date | Topic |
 11-28-2017 | [Introduction to D3](https://github.com/YaleDHLab/lab-workshops/blob/master/intro-to-d3)
 03-09-2018 | [Topic Modeling with Python](https://github.com/YaleDHLab/lab-workshops/blob/master/topic-modeling-python)
 03-26-2018 | [GitHub Pages](https://github.com/YaleDHLab/lab-workshops/blob/master/github-pages/README.md)
-10-03-2018 | [Introduction to Machine Learning](https://github.com/YaleDHLab/lab-workshops/blob/master/machine-learning/README.md)
+10-03-2018 | [Introduction to Machine Learning](https://github.com/YaleDHLab/lab-workshops/blob/master/machine-learning)
