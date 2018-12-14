@@ -51,7 +51,7 @@ There are a lot of open data repositories online. Here are a couple places you m
 2. Go to "Map" 
 3. Drag a .csv spreadsheet that has a "latitude" and "longitude" column over the map. Voila! We have a map. You can experiment with the drawing style to see what makes sense for your data. For a spreadsheet of pizza locations around New Haven, a heat map could be good for highlighting clusters of pizza locations in the city. This could help someone looking for pizza zero in on a popular spot. Since for this particular Story Map we want to call attention to individual restaurants, we'll go with "Location (Single Symbol)"
 4. Customize the map by clicking on "Options." Let's change our dots to pizzas! Click on "Symbols," then choose "People Places" from the dropdown menu. Select the pizza icon and increase symbol size to 15. Click "Ok" twice and then "Done" 
-5. Our pop-ups still have a lot of unnecessary information. Let's change that by clicking on the ellipses and selecting "Configure Pop-Up." Next select "Confgiure Attributes" on the screen that appears. Unselect the display box for everything except for "Company_Name" and "Neighborhood." Click "Ok" twice
+5. Our pop-ups still have a lot of unnecessary information. Let's change that by clicking on the ellipses and selecting "Configure Pop-Up." Next select "Configure Attributes" on the screen that appears. Unselect the display box for everything except for "Company_Name" and "Neighborhood." Click "Ok" twice
 6. Save the map. Add a "Title," "Tags," and "Summary"
 
 
