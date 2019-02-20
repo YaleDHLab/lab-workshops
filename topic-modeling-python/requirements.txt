@@ -9,6 +9,7 @@ jupyter-core>=4.4.0
 matplotlib>=2.1.0
 nmf>=0.0.5
 numpy>=1.13.3
+requests>=2.21.0
 scikit-learn>=0.19.1
 scipy>=1.0.0
-umap-learn==0.1.5
+umap-learn>=0.1.5
