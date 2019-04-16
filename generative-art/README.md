@@ -1,4 +1,6 @@
-## Introduction to Autoencoders
+# Creating Art with Neural Networks
+
+## Making Images with Autoencoders
 
 [![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1A7_nMl9NG-cb7eTCSdSgsk89Uq9EY_uh)
 
