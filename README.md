@@ -25,4 +25,4 @@ Creation Date | Topic |
 03-09-2018 | [Topic Modeling with Python](https://github.com/YaleDHLab/lab-workshops/blob/master/topic-modeling-python)
 03-26-2018 | [GitHub Pages](https://github.com/YaleDHLab/lab-workshops/blob/master/github-pages/README.md)
 10-03-2018 | [Introduction to Machine Learning](https://github.com/YaleDHLab/lab-workshops/blob/master/machine-learning)
-04-17-2019 | [Making Generative Art with Neural Networks](https://github.com/YaleDHLab/lab-workshops/blob/master/generative-art)
+04-17-2019 | [Creating Generative Art with Neural Networks](https://github.com/YaleDHLab/lab-workshops/blob/master/generative-art)
