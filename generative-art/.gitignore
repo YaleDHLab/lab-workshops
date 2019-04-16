@@ -1,0 +1,9 @@
+*.pyc
+*.pem
+*.swp
+*.DS_Store
+*.html
+.ipynb_checkpoints
+celeba.zip
+celeba-sample
+img_align_celeba
