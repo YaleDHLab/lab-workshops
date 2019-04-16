@@ -1,0 +1,10 @@
+ipython>=7.2.0
+jupyter>=1.0.0
+jupyter-client>=5.2.3
+jupyter-console>=5.2.0
+jupyter-core>=4.4.0
+matplotlib>=3.0.3
+numpy>=1.16.1
+requests>=2.21.0
+scipy>=1.2.1
+
