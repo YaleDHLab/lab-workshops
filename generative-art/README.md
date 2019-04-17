@@ -40,7 +40,7 @@ In this notebook we'll get an intuitive sense of the way an [autoencoder](https:
 
 ## Textgenrnn (Text)
 
-[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1KLWjr_MZmxnCQ9wC19kEI5JolhprdoPU)
+[![Open In Colab](images/colab-badge.svg)](https://drive.google.com/file/d/1mMKGnVxirJnqDViH7BDJxFqWrsXlPSoK/view?usp=sharing)
 
 Textgenrnn is a [recurrent neural network](https://en.wikipedia.org/wiki/Recurrent_neural_network) that lets users generate texts that resemble an input text. The sample outputs below, for example, are based on Shakespeare's plays:
 
@@ -59,7 +59,7 @@ Textgenrnn is a [recurrent neural network](https://en.wikipedia.org/wiki/Recurre
 
 ## BigGAN (Images)
 
-[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1IN4JNPGcGuc5uc2QV8Ho6K1DVPvbkYKs)
+[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/biggan_generation_with_tf_hub.ipynb)
 
 [BigGAN](https://arxiv.org/abs/1809.11096) is a Generative Adversarial Network that is capable of generating large images. The default notebook allows one to explore this model and generate outputs like the ones below:
 
@@ -89,16 +89,16 @@ Multitrack Chords is an interactive web application built by Google's [Magenta](
 
 ## Performance RNN (Music)
 
-[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1lYdPotp1dNDatsDHLaH1ZTlZ4olyYk11)
+[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/notebooks/magenta/performance_rnn/performance_rnn.ipynb)
 
 Like Multitrack Chords, Performance RNN is a tool built by Google's Magenta team that allows users to create new audio compositions. This model is trained on jazz sequences, so tends to be a bit more dissonant than the melodic multitrack chords outputs:
 
-[![performance rnn midi screenshot](./images/performance-rnn.png)](https://colab.research.google.com/drive/1lYdPotp1dNDatsDHLaH1ZTlZ4olyYk11)
+[![performance rnn midi screenshot](./images/performance-rnn.png)](https://colab.research.google.com/notebooks/magenta/performance_rnn/performance_rnn.ipynb)
 
-## Synth Modulation (Music)
+## GANSynth (Music)
 
-[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1meggrPefMyo68AQYgUcECp9c5qJwAHYq)
+[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/notebooks/magenta/gansynth/gansynth_demo.ipynb)
 
-Synth Modulation is a third and final Google Magenta application that allows users to generate audio with nerual networks. This application lets users modulate the timber of input sequences by using a series of neural network modulations:
+GANSynth is a third and final Google Magenta application that allows users to generate audio with nerual networks. This application lets users modulate the timber of input sequences by using a series of neural network modulations:
 
-[![synth modulation screenshot](./images/synth-modulation.png)](https://colab.research.google.com/drive/1meggrPefMyo68AQYgUcECp9c5qJwAHYq)
+[![synth modulation screenshot](./images/synth-modulation.png)](https://colab.research.google.com/notebooks/magenta/gansynth/gansynth_demo.ipynb)
