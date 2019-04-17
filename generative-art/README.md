@@ -8,9 +8,7 @@ To use Google Colab notebooks, one does need to have a Gmail account. If you don
 
 [![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/notebook#fileId=1A7_nMl9NG-cb7eTCSdSgsk89Uq9EY_uh&offline=true&sandboxMode=true)
 
-Click the button above to load our first notebook. Once the notebook is open, if you see "Open in Playground" in the navigation menu, click that. Then if you see a button that says "Connect" at the top of the notebook, click that as well. That will prompt you to sign in to your Google account. Once you're signed in, click the "Connect" button again (if present) to load a runtime that can actually run the code below.
-
-Once you have a runtime loaded, take a look at the body of the notebook. You'll see that each linked notebook is comprised of several blocks of code or documentation. Each of these blocks is known as a "cell". To run the code in a cell, click the play button next to that cell. After running a cell, you may be prompted with a message indicating that the loaded notebook was not created by Google. If that message appears, keep "reset all runtimes" checked and click "Run Anyway" to execute the code in that cell.
+Click the button above to load our first notebook. Once the notebook is open, if you see "Copy to Drive" in the navigation menu, click that. Then take a look at the body of the notebook. You'll see that each linked notebook is comprised of several blocks of code or documentation. Each of these blocks is known as a "cell". To run the code in a cell, click the play button next to that cell. After running a cell, you may be prompted with a message indicating that the loaded notebook was not created by Google. If that message appears, keep "reset all runtimes" checked and click "Run Anyway" to execute the code in that cell.
 
 Once you've run a single cell, you should be able to continue through the notebook in this way, clicking the play button aside each cell to execute the code in that cell. In this way you can run code in the cloud with free GPU acceleration!
 
