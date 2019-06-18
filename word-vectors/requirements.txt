@@ -1,5 +1,4 @@
 adjustText>=0.7.3
-annoy>=1.15.0
 gensim>=3.6.0
 matplotlib>=2.0.0
 numpy>=1.15.1
