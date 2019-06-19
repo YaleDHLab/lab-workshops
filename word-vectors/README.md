@@ -1,5 +1,9 @@
 # Word Vectors
 
+### Getting Started
+
+This workshop is provided as a "Jupyter Notebook". Jupyter Notebooks are files that allow one to write and evaluate Python (and R, and Julia...) alongside documentation, which makes them great for exploratory code investigations.
+
 To run this notebook locally on your machine, we recommend that you follow these steps.
 
 ### Installing Anaconda (Optional)
