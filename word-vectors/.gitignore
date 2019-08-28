@@ -1,0 +1,10 @@
+GoogleNews-vectors-negative300.bin
+.ipynb_checkpoints
+*.swp
+*.pem
+*.json
+*.bin
+*.gz
+model.*
+*.model
+texts
