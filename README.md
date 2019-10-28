@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/YaleDHLab/lab-workshops.png?label=ready&title=Ready)](https://waffle.io/YaleDHLab/lab-workshops)
+<!--[![Stories in Ready](https://badge.waffle.io/YaleDHLab/lab-workshops.png?label=ready&title=Ready)](https://waffle.io/YaleDHLab/lab-workshops)-->
 
 ### DHLab Workshops
 
