@@ -26,3 +26,4 @@ Creation Date | Topic |
 03-26-2018 | [GitHub Pages](https://github.com/YaleDHLab/lab-workshops/blob/master/github-pages/README.md)
 10-03-2018 | [Introduction to Machine Learning](https://github.com/YaleDHLab/lab-workshops/blob/master/machine-learning)
 04-17-2019 | [Creating Art with Neural Networks](https://github.com/YaleDHLab/lab-workshops/blob/master/generative-art/README.md)
+09-06-2019 | [Python for Humanists, Parts I and II](https://github.com/YaleDHLab/lab-workshops/tree/master/python-for-humanists)
