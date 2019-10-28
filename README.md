@@ -2,7 +2,7 @@
 
 ### DHLab Workshops
 
-Welcome to the landing page for Yale University's DHLab workshops. This repository contains code, data, and visualizations from past workshops. If you're interested in examining the results of past workshops, feel free to follow the links below to the relevant subdirectories in this repository. If you'd like to cover a different area of data mining or humanities programming in a future session, feel free to open up an issue or get in touch!
+Welcome to the landing page for workshops taught by Yale University's Digital Humanities Lab. This repository contains code, data, and visualizations from past workshops. If you're interested in working through the materials, follow the links below to access the relevant subdirectories in this repository. If you're a Yale affiliate and would like to propose a future workshop on data mining or humanities programming, open an issue for this repository or get in touch via email!
 
 Creation Date | Topic |
 :-------------- |:-------------
