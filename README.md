@@ -28,3 +28,4 @@ Creation Date | Topic |
 04-17-2019 | [Creating Art with Neural Networks](https://github.com/YaleDHLab/lab-workshops/blob/master/generative-art/README.md)
 09-06-2019 | [Python for Humanists, Parts I and II](https://github.com/YaleDHLab/lab-workshops/tree/master/python-for-humanists)
 11-01-2019 | [Introduction to Word Vectors](https://github.com/YaleDHLab/lab-workshops/tree/master/word-vectors)
+12-10-2019 | [Creating Art with Neural Networks](https://github.com/YaleDHLab/lab-workshops/blob/master/generative-art/README.md)
