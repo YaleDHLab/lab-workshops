@@ -4,11 +4,29 @@
 
 This workshop uses a series of Google Colab notebooks, which let you use GPU-accelerated computing in controlled environments without having to acquire special hardware or software.
 
-To use Google Colab notebooks, one needs to have a Gmail account. If you don't have a Gmail account, please sign up for one before continuing. Then, to launch a notebook, click the "Open in Colab" buttons below to open the linked notebook. Here's an example button:
+#### Opening a Sample Colab Notebook
 
-[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1GlDhjw9GbRlx9IuD9ANGBmIjXQBAwRIv#offline=true&sandboxMode=true)
+To use Google Colab notebooks, one needs to have a Gmail account. If you don't have a Gmail account, please sign up for one before continuing. Then, to launch a notebook, log in to your Google account, then click the "Open in Colab" buttons below to open the linked notebook. Here's an example button:
 
-Click the button above to load our first notebook. Once the notebook is open, click the "Connect" button in the navbar:
+[![Open In Colab](images/colab-badge.svg)](https://drive.google.com/open?id=1MCEpXFdfP0HrD5f-DUvoFiY0UEYreRLg&usp=sharing&sandboxMode=true)
+
+Click the button above to load our first notebook. If you are not logged into a Google account, you may get a response that looks like this:
+
+![Four hundred response](images/400.png)
+
+If you get a 400 response, please log into your Google account then click the "Open in Colab" button again.
+
+#### Running a Sample Colab Notebook
+
+Once the sammple notebook is open, click the "Open in Playground" button in the upper-left-hand corner of the screen:
+
+---
+
+![Open in playground](images/open-in-playground.png)
+
+---
+
+After clicking that button, click the "Connect" button in the navbar:
 
 ---
 
@@ -16,7 +34,7 @@ Click the button above to load our first notebook. Once the notebook is open, cl
 
 ---
 
-Next, take a look at the body of the notebook. You'll see that each linked notebook is comprised of several blocks of code or documentation. Each of these blocks is known as a "cell". To run the code in a cell, click the "play" button next to that cell. After running a cell, you may be prompted with a message indicating that the loaded notebook was not created by Google. If that message appears, keep "reset all runtimes" checked and click "Run Anyway" to execute the code in that cell.
+Scrolling down you should find that the notebook is comprised of several blocks of code and documentation. Each of these blocks is refered to as a "cell". To run the code in a cell, click the "play" button next to that cell. After running a cell, you may be prompted with a message indicating that the loaded notebook was not created by Google. If that message appears, keep "reset all runtimes" checked and click "Run Anyway" to execute the code in that cell.
 
 Once you've run a single cell, you should be able to continue through the notebook in this way, clicking the play button aside each cell to execute the code in that cell. In this way you can run code in the cloud with free GPU acceleration!
 
@@ -24,7 +42,7 @@ Now that we understand Colab notebooks, let's dive into the code below.
 
 ## Making Images with Autoencoders
 
-[![Open In Colab](images/colab-badge.svg)](https://colab.research.google.com/drive/1GlDhjw9GbRlx9IuD9ANGBmIjXQBAwRIv#offline=true&sandboxMode=true)
+[![Open In Colab](images/colab-badge.svg)](https://drive.google.com/open?id=1MCEpXFdfP0HrD5f-DUvoFiY0UEYreRLg&usp=sharing&sandboxMode=true)
 
 In this notebook we'll get an intuitive sense of the way an [autoencoder](https://en.wikipedia.org/wiki/Autoencoder) works. Then we'll build, train, and run a very basic autoencoder to generate new face images.
 
