@@ -209,7 +209,7 @@ Likewise, the function `incrementCount` is defined in Home and passed to Counter
 
 The brief guide above is meant only to give you a very quick introduction to React.js. To go further, I recommend the following resources:
 
-<b>[React in 15ish Minutes](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)</b>: A great video introduction to React.js
+<b>[React in 15ish Minutes](https://www.youtube.com/watch?v=PGUMRVowdv8)</b>: A great video introduction to React.js
 
 <b>[React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)</b>: A plugin for Chrome that allows you to inspect the props and state of each component, which helps tremendously as you're building and troubleshooting applications.
 
