@@ -4,6 +4,8 @@
 
 ## Workshop
 
+The file above [text-recognition-worksop.md]() is a summary of the workshop in one file.
+
 The FULL workshop is available online at [https://joshuadull.github.io/Text-Recognition-Introduction/](https://joshuadull.github.io/Text-Recognition-Introduction/).
 
 ## Contributors
