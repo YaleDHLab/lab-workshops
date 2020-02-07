@@ -24,11 +24,11 @@
 * Most PDFs that we OCR come from photos or scans of physical items. PDFs created digitally, including journal publications, have a text layer already built-in. We can check if a PDF already has text built-in by trying to copy/paste the text or by searching the PDF (Ctrl+F or Cmd+F).
 * The quality of a scanned document has a great effect on the accuracy of the OCR. It's best to scan documents at high quality (600 dpi) and with good, overhead lighting. Book scanners are great for this job.
 
-![](../assets/img/poxLarge.png)
+![](./assets/img/poxLarge.png)
 
-![](../assets/img/badTable.png) ![](../assets/img/skewedImage.png)
+![](./assets/img/badTable.png) ![](./assets/img/skewedImage.png)
 
-![](../assets/img/InterAmerican.png)
+![](./assets/img/InterAmerican.png)
 
 ## OCR with Adobe Acrobat
 
@@ -41,7 +41,7 @@ Adobe Acrobat is a great entry-level tool for OCR. It works best for good qualit
 >	* Select 'Open with' and choose Adobe Acrobat
 >	* If this is your first time using Acrobat, you will be asked to sign-in to your account. Use your Yale crendaentials (NetID & password). 
 >* Select 'Scan & OCR' from the 'Tools' menu.
-> ![Screenshot of Acrobat Tools menu](../assets/img/ScanAndOCR.png)
+> ![Screenshot of Acrobat Tools menu](./assets/img/ScanAndOCR.png)
 >* Click the 'Recognize Text' drop-down.
 >	* Change 'Settings' and 'language' if necessary.
 >	* Click the blue 'Recognize Text' button to begin OCR.
@@ -55,7 +55,7 @@ Acrobat cannot be 100% accurate with it's OCR. It will highlight words with when
 >1. Click the 'Recognize Text' drop-down.
 >	* Select 'Correct recognized text'
 >2. Each word with a low confidence rating will appear in a red box.
->	![Screenshot of correct text options](../assets/img/CorrectText.png)
+>	![Screenshot of correct text options](./assets/img/CorrectText.png)
 >	* Click on words in box.
 >	* Correct transcription as necessary.
 >	* Selct 'Apply' and move to the next potential error.
@@ -81,14 +81,14 @@ You'll notice in our example PDF there are several words which are incorretly re
 >
 >Adobe provides a way to create workflows through the Action Wizard. We can save these workflows and apply them to multiple PDFs or entire folders of PDFs.
 >1. From 'Tools', select 'Action Wizard'
->![Screenshot of Acrobat Tools Menu](../assets/img/actionWizard.png)
+>![Screenshot of Acrobat Tools Menu](./assets/img/actionWizard.png)
 >2. In the next menu, select 'New Action'
 >3. There are several settings to change to complete our worflow
 >	* Under 'Files to be processed, choose the 'Acrobat' folder. This is the folder where your PDFs to recognize are saved.
 >	* From 'Recognize Text', add 'Recognize Text using OCR'.
 >	* Under 'Save & Export', add 'Save' twice.
 >	* Choose 'Specify Settings' and change 'Output Format' to 'Export File(s) to Alternative Format' and select 'Text (Plain)' form the 'Export to:' drop-down list.
->	![Screenshot of Acrobat Tools Menu](../assets/img/newAction.png)
+>	![Screenshot of Acrobat Tools Menu](./assets/img/newAction.png)
 >4. Rename the process and click 'Save'. We can now apply these steps to any folder and Acrobat will OCR each file and save two versions: one PDF and one Text file.
 >
 
@@ -111,14 +111,14 @@ You'll notice in our example PDF there are several words which are incorretly re
 >
 >1. Right-click on PDF named 'InterAmerican.pdf', select Open with ABBYY FineReader 14.
 >2. Click the 'Recognize Text' drop-down and select 'Open in OCR Editor'.
-> ![Screenshot of OCR Editor Menu](../assets/img/OCR_editor.png)
+> ![Screenshot of OCR Editor Menu](./assets/img/OCR_editor.png)
 
 ### Viewing OCR output
 
 * After the OCR process is complete, we can compare the original document to the text-only version.
 * ABBYY highlights potential errors in blue. We can manually correct or edit the text data before saving/exporting for greater QA.
 
-![Screenshot of OCR Pages Menu](../assets/img/verifyText.png)
+![Screenshot of OCR Pages Menu](./assets/img/verifyText.png)
 
 **Spend a few minutes manually correcting and verifying highlighted text.** 
 
@@ -156,7 +156,7 @@ Area templates allow us to identify all the text boxes on one page and apply an 
 >3.  Now select page 3 and repeat the steps 1 and 2 above.
 >	- Name the template 'trees_odd.blk'
 >4. From the 'Pages' toolbar, click the three dots, 'Select Pages', and then 'Even Pages'.
->	![Screenshot of OCR Pages Menu](../assets/img/SelectOddEven.png)
+>	![Screenshot of OCR Pages Menu](./assets/img/SelectOddEven.png)
 >5. With the even pages highlighted, choose 'Area' from the top menu, select 'Load Area Template', and choose 'trees_even.blk'.
 >6. Repeat steps 4 and 5 using the odd pages and odd tamplate.
 >7. 'Recognize' the text again and see how the output changes.
@@ -180,7 +180,7 @@ Many PDFs include data in the form of tables. While recognizing the text and num
 >5. Click 'Save as XLXS', this will open the table in excel. We can edit or save the table from there.
 >
 
-![Screenshot of ABBYY recognizing data tables](../assets/img/ABBYY_Tables.png)
+![Screenshot of ABBYY recognizing data tables](./assets/img/ABBYY_Tables.png)
 
 ### Non-Latin Text
 
@@ -209,7 +209,7 @@ ABBYY comes trained on many different alphabets and languages. Of course, ABBYY 
 >2. Click the 'Recognize Text' drop-down and select 'Open in OCR Editor'. 
 >3. In the Options menu, under OCR select 
 
-![Screenshot of ABBYY's Pattern Trainer](../assets/img/patternTraining.png)
+![Screenshot of ABBYY's Pattern Trainer](./assets/img/patternTraining.png)
 
 
 Copyright © 2020 by Joshua Dull
