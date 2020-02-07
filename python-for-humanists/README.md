@@ -7,12 +7,12 @@ If you already have jupyter notebooks installed, you can download the .ipynb fil
 ### Download Workshop Materials
 
 Python for Huamanists is divided into three parts: Part I, II, and III. Each part has two .ipynb files: 
-* Python4HumanistsPartx.ipynb *and* 
+* Python4HumanistsPartx.ipynb 
 * PythonXComplete.ipynb
 
-*Python4HumanistsPartx.ipynb* is intended to be used during the workshop as we code together and fill in the code cells. 
+**Python4HumanistsPartx.ipynb** is intended to be used during the workshop as we code together and fill in the code cells. 
 
-*PythonXComplete.ipynb* is the completed workshop with all code and exercises completed. This is intended as a reference or answer key for the workshop.
+**PythonXComplete.ipynb** is the completed workshop with all code and exercises completed. This is intended as a reference or answer key for the workshop.
 
 **If you don't have python or jupyter notebooks installed, we recommend installing Anaconda 3 using the steps below.**
 
@@ -20,7 +20,7 @@ Python for Huamanists is divided into three parts: Part I, II, and III. Each par
 
 First, let's [install Anaconda](https://www.anaconda.com/download/).
 
-Once Anaconda is installed, openm the Anaconda Navigator and 'Launch' jupyter from the menu.
+Once Anaconda is installed, open the Anaconda Navigator and 'Launch' jupyter from the menu.
 
 ### Running the Workshop Notebook
 
