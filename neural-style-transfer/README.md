@@ -41,9 +41,7 @@ Questions we might ask with neural style transfer include but are by no means li
 
 ## Set up your Workspace 
 
-For this workshop, we'll experiment with two style transfer models using sample images that you can retrieve from: bit.ly/yale-dh-neural-style
-
-But first, let's discuss how we'll set up our workspace.
+For this workshop, we'll experiment with two style transfer models using sample images I'll provide. But first, let's discuss how we'll set up our workspace.
 
 ### Folder & Filename Conventions
 
@@ -72,9 +70,11 @@ This folder & file structure will help us remember what we were working on, even
 
 ### Images
 
-For images, we'll be using a variety of images, some of which have more pronounced "styles" or "content," and some of which might be more subtle. I have also added relatively small images (400 x 400 pixels), so that the new image will generate quickly. High-resolution items can a longer time for the model to run, and you don't necessarily need high-resolution images in order for the model to be successful; it depends on your goal. 
+This [Google Drive folder](bit.ly/yale-dh-neural-style) contains five content and five style images. Some of the images have more pronounced "content" or "style," and others are more subtle. We'll use only a few of the images in our activities below, but I encourage you to mix and match with the others as well. 
 
-To get a sense for the impact the size of the input content image can have, here are two output files. The larger image had an input image of around 1000 pixels, while the smaller image had an input of around 500 pixels. Some detail is lost as a result of cutting the resolution of the input image in half, but depending on the level of fidelity or abstraction that you're going for, that might be ok.
+A quick note on the sample images: I added relatively small images (400 x 400 pixels) so that the output image will be generated quickly. You can use higher resolution images in RunwayML; it will just take the model more time to run (which in turn uses up more of the free credits Runway provides). Also, depending on your goal, you don't necessarily need high-resolution images in order for the model to be successful, so you might start out with a lower resolution image and work your way up as needed.
+
+To get a sense for how the size of the content image impacts the resulting output image, I've included two output images below. The larger image had an input image of around 1000 pixels, while the smaller image had an input of around 500 pixels. Some detail is lost as a result of cutting the resolution of the content image in half, but depending on the level of fidelity or abstraction that you're going for, that might be ok.
 
 ![the Golden Gate Bridge in the style of Monet](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/output/adaptive-style-transfer/goldenGateBridge-monet1000px.jpeg)
 
@@ -82,7 +82,7 @@ To get a sense for the impact the size of the input content image can have, here
 
 ## Generate Images with RunwayML
 
-Designated "a machine learning tool for creators," RunwayML is a platform for applying machine learning to digital content that does not require any programming on the part of the user. You could also use it to train and publish your own models.
+Designated "a machine learning tool for creators," RunwayML is a platform for applying machine learning to digital content that does not require any programming on the part of the user. You can also use it to train and publish your own models.
  
 To launch the application:
 1. Download [RunwayML](https://runwayml.com/) by clicking on the green "Download Beta button."
@@ -91,9 +91,9 @@ To launch the application:
 * Models are the result of training an algorithm on a dataset — they represent the rules the algorithm has devised in order to perform a task
 * From the "Browse Models" screen, you can find models that were trained on images, texts, or vectors in order to perform object detection, generate fake images, explore latent space of images, and apply style transfer.
 * If you accidentally (or intentionally) click away from the Models screen and want to get back, click on the cube symbol on the left-hand side of the application
-4. Click the dropbox by "Category" and select "Style Transfer." 
-* At the time of this workshop, there are five models. The lower left-hand corner of each model shows that four of the models have been published with "Commercial Use" licenses, while one has a "Custom License."
-* The lower right-hand corner reveals their popularity within RunwayML, which could be used to indicate how well they're performing for people (the caveat, here, is that some of the models are newer than others, so a lower score isn't always an indication that a model is out of favor).
+4. Click the dropdown by "Category" (toward the middle-top of the page) and select "Style Transfer" to see what models are available to us.
+* At the time of this workshop, there are five models. The lower left-hand corner of each model shows that four of the models have been published with "Commercial Use" licenses, while one has a "Custom License" (more on licenses later).
+* The lower right-hand corner reveals the popularity of each model within Runway, which could be used to indicate how well they're performing for people (the caveat, here, is that some of the models are newer than others, so a lower score isn't always an indication that a model is out of favor).
 
 ### Experiment 1: Adaptive Style Transfer, Limited Selection of Styles
 
