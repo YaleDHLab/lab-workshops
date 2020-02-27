@@ -160,7 +160,7 @@ Now that we've sampled a couple models for style transfer, return to the one tha
   * ["Art & AI: The Logic Behind Deep Learning ‘Style Transfer’"](https://medium.com/codait/art-ai-the-logic-behind-deep-learning-style-transfer-1f59f51441d1)
   * ["Neural Style Transfer: Creating Art with Deep Learning using tf.keras and eager execution"](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
   * ["Neural Artistic Style Transfer: A Comprehensive Look"](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199)
-  * [Artistic Style Transfer with Convolutional Neural Networks](https://medium.com/data-science-group-iitr/artistic-style-transfer-with-convolutional-neural-network-7ce2476039fd)
+  * ["Artistic Style Transfer with Convolutional Neural Networks"](https://medium.com/data-science-group-iitr/artistic-style-transfer-with-convolutional-neural-network-7ce2476039fd)
   * ["Experiments with Neural Style Transfer"](https://genekogan.com/works/style-transfer/)
   * ["Neural Font Style Transfer"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8270274&tag=1)
 * Want more technical training on neural networks? Here are a couple resources to check out:
