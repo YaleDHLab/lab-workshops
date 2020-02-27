@@ -12,7 +12,8 @@ This workshop is designed for participants who are new to neural style transfer.
 - **deep learning** - a subset of machine learning that uses multi-layered, artificial neural network algorithms that enable the computer to recognize patterns and classify data
 
 ![three nested circles, with artificial intelligence as the largest circle, inside of which there is machine learning, and inside of that there is deep learning and neural networks](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/examples/ai-circles.jpg)
-AI receives a lot of attention for its use in industry (self-driving cars) and surveillance (face detection), but it's also providing new ways for interacting with and thinking about texts and images.
+
+<br>AI receives a lot of attention for its use in industry (self-driving cars) and surveillance (face detection), but it's also providing new ways for interacting with and thinking about texts and images.
 
 ### Popular Approaches
 
@@ -140,8 +141,8 @@ goldenGateBridge-waterLilies-alphap79_cgb7.png
 ```
 
 ### Experiment 3: Adaptive & AdaIN, Output as New Input
-1. Staying within the AdaIn Style Transfer model, let's add a new content image. Click the dropdown and this time, let's select the output image from our Adaptive-Style-Transfer experiment.
-2. For the style image, Yayoi Kusama's *Resplendent Stars of the Universe*.
+1. Staying within the AdaIn Style Transfer model, let's add a new content image. Click the dropdown and this time, let's select the output image from our Adaptive Style Transfer experiment.
+2. For the style image, select Yayoi Kusama's *Resplendent Stars of the Universe*.
 3. Save the output file — be sure to include some indication that we used the output from the Adaptive Style Transfer model:
 ```
 ast_golden_monet-resplendent
@@ -152,15 +153,15 @@ ast_golden_monet-resplendent
 Now that we've sampled a couple models for style transfer, return to the one that intrigued you the most and run more experiments with your own images or with some of the additional sample images in our content and style folders. You might also run some of the other models we haven't tried in order to see their strengths and limitations.
 
 ## Next Steps & Additional Tips
-* Since Runway is currently in Beta, new models and workflow features are added and updated regularly, so check back occasionally to see what's new.
-* Try running [Justin Johnson's implementation](https://github.com/jcjohnson/neural-style) of style transfer. This will require some experience with programming and setting up computer environments. It also has hardware constraints in that it performs better with a graphical processing unit (GPU). But, what it gives you is the ability to import multiple style images at the same time, in addition to more fine-tuned parameters that you can adjust. 
-* Further Reading
+* Since Runway is currently in Beta, new models and workflow features are added and updated regularly, so log in occasionally to see what's new.
+* For running neural style transfer without RunwayML, try [Justin Johnson's implementation](https://github.com/jcjohnson/neural-style). To get this code running on your own computer will require some experience with programming and setting up computer environments. It also has hardware constraints in that it performs better with a graphical processing unit (GPU). But, what it gives you is the ability to import multiple style images at the same time, declaring how much you want to take from each style image. It also includes more fine-tuned parameters that you can adjust. 
+* Want to read up on neural networks and style transfer? Here are a few articles and papers that might be of interest:
   * [Runway's documentation](https://learn.runwayml.com/#/)
   * ["Art & AI: The Logic Behind Deep Learning ‘Style Transfer’"](https://medium.com/codait/art-ai-the-logic-behind-deep-learning-style-transfer-1f59f51441d1)
   * ["Neural Style Transfer: Creating Art with Deep Learning using tf.keras and eager execution"](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
   * ["Neural Artistic Style Transfer: A Comprehensive Look"](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199)
-* Online Tutorials
+  * ["Experiments with Neural Style Transfer"](https://genekogan.com/works/style-transfer/)
+  * ["Neural Font Style Transfer"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8270274&tag=1)
+* Want more technical training on neural networks? Here are a couple resources to check out:
   * [Free class on convolutional neural networks](https://www.coursera.org/learn/convolutional-neural-networks)
   * [YouTube video on convolutional neural networks](https://www.youtube.com/watch?v=FTr3n7uBIuE)
-* Experiment with combining video and still images together [example video](https://genekogan.com/works/style-transfer/)
-  
