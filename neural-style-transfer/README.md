@@ -37,7 +37,7 @@ Questions we might ask with neural style transfer include but are by no means li
 * What images work better as content or style images, and what does it mean that some work better than others?
 * Can we use neural style transfer to create new forms? What about new art that combines the styles of multiple artists?
 
-## Setting up your Workspace 
+## Set up your Workspace 
 
 For this workshop, we'll experiment with several style transfer models using sample images. But first, we need to set up our workspace.
 
@@ -75,7 +75,7 @@ To get a sense for the impact the size of the input content image can have, here
 
 ![the Golden Gate Bridge in the style of Monet with slightly fewer colors](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/output/adaptive-style-transfer/goldenGateBridge-monet400px.jpeg)
 
-## Generating Images with RunwayML
+## Generate Images with RunwayML
 
 Designated "a machine learning tool for creators," RunwayML is a platform for applying machine learning to digital content that does not require any programming on the part of the user. You could also use it to train and publish your own models.
  
