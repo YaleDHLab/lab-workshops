@@ -24,6 +24,9 @@ AI receives a lot of attention for its use in industry (self-driving cars) and s
 
 ["The Next Rembrandt: Can the Great Master Be Brought Back to Create One More Painting?"](https://www.nextrembrandt.com/) In an effort to generate an image that would most closely resemble Rembrandt's subject matter and style, the Next Rembrandt project studied recurring features across 346 of his paintings. They used a range of techniques, from scanning the surface of his paintings to study their texture to programming a face detection algorithm to identify their common geometric patterns.
 
+#### Image Animation
+[First Order Motion Model for Image Animation](https://aliaksandrsiarohin.github.io/first-order-model-website/) This technique takes a source image and a video in order to animate the image, making it look as though it were a video clip.
+
 #### Neural Style Transfer
 
 Neural style transfer, which uses [convolutional neural networks](https://en.wikipedia.org/wiki/Convolutional_neural_network), takes the "style" of one digital image and applies it to the "content" of another, producing a new, generated output image as a result. One of the advantages of neural style transfer is that it does not require a large collection of images as other approaches (GANs) do in order to be successful. At a minimum, neural style transfer only requires you to supply two images.
@@ -71,7 +74,7 @@ This folder & file structure will help us remember what we were working on, even
 
 ### Images
 
-This [Google Drive folder](bit.ly/yale-dh-neural-style) contains five content and five style images. Some of the images have more pronounced "content" or "style," and others are more subtle. We'll use only a few of the images in our activities below, but I encourage you to mix and match with the others as well. 
+The Google Drive folder at bit.ly/yale-dh-neural-style contains five content and five style images. Some of the images have more pronounced "content" or "style," and others are more subtle. We'll use only a few of the images in our activities below, but I encourage you to mix and match with the others as well. 
 
 A quick note on the sample images: I added relatively small images (400 x 400 pixels) so that the output image will be generated quickly. You can use higher resolution images in RunwayML; it will just take the model more time to run (which in turn uses up more of the free credits Runway provides). Also, depending on your goal, you don't necessarily need high-resolution images in order for the model to be successful, so you might start out with a lower resolution image and work your way up as needed.
 
@@ -83,10 +86,10 @@ To get a sense for how the size of the content image impacts the resulting outpu
 
 ## Generate Images with RunwayML
 
-Designated "a machine learning tool for creators," RunwayML is a platform for applying machine learning to digital content that does not require any programming on the part of the user. You can also use it to train and publish your own models.
+Designated "a machine learning tool for creators," RunwayML is a platform for applying machine learning to digital content that does not require any programming on the part of the user. You can also use it to train and publish your own models. At least while it is in beta, it is free to use up to a point (you get $10 in credits; it costs $0.05 per minute to run models and $0.005 per step in training models). 
  
 To launch the application:
-1. Download [RunwayML](https://runwayml.com/) by clicking on the green "Download Beta button."
+1. Download [RunwayML](https://runwayml.com/) by clicking on one of the green "Download Beta" buttons.
 2. Once it downloads, double-click on the RunwayML icon.
 3. The screen that loads will have the following prompts: "Browse Models," "Open Workspaces," "Train a Model." Click on "Browse Models."
 * Models are the result of training an algorithm on a dataset — they represent the rules the algorithm has devised in order to perform a task
@@ -98,24 +101,25 @@ To launch the application:
 
 ### Experiment 1: Adaptive Style Transfer, Limited Selection of Styles
 
-We're going to start with the most popular one, "Adaptive Style Transfer." 
+We're going to start with the most popular model on Runway, "Adaptive Style Transfer." 
 
-1. Let's start by taking a quick look at the model's documentation. Find the model, hover over the lower left-hand corner, and select "learn more." 
-* This will take us to a page with important information about the model that we may want to read before running anything: what is the model trained to do, are there licensing restrictions to how the model can be used, is there a GitHub repository we could go to in order to see the code, has there been a publication using the code that we could read, and if the information is really good, it will also indicate what the training dataset was.
+1. Let's start by taking a quick look at the model's documentation. To do that, find the model, hover over the lower left-hand corner, and select "learn more."  
+* This will take us to a page with important information about the model that we may want to read before running anything: what is the model trained to do, are there licensing restrictions as to how the model can be used, is there a GitHub repository we could go to in order to see the code, has there been a publication using the code that we could read, and if the information is really good, it will also indicate what the training dataset was.
 * Without getting in the weeds technically, we can see that this model was constructed with a conscious effort to add artists into the evaluation loop.
-* Scrolling down shows us the authors and there's a paper and GitHub repository we could follow up with if we like the results
-* Back at the top, click on "Gallery" for a preview of the results we can expect
+* Scrolling down shows us the authors behind the model. Scrolling further shows there's a paper and GitHub repository we could follow up with if we like the results or want more of the technical information.
+* Back at the top of the page, click on "Gallery" for a preview of the results we can expect.
 * Click on "License" to see the terms of use. With this model, it can be used commercially so long as attribution is given.
-2. Now that we have more of a sense for this model, click the dropdown blue "Add To Workspace" button at the top right of the application, and select "New Workspace."
+2. Now that we have more of a sense for this model, click the dropdown by the "Add To Workspace" blue button at the top right of the application, and select "New Workspace."
 3. Give the workspace a name that will help you identify it later. I'll call mine: "DHLab-workshop."
-4. Now that we're in the workspace screen, we can see the interface for the model we've loaded, and on the left-hand column, we'll see past workspaces (once we have some).
-5. The Adaptive Style Transfer model contains a place for an "Input Type" (this will be where we upload a content image) and an "Output" (the results of applying the model to our input image). The style options exist on the right-hand column. Unlike other models we'll experiment with later that will let us chose our own style images, we're limited to selecting amongst thirteen artists. But, the innovation that they're claiming, is that each artist represents a model that has been trained on a collection of paintings from that artist, whereas some other popular models only train them on a single painting. They're also regularly adding new artists to the list, so this could be a model to keep an eye on. If we scroll below the style options, we can see what parameters we can control as well to adjust how the algorithm is working. More on those later.
+4. Now that we're in the workspace screen, we can see the interface for the model we've loaded in the middle, and on the left-hand column, we'll see other workspaces we've created.
+5. The Adaptive Style Transfer model contains a place for an "Input Type" (this will be where we upload a content image) and an "Output" (the results of applying the model to our input image). The style options exist on the right-hand column. Unlike the AdaIN model we'll experiment with next, this model limits our style inputs. We can currently select amongst thirteen artists. The innovation of Adaptive Style Transfer is that each artist represents its own model. The authors trained the algorithm on a collection of paintings from the specified artist, whereas some other popular models only train the algorithm on a single painting. The project team is also regularly adding new artists to the list, so if you like the results, this could be a model to keep an eye on. If we scroll below the style options, we can see what parameters we can control in order to adjust how the algorithm is working (the options don't always appear unless you specify a content image). More on parameters later.
 6. Select the style you would like to try first. I'm going to select "Monet."
-7. To add a content image, click the dropdown by "Input Type" and select "File" -> "Directory." Navigate to our project folder and select the "content" directory. This will load our content images into RunwayML so that we can move between them quickly.
+7. To add a content image, click the dropdown by "Input Type" and select "File" -> "Open Directory." Navigate to our project folder and select the "content" directory. This will load our content images into RunwayML so that we can move between them quickly.
 8. Select "goldenGateBridge.jpg."
-9. Click the purple "Run Remotely" button in the lower right-hand corner in order to run the model. 
-10. If you want to save this image, click the small blue circle in the lower right-hand corner of the "Output" screen. Don't forget to follow our naming convention: "goldenGateBridge-monet.jpg"
-11. For a second image for a frame of reference, let's see how the model does with Van Gogh (you have to scroll all the way down the artist styles to find him). Apply this model to the Golden Gate Bridge as well, and save the output when it finishes. 
+9. Click the purple "Run Remotely" button in the lower right-hand corner in order to run the model. You can tell it's working when it turns pink and says "Starting (Click to Stop)."
+10. When the button turns a solid pink and says "Stop," click on it to stop the model.
+11. If you want to save the generated output image, click the small blue circle in the lower right-hand corner of the "Output" section. Don't forget to follow our naming convention: "goldenGateBridge-monet.jpg". Save the image to the "adaptive-style-transfer" folder in the "output" directory.
+12. For a second image from this model we can use as a frame of reference for how well it's working, let's see how the model does with Van Gogh (you have to scroll all the way down the artist styles to find him). Apply this model to the Golden Gate Bridge as well, and save the output when it finishes. 
 
 ### Experiment 2: AdaIN Style Transfer, Custom Styles
 1. Return to the "Browse Models" screen by clicking on the cube symbol on the left-hand column.
