@@ -103,7 +103,7 @@ To launch the application:
 
 We're going to start with the most popular model on Runway, "Adaptive Style Transfer." 
 
-1. Let's start by taking a quick look at the model's documentation. To do that, find the model, hover over the lower left-hand corner, and select "learn more."  
+1. Let's start by taking a quick look at the model's documentation. To do that, find the model, hover over the lower left-hand corner, and click on "Learn More."  
 * This will take us to a page with important information about the model that we may want to read before running anything: what is the model trained to do, are there licensing restrictions as to how the model can be used, is there a GitHub repository we could go to in order to see the code, has there been a publication using the code that we could read, and if the information is really good, it will also indicate what the training dataset was.
 * Without getting in the weeds technically, we can see that this model was constructed with a conscious effort to add artists into the evaluation loop.
 * Scrolling down shows us the authors behind the model. Scrolling further shows there's a paper and GitHub repository we could follow up with if we like the results or want more of the technical information.
@@ -116,7 +116,7 @@ We're going to start with the most popular model on Runway, "Adaptive Style Tran
 6. Select the style you would like to try first. I'm going to select "Monet."
 7. To add a content image, click the dropdown by "Input Type" and select "File" -> "Open Directory." Navigate to our project folder and select the "content" directory. This will load our content images into RunwayML so that we can move between them quickly.
 8. Select "goldenGateBridge.jpg."
-9. Click the purple "Run Remotely" button in the lower right-hand corner in order to run the model. You can tell it's working when it turns pink and says "Starting (Click to Stop)."
+9. Click the purple "Run Remotely" button in the lower right-hand corner in order to run the model. You can tell it's working when it turns pinkish and says "Starting (Click to Stop)." It could take a minute or two to run.
 10. When the button turns a solid pink and says "Stop," click on it to stop the model.
 11. If you want to save the generated output image, click the small blue circle in the lower right-hand corner of the "Output" section. Don't forget to follow our naming convention: "goldenGateBridge-monet.jpg". Save the image to the "adaptive-style-transfer" folder in the "output" directory.
 12. For a second image from this model we can use as a frame of reference for how well it's working, let's see how the model does with Van Gogh (you have to scroll all the way down the artist styles to find him). Apply this model to the Golden Gate Bridge as well, and save the output when it finishes. 
@@ -124,17 +124,19 @@ We're going to start with the most popular model on Runway, "Adaptive Style Tran
 ### Experiment 2: AdaIN Style Transfer, Custom Styles
 1. Return to the "Browse Models" screen by clicking on the cube symbol on the left-hand column.
 2. Click the dropdown by "Category" and select "Style Transfer."
-3. This time, find "AdaIN-Style-Transfer" and click to "learn more." The advantage of this model is that we'll be able to add our own style images, along with our own content images. We'll also have the option to adjust more of the parameters that inform how the model works.
+3. This time, find "AdaIN-Style-Transfer" (short for adaptive instance normalization) and click on "Learn More." As the description highlights, the advantage of this model is that we'll be able to add our own style images, along with our own content images. We'll also have the option to adjust more of the parameters that inform how the model works. For more information on the specific implementation, you can click on the "GitHub Repository" link at the bottom, which will take you to the source code. As before, the "Gallery" tab provides a preview of what we can expect. The "License" tab indicates that this model can be used and modified for commercial purposes or private use, with the one condition being that you have to include the copyright statement.
 4. Click the "Add to Workspace" blue button. In general, you can either add it to the workspace we've already created, or you can create a new one, but for this workshop, add it to the same workspace (we'll need our models together for one of the activities later on).
-5. In order to compare this model with the last one, let's stick with the Golden Gate Bridge for now. Add it as our content image by clicking the dropdown and selecting "File."
-6. We have the freedom to add out own style image now, but we're limited to one style image at a time (the previous model was trained on multiple paintings by the same artist). So that we can have a more accurate comparison across the models, chose Claude Monet's *Water Lilies*.
-7. Click "Run Remotely." This model can take longer to run, especially with larger files. Let's talk through some of the parameters options while it's working.
-* Alpha affects how much of the style is pulled in, with a value of 1 leading to the strongest stylistic resemblance to the style image
-* Gaussian Blur does what it sounds like - it blurs the content image before applying the model. This is helpful if you want a more abstract output.
-8. Experiment on your own for a few minutes, changing the parameters on the right. One of my favorite tweaks was to adjust the Alpha to 0.79 and the Gaussian Blur to 7.
-9. Save any and all outputs that you like. Don't forget to follow the naming convention so that you can recreate them later! For example, here is the filename for the settings I liked above:
+5. In order to compare this model with the last one, let's stick with the Golden Gate Bridge for now. Add it as our content image by clicking the "Input Type" dropdown and selecting "File" -> "Open File." (Loading only a single file at a time guarantees we'll have parameter options in the right-hand column.) 
+6. Let's add out style image now. With AdaIn, we have the freedom to add our own style image, but keep in mind that we're limited to one style image at a time (the previous model was trained on multiple paintings by the same artist). So that we can have a more accurate comparison of the models, click "Input Type" -> "File" -> "Open File" and select Claude Monet's *Water Lilies*.
+7. Click "Run Remotely." This model can take longer to run, especially with larger files. Let's talk through a few of the content and style parameters while it's working.
+* Color determines whether you retain the content image's color (the default it to take color from the style image).
+* Alpha affects how much of the style is pulled in, with a value of 1 leading to the strongest stylistic resemblance to the style image.
+* Gaussian Blur blurs the content and/or style image before applying the model. This is helpful if you want a more abstract output.
+8. What do you think of the output? 
+9 Experiment on your own for a few minutes, changing the parameters on the right. One of my favorite tweaks was to adjust the Alpha to 0.79 and the Gaussian Blur for the content to 7.
+10. Save any and all outputs that you like. Don't forget to follow the naming convention so that you can recreate them later! For example, here is the filename for the settings I liked above:
 ```
-goldenGateBridge-waterLilies-alphap79_gb7.png
+goldenGateBridge-waterLilies-alphap79_cgb7.png
 ```
 
 ### Experiment 3: Adaptive & AdaIN, Output as New Input
