@@ -30,3 +30,4 @@ Creation Date | Topic |
 11-01-2019 | [Introduction to Word Vectors](https://github.com/YaleDHLab/lab-workshops/tree/master/word-vectors)
 12-10-2019 | [Creating Art with Neural Networks](https://github.com/YaleDHLab/lab-workshops/blob/master/generative-art/README.md)
 01-23-2020 | [Text Recognition with Adobe Acrobat & ABBYY Finereader](https://joshuadull.github.io/Text-Recognition-Introduction/)
+02-27-2020 | [Neural Style Transfer with RunwayML](https://github.com/YaleDHLab/lab-workshops/tree/master/neural-style-transfer)
