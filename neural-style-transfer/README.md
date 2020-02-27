@@ -54,6 +54,7 @@ In order to keep track of our experiments (what images we used, what parameters 
 
 3. Within "output," create the following folders:
 * "adaptive-style-transfer"
+* "adaIn-style-transfer"
 
 Before we start running our experiments, we should also think about how we'll name our files. The convention I follow is:  
 ```
@@ -92,7 +93,7 @@ To launch the application:
 
 ### Experiment 1: Adaptive Style Transfer, Limited Selection of Styles
 
-We're going to start with the most popular one, "Adaptive-Style-Transfer." 
+We're going to start with the most popular one, "Adaptive Style Transfer." 
 
 1. Let's start by taking a quick look at the model's documentation. Find the model, hover over the lower left-hand corner, and select "learn more." 
 * This will take us to a page with important information about the model that we may want to read before running anything: what is the model trained to do, are there licensing restrictions to how the model can be used, is there a GitHub repository we could go to in order to see the code, has there been a publication using the code that we could read, and if the information is really good, it will also indicate what the training dataset was.
