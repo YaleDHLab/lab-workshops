@@ -27,7 +27,7 @@ AI receives a lot of attention for its use in industry (self-driving cars) and s
 
 One of the advantages of neural style transfer is that it does not require a large collection of images. At a minimum, it only requires two. 
 
-![three images that show Golden Gate Bridge, Starry Night, and a composite that shows the Golden Gate Bridge in the style of Starry Night](https://github.com/cderose/workshop-drafts/blob/master/neural-style-transfer/images/examples/starry-night-example.jpg)
+![three images that show Golden Gate Bridge, Starry Night, and a composite that shows the Golden Gate Bridge in the style of Starry Night](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/examples/starry-night-example.jpg)
 
 *above source images are from [Justin Johnson's GitHub Repository](https://github.com/jcjohnson/neural-style)* </br>
 
@@ -71,9 +71,9 @@ For images, we'll be using a variety of images, some of which have more pronounc
 
 To get a sense for the impact the size of the input content image can have, here are two output files. The larger image had an input image of around 1000 pixels, while the smaller image had an input of around 500 pixels. Some detail is lost as a result of cutting the resolution of the input image in half, but depending on the level of fidelity or abstraction that you're going for, that might be ok.
 
-![the Golden Gate Bridge in the style of Monet](https://github.com/cderose/workshop-drafts/blob/master/neural-style-transfer/images/output/adaptive-style-transfer/goldenGateBridge-monet1000px.jpeg)
+![the Golden Gate Bridge in the style of Monet](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/output/adaptive-style-transfer/goldenGateBridge-monet1000px.jpeg)
 
-![the Golden Gate Bridge in the style of Monet with slightly fewer colors](https://github.com/cderose/workshop-drafts/blob/master/neural-style-transfer/images/output/adaptive-style-transfer/goldenGateBridge-monet400px.jpeg)
+![the Golden Gate Bridge in the style of Monet with slightly fewer colors](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/output/adaptive-style-transfer/goldenGateBridge-monet400px.jpeg)
 
 ## Generating Images with RunwayML
 
