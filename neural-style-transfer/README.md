@@ -6,7 +6,7 @@ This workshop is designed for participants who are new to neural style transfer.
 
 ## Art & AI
 
-### Key Terminology:
+### Key Terminology
 - **artificial intelligence** - used to describe computer programs that mimic human decision-making to perform tasks, where the computer develops or is given a set of rules to follow that it then draws on to help it evaluate scenarios
 - **machine learning** - a subset of AI where the computer "learns" and adapts based on new information
 - **deep learning** - a subset of machine learning that uses multi-layered, artificial neural network algorithms that enable the computer to recognize patterns and classify data
@@ -25,7 +25,9 @@ AI receives a lot of attention for its use in industry (self-driving cars) and s
 
 #### Neural Style Transfer
 
-One of the advantages of neural style transfer is that it does not require a large collection of images. At a minimum, it only requires two. 
+Neural style transfer, which uses [convolutional neural networks](https://en.wikipedia.org/wiki/Convolutional_neural_network), takes the "style" of one digital image and applies it to the "content" of another, producing a new, generated output image as a result. One of the advantages of neural style transfer is that it does not require a large collection of images as other approaches (GANs) do in order to be successful. At a minimum, neural style transfer only requires you to supply two images.
+
+Popular experiments highlighting this technique often take a very famous image with a marked style like Vincent Van Gogh's *Starry Night* to demonstrate what the algorithm is doing. In these cases, the final output image looks like a *Starry Night* filter has been applied to whatever the original content image was. But in practice, we can be more subtle or abstract. Depending on the software we're using, we will have access to parameters we can shift that tell the computer to keep or ignore the style image's color or to blur the content image before applying style to it, impacting the resulting output image. 
 
 ![three images that show Golden Gate Bridge, Starry Night, and a composite that shows the Golden Gate Bridge in the style of Starry Night](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/examples/starry-night-example.jpg)
 
@@ -33,13 +35,15 @@ One of the advantages of neural style transfer is that it does not require a lar
 
 Questions we might ask with neural style transfer include but are by no means limited to:
 
-* What can the approach tell us about what "content" and "style" mean to humans? To computers? 
-* What images work better as content or style images, and what does it mean that some work better than others?
-* Can we use neural style transfer to create new forms? What about new art that combines the styles of multiple artists?
+* What can the approach tell us about what counts as "content" and "style" to humans? To computers? 
+* What images work better as content or style images, and what does it mean that some work better than others? (We'd also have to define what we mean by "work better" — what is a successful neural style transfer outcome?)
+* Can we use neural style transfer to create new forms? What about new art that combines the style of multiple artists or time periods?
 
 ## Set up your Workspace 
 
-For this workshop, we'll experiment with several style transfer models using sample images. But first, we need to set up our workspace.
+For this workshop, we'll experiment with two style transfer models using sample images that you can retrieve from: bit.ly/yale-dh-neural-style
+
+But first, let's discuss how we'll set up our workspace.
 
 ### Folder & Filename Conventions
 
@@ -56,15 +60,15 @@ In order to keep track of our experiments (what images we used, what parameters 
 * "adaptive-style-transfer"
 * "adaIn-style-transfer"
 
-Before we start running our experiments, we should also think about how we'll name our files. The convention I follow is:  
+Before we start running our experiments, we should also think about how we'll name our files. The convention I've adapted is:  
 ```
-contentImageName-styleImageName-parameters.jpg
+contentImageName-styleImageName-parameter1_parameter2.jpg
 ```
-You may adopt this convention or devise one that feels more intuitive for you. Whatever you do, just do it consistently.
+You may adopt this convention or devise one that feels more intuitive to you. Whatever you do, just do it consistently.
 
 This folder & file structure will help us remember what we were working on, even if we return to the project months or years later.
 
-*For extra insurance, we should also create a documentation.txt or readme.txt file that keeps track of each experiment*
+*For extra insurance, we should also create a documentation.txt or readme.txt file that keeps track of each experiment we want to remember.*
 
 ### Images
 
@@ -145,6 +149,11 @@ Now that we've sampled a couple models for style transfer, return to the one tha
 * Try running [Justin Johnson's implementation](https://github.com/jcjohnson/neural-style) of style transfer. This will require some experience with programming and setting up computer environments. It also has hardware constraints in that it performs better with a graphical processing unit (GPU). But, what it gives you is the ability to import multiple style images at the same time, in addition to more fine-tuned parameters that you can adjust. 
 * Further Reading
   * [Runway's documentation](https://learn.runwayml.com/#/)
+  * ["Art & AI: The Logic Behind Deep Learning ‘Style Transfer’"](https://medium.com/codait/art-ai-the-logic-behind-deep-learning-style-transfer-1f59f51441d1)
   * ["Neural Style Transfer: Creating Art with Deep Learning using tf.keras and eager execution"](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398)
-  * [Neural Artistic Style Transfer: A Comprehensive Look](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199)
-  * Experiment with combining video and still images together [example video](https://genekogan.com/works/style-transfer/)
+  * ["Neural Artistic Style Transfer: A Comprehensive Look"](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199)
+* Online Tutorials
+  * [Free class on convolutional neural networks](https://www.coursera.org/learn/convolutional-neural-networks)
+  * [YouTube video on convolutional neural networks](https://www.youtube.com/watch?v=FTr3n7uBIuE)
+* Experiment with combining video and still images together [example video](https://genekogan.com/works/style-transfer/)
+  
