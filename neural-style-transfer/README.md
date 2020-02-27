@@ -63,7 +63,7 @@ In order to keep track of our experiments (what images we used, what parameters 
 * "adaptive-style-transfer"
 * "adaIn-style-transfer"
 
-Before we start running our experiments, we should also think about how we'll name our files. The convention I've adapted is:  
+Before we start running our experiments, we should also think about how we'll name our files. The convention I follow is:  
 ```
 contentImageName-styleImageName-parameter1_parameter2.jpg
 ```
