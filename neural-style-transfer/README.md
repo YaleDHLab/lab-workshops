@@ -11,6 +11,7 @@ This workshop is designed for participants who are new to neural style transfer.
 - **machine learning** - a subset of AI where the computer "learns" and adapts based on new information
 - **deep learning** - a subset of machine learning that uses multi-layered, artificial neural network algorithms that enable the computer to recognize patterns and classify data
 
+![three nested circles, with artificial intelligence as the largest circle, inside of which there is machine learning, and inside of that there is deep learning and neural networks](https://github.com/YaleDHLab/lab-workshops/blob/master/neural-style-transfer/images/examples/ai-circles.jpg)
 AI receives a lot of attention for its use in industry (self-driving cars) and surveillance (face detection), but it's also providing new ways for interacting with and thinking about texts and images.
 
 ### Popular Approaches
