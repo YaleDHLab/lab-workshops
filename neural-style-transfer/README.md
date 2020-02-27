@@ -8,8 +8,8 @@ This workshop is designed for participants who are new to neural style transfer.
 
 ### Key Terminology:
 - **artificial intelligence** - used to describe computer programs that mimic human decision-making to perform tasks, where the computer develops or is given a set of rules to follow that it then draws on to help it evaluate scenarios
-- **machine learning** - a subset of AI where the computer "learns" and adapts based on new information without human intervention after the initial training
-- **deep learning** - a subset of machine learning that uses multi-layered neural network algorithms that enable the computer to recognize patterns and classify data on its own
+- **machine learning** - a subset of AI where the computer "learns" and adapts based on new information
+- **deep learning** - a subset of machine learning that uses multi-layered, artificial neural network algorithms that enable the computer to recognize patterns and classify data
 
 AI receives a lot of attention for its use in industry (self-driving cars) and surveillance (face detection), but it's also providing new ways for interacting with and thinking about texts and images.
 
@@ -17,11 +17,11 @@ AI receives a lot of attention for its use in industry (self-driving cars) and s
 
 #### Generative Adversarial Networks
 
-["Is Artificial Intelligence Set to Become Art's Next Medium?"](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) In October 2018, Christie's became the first auction house to sell art that was created by a generative adversarial network (GAN). GANs have two parts to them: a generator, which tries to create images that resemble its training set, and a discriminator, which tries to identify the fake, generated images from the real ones.
+["Is Artificial Intelligence Set to Become Art's Next Medium?"](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) In October 2018, Christie's became the first auction house to sell art that was created with a generative adversarial network (GAN). GANs have two parts to them: a generator, which tries to create images that resemble its training set, and a discriminator, which tries to identify the fake, generated images from the real ones. 
 
 #### Combinations of Machine Learning Algorithms
 
-["The Next Rembrandt: Can the Great Master Be Brought Back to Create One More Painting?"](https://www.nextrembrandt.com/) The project studied recurring features across 346 Rembrandt paintings so that their generated image would most closely resemble his subject matter and style. They used a range of techniques, from scanning the surface of his paintings to study their texture to programming a facial detection algorithm to identify geometric patterns.
+["The Next Rembrandt: Can the Great Master Be Brought Back to Create One More Painting?"](https://www.nextrembrandt.com/) In an effort to generate an image that would most closely resemble Rembrandt's subject matter and style, the Next Rembrandt project studied recurring features across 346 of his paintings. They used a range of techniques, from scanning the surface of his paintings to study their texture to programming a face detection algorithm to identify their common geometric patterns.
 
 #### Neural Style Transfer
 
