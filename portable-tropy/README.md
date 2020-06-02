@@ -11,7 +11,7 @@ In Tropy, you can:
 - add notes to individual images — the notes field is often a handy place to include transcriptions,
 - search and filter images based on the metadata, tags, and/or notes you've added.
 
-![Screenshot of sample setup in Tropy](https://github.com/YaleDHLab/workshop-prep/blob/master/portableTropy/images/tropy-example.png)
+![Screenshot of sample setup in Tropy](https://github.com/YaleDHLab/lab-workshops/blob/master/portable-tropy/images/tropy-example.png)
 
 ### What should I keep in mind when starting a new project?
 As Tropy's<a href='https://docs.tropy.org/using-tropy/create_project' target='_blank'>'Create a New Project'</a> page recommends, it is best to conceive of a project at a overarching level—for example, create a project for the whole book rather than for a specific chapter. You can then use lists, tags, and notes to demarcate and work on specific sections of the larger project. The reason for this recommendation is that Tropy does not support moving photographs from one project to another project.
