@@ -32,7 +32,7 @@ Tropy currently works with the following file formats:
 1. Open Tropy and create a new project in the same overarching folder that contains your images. 
 2. From the top toolbar, click on "Tropy" and go to "Preferences."
 3. Scroll to the bottom and select "Enable Developer Mode."
-4. From the top toolbar, click on the new "Developer" option that appears and select "Rebase Project" (only click on it once!).
+4. From the top toolbar, click on the new "Developer" option that appears and select "Rebase Project" (only click on it once!). There will be no visible change after you click to rebase the project, but it should now be shareable. 
 5. Add a few images. Close the Tropy file. Let a collaborator open it from their computer and confirm that it works. If it doesn't, or for more information on what is happening behind the scenes, visit the <a href='https://forums.tropy.org/search?q=rebase' target='_blank'>Tropy support forum, searching for the word "rebase"</a>.
 
 *This process has been tested with collaborators working from Yale Box Drive. It only works consistently if all participants access Tropy from the Box Drive folder on their local computers (i.e. not through the browser) and close Tropy when they're not using the software (this prevents conflicting copies of the file in Box).*
