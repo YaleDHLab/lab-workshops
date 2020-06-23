@@ -15,7 +15,7 @@ As a sample research scenario, let's imagine that someone just handed us this da
 2. Under "Connect," click on "Text file" and select the internet users comma separated value (CSV) file. This will load a preview of your dataset. 
 3. Review Tableau's guesses as to what data types it observes. The representations are as follows:  
 - Globe = geospatial data, 
-- # = numeric data, 
+- Hashtag = numeric data, 
 - Abc = string (text) data,
 - T|F = Boolean (true or false) data
 - Calendar = date data.  
