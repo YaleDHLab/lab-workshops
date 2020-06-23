@@ -86,7 +86,7 @@ Familiarize yourself with the interface. Tableau version 2020.2 underwent major 
 - For URL, add: https://en.wikipedia.org/wiki/ and then click on the triangle button and select "Country."
 - Click "Test Link" to see if it's working.
 - Click "Ok" and "Ok" again to add the action.
-- Hover on any data point in the dashboard, and the Wikipedia page will automatically update to reflect the country that's been selected.
+- Hover on any data point in the dashboard, and the Wikipedia page will automatically update to reflect the country that's been selected. ![Dashboard View](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/image/dashboard.png)
  
 ### Save Your Workbook
 To save your workbook, you have to create a free Tableau account. When you click save, you will be prompted to log in and save your workbook to Tableau's server, where it will be visible on Tableau Public. Users can interact with your workbook on Tableau Public, or they could download, add to, or otherwise edit it.
