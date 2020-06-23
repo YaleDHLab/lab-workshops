@@ -17,7 +17,7 @@ As a sample research scenario, let's imagine that someone just handed us this da
 - Globe = geospatial data, 
 - Hashtag = numeric data, 
 - Abc = string (text) data,
-- T|F = Boolean (true or false) data
+- T|F = Boolean (true or false) data,
 - Calendar = temporal data.  
 For our dataset, we need to change the "Year" column from a numeric value to a date. To do so, click on the hashtag symbol above "Year" and select "Date." You should notice that all of our years now also have a month and day attached to them; by default, Tableau treats dates as day-month-year.
 4. To begin working with our data, click on the orange "Sheet 1" rectangle toward the bottom left-hand corner of the application. This will create our first Tableau sheet, a blank space for generating visualizations.
@@ -40,17 +40,17 @@ Double-clicking or dragging any dimension or measure over to the "Columns" and "
 ### Bar Chart: Number of Internet Users
 1. Drag "Country" to "Rows."
 2. Drag "Internet users" to "Columns."
-3. Sort data from most to least by clicking the icon with the three stacked rectangles and downward arrow. 
-4. Challenge: if our dataset is internet users per 100 people, then why does Iceland show 708.8 users? Tableau is summing all values that correspond with an "Iceland" row. To see internet users per 100 people, we need to add a year filter.
-5. Create year filter by dragging "Year" to the "Filters" card. 
+3. Sort data from most to least by clicking the icon with the three stacked rectangles and downward arrow (it's located in our toolbar at the top of the sheet). 
+4. Challenge: if our dataset is internet users per 100 people, then why does Iceland show 708.8 users? Answer: Tableau is summing all values that correspond with an "Iceland" row, regardless of whether they record is for a different date. To see internet users per 100 people, we need to add a year filter.
+5. Create the year filter by dragging "Year" to the "Filters" card. 
 - Select "Years" in the resulting pop-up box.
 - Click the "All" box.
-- Click "Ok."
-- To set the filter, click on the dropdown by "YEAR(Year)," and select "Show Filter." This will show the filtering options in the right-hand column (you may have to click of "Show Me" to see it).
-- In the right-hand column, click the dropdown by "YEAR(Year)," and select "Single Value (list)" to filter by year.
-6. We can now start asking questions of the data. For example, what 5 countries had the most early adopters of the internet? What 5 countries have the most internet users per 100 people?
-7. Filter to countries of interest by dragging "Country" to the "Filters" card. This time, select countries of interest. If we'd like to compare greatest number of users in 1990 to 2015, we might select: the United States, Norway, Switzerland, Australia, Sweden, Iceland, Luxembourg, Andorra, Liechtenstein.
-8. Convert our time filter to an automated time slider by dragging "YEAR(Year)" from the "Filters" card to "Pages." In the right-hand column, you can click the right triangle button to activate the time slider and see how the number of users changes over time.
+- Click "Ok." It will look like nothing happened.
+- To set the filter, click on the dropdown by "YEAR(Year)," and select "Show Filter." This will show the filter settings in the right-hand column (you may have to click off "Show Me" to see it).
+- In the right-hand column, click the dropdown by "YEAR(Year)," and select "Single Value (list)" to filter one year at a time.
+6. We can now start asking questions of the data. For example, which 5 countries had the most internet users per 100 people in 1990? Which 5 countries had the most in 2015? What might account for the difference?
+7. To focus in on those questions, let's add a country filter by dragging "Country" to the "Filters" card. This time, select the countries of interest. If we'd like to compare greatest number of users in 1990 to 2015, we should select: the United States, Norway, Switzerland, Australia, Sweden, Iceland, Luxembourg, Andorra, and Liechtenstein.
+8. To automate the temporal dimension, we can convert our time filter to a time slider by dragging "YEAR(Year)" from the "Filters" card to "Pages." In the right-hand column, you can click the right triangle button to activate the time slider and see how the number of users changes over time without any additional clicking on your (or your users') part.
 9. Give a title to the chart by double clicking on the current "Sheet 1" title and inserting "Internet Users per 100 People by Country and Year." Leave "<Page Name>" there since it will automatically show what year we're viewing. Click "Apply" to see what the title will look like. Then click "Ok."
 10. Change the "Sheet 1" name in the lower left-hand corner by double clicking on it and renaming it "bar chart."
  
