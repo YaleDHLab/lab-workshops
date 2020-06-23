@@ -6,33 +6,36 @@
 While Tableau runs locally, it saves publicly. For data with privacy restrictions, you should use Tableau Desktop, which runs on and saves to your local machine. [Students](https://www.tableau.com/academic/students?utm_campaign_id=2019176&utm_campaign=Prospecting-PROD-ALL-ALL-ALL-ALL&utm_medium=Paid+Search&utm_source=Google+Search&utm_language=EN&utm_country=USCA&kw=tableau%20for%20students&adgroup=CTX-Brand-Student-E&adused=RSA&matchtype=e&placement=&gclid=EAIaIQobChMI4uyd9faW6gIVkYbACh2MZgwNEAAYASAAEgIG6PD_BwE&gclsrc=aw.ds) and [educators](https://www.tableau.com/academic/teaching?utm_campaign_id=2019176&utm_campaign=Prospecting-CORE-ALL-ALL-ALL-ALL&utm_medium=Paid+Search&utm_source=Google+Search&utm_language=EN&utm_country=USCA&kw=%2Btableau%20for%20%2Bteachers&adgroup=CTX-Brand-Teaching-B&adused=ETA&matchtype=b&placement=&gclid=EAIaIQobChMIp5Spi_eW6gIVycDACh2PAQkjEAAYASAAEgLwKvD_BwE&gclsrc=aw.ds) can sign up for free yearly licenses to Tableau Desktop.
 
 ## Example Project: Internet Users By Country Over Time
-To practice working in Tableau Public, download this [dataset of internet users per 100 people](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/data/internet-users-knoema-world-data-atlas.csv) by going to the dataset, clicking "Raw," and then at the top of your browser, select "File" and "Save Page As..." Make sure that the file format saves as a comma separated value (CSV) file. This dataset was published by Tableau Public in 2018, but was originally published at [Knoema](https://knoema.com/WBINU2018/internet-users-per-100-people). The spreadsheet includes three variables or columns: "Country," "Internet users per 100 people," "Year" and 1764 records or rows.
+To practice working in Tableau Public, download this [dataset of internet users per 100 people](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/data/internet-users-knoema-world-data-atlas.csv) by going to the dataset, clicking "Raw," and then at the top of your browser, select "File" and "Save Page As..." Make sure that the file format saves as a comma separated value (CSV) file. This dataset was published by Tableau Public in 2018, but was originally published on [Knoema](https://knoema.com/WBINU2018/internet-users-per-100-people). The spreadsheet includes three variables or columns ("Country," "Internet users per 100 people," "Year") and 1,764 records or rows.
 
 As a sample research scenario, let's imagine that someone just handed us this data. To get a better feel for its quality and what questions we might ask of it, we can create a few exploratory data visualizations in Tableau Public.
 
 ### Set Up
 1. [Download, install, and then open Tableau Public](https://public.tableau.com/en-us/s/).
 2. Under "Connect," click on "Text file" and select the internet users CSV file. This will load a preview of your dataset. 
-3. Review Tableau's guesses as to what data types it observes. The representations are as follows:  
+3. Review Tableau's guesses as to what data types it's observing. The representations are as follows:  
 - Globe = geospatial data, 
 - Hashtag = numeric data, 
 - Abc = string (text) data,
 - T|F = Boolean (true or false) data
-- Calendar = date data.  
-For our dataset, we need to change the "Year" column from a numeric value to a date. To do so, click on the # symbol above "Year" and select "Date." You should notice that all of our years now also have a month and day attached to them, since Tableau by default treats dates as day-month-year.
-4. To begin working with our data, click on the orange "Sheet 1" rectangle toward the bottom left-hand corner of the application. This will take us to a Tableau sheet, a blank space for creating visualizations.
+- Calendar = temporal data.  
+For our dataset, we need to change the "Year" column from a numeric value to a date. To do so, click on the hashtag symbol above "Year" and select "Date." You should notice that all of our years now also have a month and day attached to them; by default, Tableau treats dates as day-month-year.
+4. To begin working with our data, click on the orange "Sheet 1" rectangle toward the bottom left-hand corner of the application. This will create our first Tableau sheet, a blank space for generating visualizations.
 
 ### Interface Changes
-Familiarize yourself with the interface. Tableau version 2020.2 underwent major interface changes. You can read about the differences on [Tableau's website](https://help.tableau.com/current/pro/desktop/en-us/datasource_datamodel_whatschanged.htm). Below, I will describe the most notable differences, depending on what version of Tableau you're using.
+Tableau version 2020.2 underwent major interface and functionality changes. You can read about all of the differences on [Tableau's website](https://help.tableau.com/current/pro/desktop/en-us/datasource_datamodel_whatschanged.htm). Below, I will describe the most notable differences you'll see from the main interface.
 
-#### Older Tableau Versions
-- On the left-hand column, there is the Data pane, which sorts our data into "Dimensions" (categorical data) and "Measures" (numeric data). Under "Measures," you will see that Tableau has also automatically generated two additional measures: "Number of Records" (number of rows in the dataset) and "Measure Values" (sum of all values). Double-clicking or dragging any dimension or measure over to the "Columns" and "Rows" sections near the middle-top of the sheet will give you the opportunity to examine the data more closely. You can use the back arrow at the top left to undo actions.
-- "Pages," "Filters," and "Marks" are where you will drag dimensions and measures in order to filter the data.
-- The "Show Me" button on the top right can be clicked on and off. When clicked on, it shows you different visualizations you can toggle between, along with what kind of data you need in order to generate them. 
+#### Pre-2020.2 Tableau Versions
+- On the left-hand column, there is the "Data" pane that sorts our data into "Dimensions" (categorical data) and "Measures" (numeric data). Under "Measures," you will see that Tableau has also automatically generated two additional measures: "Number of Records" (number of rows in the dataset) and "Measure Values" (sum of all values). 
 
-#### Tableau version 2020.2
+#### Tableau Version 2020.2
 - On the left-hand column, Tableau now groups data as "Tables." While Tableau no longer explicitly calls out "Dimensions" and "Measures," there is a horizontal line that separates categorical and numeric data.
 - Tableau still generates two fields: "Measure Values" (sum of all values) and the previously named "Number of Records," which now takes the name of your file.
+
+#### Interface Interactions 
+Double-clicking or dragging any dimension or measure over to the "Columns" and "Rows" sections near the middle-top of the sheet will give you the opportunity to examine the data more closely. You can use the back arrow at the top left to undo actions.  
+- "Pages," "Filters," and "Marks" are where you will drag dimensions and measures in order to filter the data.
+- The "Show Me" button on the top right can be clicked on and off. When clicked on, it shows you different visualizations you can toggle between, along with what kind of data you need in order to generate them. Toggle "Show Me" off for now, since it takes up screen real estate and will hide our filter settings (once we create a filter).
 
 ### Bar Chart: Number of Internet Users
 1. Drag "Country" to "Rows."
