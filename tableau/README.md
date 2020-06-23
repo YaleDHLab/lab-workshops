@@ -30,7 +30,7 @@ Familiarize yourself with the interface. Tableau version 2020.2 underwent major 
 - "Pages," "Filters," and "Marks" are where you will drag dimensions and measures in order to filter the data.
 - The "Show Me" button on the top right can be clicked on and off. When clicked on, it shows you different visualizations you can toggle between, along with what kind of data you need in order to generate them. 
 
-### Tableau version 2020.2
+#### Tableau version 2020.2
 - On the left-hand column, Tableau now groups data as "Tables." While Tableau no longer explicitly calls out "Dimensions" and "Measures," there is a horizontal line that separates categorical and numeric data.
 - Tableau still generates two fields: "Measure Values" (sum of all values) and the previously named "Number of Records," which now takes the name of your file.
 
@@ -83,7 +83,7 @@ Familiarize yourself with the interface. Tableau version 2020.2 underwent major 
 - On the dropdown box for the web page object, click "Add URL Action."
 - In the name field, type: "Go to Wikipedia page for" and cilck the triangle button at the end of the line and select "Country."
 - For "Run action on," choose "Hover."
-- For URL, add: https://en.wikipedia.org/wiki/ and then click on the triangle button and select "Country."
+- For URL, add: "https://en.wikipedia.org/wiki/" and then click on the triangle button and select "Country."
 - Click "Test Link" to see if it's working.
 - Click "Ok" and "Ok" again to add the action.
 - Hover on any data point in the dashboard, and the Wikipedia page will automatically update to reflect the country that's been selected. ![Dashboard View](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/image/dashboard.png)
