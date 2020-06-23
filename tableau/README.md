@@ -6,13 +6,13 @@ Tableau Public is free visualization software for creating interactive data visu
 For data with privacy restrictions, you should use Tableau Desktop, which runs on and saves to your local machine. [Students](https://www.tableau.com/academic/students?utm_campaign_id=2019176&utm_campaign=Prospecting-PROD-ALL-ALL-ALL-ALL&utm_medium=Paid+Search&utm_source=Google+Search&utm_language=EN&utm_country=USCA&kw=tableau%20for%20students&adgroup=CTX-Brand-Student-E&adused=RSA&matchtype=e&placement=&gclid=EAIaIQobChMI4uyd9faW6gIVkYbACh2MZgwNEAAYASAAEgIG6PD_BwE&gclsrc=aw.ds) and [educators](https://www.tableau.com/academic/teaching?utm_campaign_id=2019176&utm_campaign=Prospecting-CORE-ALL-ALL-ALL-ALL&utm_medium=Paid+Search&utm_source=Google+Search&utm_language=EN&utm_country=USCA&kw=%2Btableau%20for%20%2Bteachers&adgroup=CTX-Brand-Teaching-B&adused=ETA&matchtype=b&placement=&gclid=EAIaIQobChMIp5Spi_eW6gIVycDACh2PAQkjEAAYASAAEgLwKvD_BwE&gclsrc=aw.ds) can sign up for free yearly licenses to Tableau Desktop.
 
 ## Example Project: Internet Adoption Over Time
-To practice working in Tableau Public, download this [dataset of internet users per 100 people](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/data/internet-users-knoema-world-data-atlas.csv), which was published by [Knoema](https://knoema.com/WBINU2018/internet-users-per-100-people). The spreadsheet includes three variables or columns: "Country," "Internet users per 100 people," "Year" and 1764 records or rows.
+To practice working in Tableau Public, download this [dataset of internet users per 100 people](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/data/internet-users-knoema-world-data-atlas.csv) by going to the dataset, clicking "Raw," and then at the top of your browser, select "File" and "Save Page As..." Make sure that the file format saves as a comma separated value (CSV) file. This dataset was published by Tableau Public in 2018, but was originally published at [Knoema](https://knoema.com/WBINU2018/internet-users-per-100-people). The spreadsheet includes three variables or columns: "Country," "Internet users per 100 people," "Year" and 1764 records or rows.
 
 As a sample research scenario, let's imagine that someone just handed us this data. To get a better feel for its quality and what questions we might ask of it, we can create a few exploratory data visualizations in Tableau Public.
 
 ### Set Up
 1. [Download, install, and then open Tableau Public](https://public.tableau.com/en-us/s/).
-2. Under "Connect," click on "Text file" and select the internet users comma separated value (CSV) file. This will load a preview of your dataset. 
+2. Under "Connect," click on "Text file" and select the internet users CSV file. This will load a preview of your dataset. 
 3. Review Tableau's guesses as to what data types it observes. The representations are as follows:  
 - Globe = geospatial data, 
 - Hashtag = numeric data, 
