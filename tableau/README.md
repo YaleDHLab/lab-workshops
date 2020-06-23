@@ -58,43 +58,43 @@ Double-clicking or dragging any dimension or measure over to the "Columns" and "
 1. Start a new sheet by clicking the icon next to our current sheet.
 2. Double click on "Year" (this should add it to the "Columns" section)
 3. Double click on "Internet users" (this should add it to the "Rows" section)
-4. Drag "Country" to the "Color" mark - note the warning that there would be too many colors to be legible if we don't filter first. To see what happens, click "Add all members." While the resulting line graph shows an overall increase in the number of users, it's hard to track individual changes. Click the back arrow in the top-left corner to undo.
-5. Drag "Country" to the "Color" mark again, but this time, click "Filter and then add." Choose countries of interest (you might choose the same countries from the bar chart).
-6. Change colors by clicking on the dropdown next to "Country" in the right-hand column. Select a palette from the dropdown, or double click on the color by an individual country's name to change it. When you have colors you like, click "Assign Palette" to see what they look like on the graph. Then click "Ok." 
-7. Give the graph the title: "Internet Users over Time by Country"
-8. Rename the sheet to "line graph"
+4. Drag "Country" to the "Color" mark - note the warning cautioning against the use of color for more than 20 records. To see what happens, click "Add all members." While the resulting line graph shows an overall increase in the number of users, it's difficult to track individual changes and differentiate colors. Click the back arrow in the top-left corner to undo.
+5. Drag "Country" to the "Color" mark again, but this time, click "Filter and then add." Choose countries of interest (you might choose the same countries from the bar chart or new ones you want to highlight).
+6. Change line colors by clicking on the dropdown next to "Country" in the right-hand column. Select a palette from the dropdown, or double click on the color next to an individual country's name to change it. When you have colors you like, click "Assign Palette" to see what they look like on the graph. Then click "Ok." 
+7. Give the graph the title: "Internet Users over Time by Country."
+8. Rename the sheet to "line graph."
 
 ### Map: Internet Users by Country
 1. Start a new sheet.
 2. Drag "Country" to "Columns."
 3. Drag "Internet Users" to "Rows."
 4. Click to turn on "Show Me" and select the second map, which will generate a choropleth map.
-5. Notice that not all countries are being recognized by Tableau. Click on "3 unknown" in the lower right-hand corner of the map to give Tableau a mapping between countries' names in our dataset, and countries' names Tableau knows. 
-- Dem. People's Rep. Korea to North Korea
-- Dem. Rep. Congo to Democratic Republic of Congo
+5. Notice that not all countries are filled in on the map. Click on "3 unknown" in the lower right-hand corner of the map to give Tableau a mapping between country names as they appear in our dataset, and country names that Tableau knows. 
+- Dem. People's Rep. Korea to North Korea,
+- Dem. Rep. Congo to Democratic Republic of Congo,
 - Korea to South Korea.
 6. Drag "Year" to "Pages" to see change over time.
 7. Give the map the title: "Map of Internet Users per 100 People over Time."
 8. Rename the sheet to "map."
 
 ### Data Dashboard: Combine Visualizations Together
-1. Start a data dashboard by clickong in the icon next to the sheet icon.
-2. Adjust the size of the dashboard by clicking on the dropdown under "Size" in the left-hand column. To have the dashboard take up the size of the screen you're using, click the size dropdown and then click the dropdown by "Range" and select "Automatic."
-3. Double click on sheets to add them to the dashboard. Practice re-arranging them on the dashboard.
-4. Add a component to the dashboard that links out to the Wikipedia page for whichever country a user selects.
+1. Start a data dashboard by clicking on the icon next to the sheet icon.
+2. Adjust the size of the dashboard by clicking on the dropdown under "Size" in the left-hand column. This enables you to re-size for the device(s) your designing for. To have the dashboard take up the size of the screen you're using, click the size dropdown and then click the dropdown by "Range" and select "Automatic."
+3. Double click on the sheet names in the left-hand column to add them to the dashboard. Practice re-arranging them on the dashboard.
+4. To make the dashboard even more dynamic and informative, let's add a component that links out to the Wikipedia page for whichever country a user selects.
 - Drag a "Web Page" object onto the dashboard and click "Ok" without adding a URL. 
 - On the dropdown box for the web page object, click "Add URL Action."
-- In the name field, type: "Go to Wikipedia page for" and cilck the triangle button at the end of the line and select "Country."
+- In the name field, type: "Go to Wikipedia page for" and then click the triangle button at the end of the line and select "Country."
 - For "Run action on," choose "Hover."
 - For URL, add: "https://en.wikipedia.org/wiki/" and then click on the triangle button and select "Country."
 - Click "Test Link" to see if it's working.
 - Click "Ok" and "Ok" again to add the action.
-- Hover on any data point in the dashboard, and the Wikipedia page will automatically update to reflect the country that's been selected. ![Dashboard View](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/image/dashboard.png)
+- Hover on any data point in the dashboard, and the Wikipedia page should automatically update to reflect the country that's selected. ![Dashboard View](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/image/dashboard.png)
  
-### Save Your Workbook
-To save your workbook, you have to create a free Tableau account. When you click save, you will be prompted to log in and save your workbook to Tableau's server, where it will be visible on Tableau Public. Users can interact with your workbook on Tableau Public, or they could download, add to, or otherwise edit it.
+### Save Your Work
+To save your Tableau workbook, you have to create a free Tableau account. When you click save, you will be prompted to log in and save your workbook to Tableau's server, where it will be visible on Tableau Public. Users can interact with your workbook on Tableau Public, or they could download, add to, or otherwise edit it.
 
 ## Next Steps, Cautions, & Additional Tips
-* Watch Tableau's free, online [training videos](https://www.tableau.com/learn/training/20201) to learn more about joining multiple datasets, creating dashboards, and running calculations.
-* Tableau frequently has updates availability, but they're not always backwards compatible. For that reason, you might not update to the newest version while you're in the middle of a project.
-* For additional practice and open datasets, check out [#MakeoverMonday](https://www.makeovermonday.co.uk/). Every week, Tableau shares a dataset and start visualization, and you're challenged to remake it. You can see how others take up the challenge on [Twitter](https://twitter.com/hashtag/makeovermonday?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag). See a makeover visualization you like? Download their workbook to see how they made it!
+* To learn about joining multiple datasets, creating data stories, running calculations, and managing a Tableau server, watch Tableau's free [online training videos](https://www.tableau.com/learn/training/20201).
+* Word of caution: Tableau frequently has updates available, but they're not always backwards compatible. For that reason, you might not want to update to the newest version while you're in the middle of a project.
+* For additional practice and open datasets, check out [#MakeoverMonday](https://www.makeovermonday.co.uk/). Every week, Tableau shares a dataset and starter visualization, and challenges participants to remake it. You can find the results and share your own remakes on [Twitter](https://twitter.com/hashtag/makeovermonday?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag). Better yet, if you see a makeover visualization you like, try downloading the workbook from Tableau Public to see how it was made!
