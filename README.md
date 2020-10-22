@@ -34,3 +34,4 @@ Creation Date | Topic |
 06-22-2020 | [Data Visualization with Tableau Public](https://github.com/YaleDHLab/lab-workshops/blob/master/tableau/README.md)
 10-01-2020 | [First Steps with Python](https://github.com/YaleDHLab/lab-workshops/tree/master/first-steps-with-python)
 10-15-2020 | [Getting Started with Application Programming Interfaces (APIs)](https://colab.research.google.com/drive/1R7hckc1-Rm34zFlUBg0-pKWF3zOawYS0?usp=sharing)
+10-22-2020 | [Intro to HTML Parsing with Python](https://colab.research.google.com/drive/1r3SJQbE0NFcyl6GkVK3IvajXoAt_3lsF?usp=sharing)
