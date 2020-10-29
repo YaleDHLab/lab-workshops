@@ -21,9 +21,9 @@ Depending on what field you're coming from, nodes might also be referred to as *
 
 ### Edges
 #### Directed & Undirected
-Networks can have a directionality associated with them, which would be visually indicated by the edge. 
+Networks can have a directionality associated with them, which would be visually indicated by the edge.
 
-In the case of a **directed network**, edges are typically represented as arrows. Popular examples of directed networks include epistolary networks (where there are writers and recipients) and Twitter networks (where you follow someone and they might or might not follow you back). The direction matters.   
+In the case of a **directed network**, edges are typically represented as arrows. Popular examples of directed networks include epistolary networks (where there are writers and recipients) and Twitter networks (where you follow someone and they might or might not follow you back). The direction matters.
 
 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/directed-network.png"></p>
@@ -49,20 +49,20 @@ Nodes, frequently represented as circles, can be anything—not just people. Nod
 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/bipartite-network.png"></p>
 
-It's important to know which kind of network you have, because that will affect what kind of statistics you can run on it. To convert a bipartite graph into a unipartite graph, you can **project** the network. For example, in a network where authors are connected to publishers, you can project the network by turning publishers into edges, leading to a graph where authors are connected to other authors if they have a publisher in common. 
+It's important to know which kind of network you have, because that will affect what kind of statistics you can run on it. To convert a bipartite graph into a unipartite graph, you can **project** the network. For example, in a network where authors are connected to publishers, you can project the network by turning publishers into edges, leading to a graph where authors are connected to other authors if they have a publisher in common.
 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/projected-network.png"></p>
 
 ## How can we "read" a network?
-To think about how we interpret a network, let's imagine we want to create a graph that shows how students in a class are connected by shared research interests. As a proxy, we could link students to one another if they have favorite classes in common. The resulting graph might look something like: 
+To think about how we interpret a network, let's imagine we want to create a graph that shows how students in a class are connected by shared research interests. As a proxy, we could link students to one another if they have favorite classes in common. The resulting graph might look something like:
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network-edge-labels.png"></br>Network of Favorite Classes</p>
 
 Turning the edge labels off, let's look at subregions of the network and their shape. Star and kite shapes represent **cliques**, subnetworks where everyone is connected to everyone else. Cliques are very resilient networks because if you remove one entity, the others are all still connected. At the opposite end of the spectrum, lines are vulnerable to target attack, because we could prevent communication between different nodes by taking out the node in the middle of the line. Circle subnetworks are somewhere in the middle; removing one node doesn't prevent communication from reaching other nodes, but it could increase the time it takes for a message to make its way to the whole group.
 
-One type of node to look out for is a "broker." A broker is a node that connects otherwise disparate parts of the graph. 
+One type of node to look out for is a "broker." A broker is a node that connects otherwise disparate parts of the graph.
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network.png"></br>Network of Favorite Classes</p>
 
-For deeper insights, we change the color and size of nodes according to different properties or statistical measures. 
+For deeper insights, we change the color and size of nodes according to different properties or statistical measures.
 
 ### Degree
 A node's **degree** is determined by the number of connections it has. A higher degree means the node is more highly connected.
@@ -72,7 +72,7 @@ A node's **degree** is determined by the number of connections it has. A higher 
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network-degree.png"></br>Nodes Sized by Degree and Colored by Modularity Score</p>
 
 ### Betweenness Centrality
-**Betweenness Centrality** measures how often a node is on the shortest path to any other node in the network. 
+**Betweenness Centrality** measures how often a node is on the shortest path to any other node in the network.
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network-betweenness-centrality.png"></br>Nodes Sized by Betweenness Centrality and Colored by Modularity Score</p>
 
 ### Cautions
@@ -108,3 +108,8 @@ Networks take (or create) two kinds of lists:
 Below is a snippet of the node and edge list that we used to create the Marvel movies network. Each character was given a unique ID (which prevents confusion if characters share the same name), and that unique ID was used to create the edges.
 
 <p align="center"><img width="700" height="450" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/data-node-edge-lists.png"></br>Marvel Movies Node and Edge List</p>
+
+
+## Going Further with NetworkX
+
+To get started building custom networks with NetworkX in Python, feel free to explore the DHLab's [Introduction to NetworkX Notebook](https://colab.research.google.com/drive/1dfh9kZVHTKve9BS_hIn9tit9oZkeihCS?usp=sharing).
