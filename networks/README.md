@@ -77,7 +77,7 @@ A node's **degree** is determined by the number of connections it has. A higher 
 
 ### Cautions
 Be careful of reading into the overall layout of nodes on the network. Human perception innately wants to interpret close objects as being more connected than distant objects, but in networks, layout of oftentimes arbitrary. Just because I move Lauren closer to Amy, doesn't change their relationship. They're still 5 hops away from one another (you can calculate this by counting the edges between them).
-<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-layout.png"></br>Class Network with Altered Layout</p>
+<p align="center"><img width="900" height="450" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-layout.png"></br>Class Network with Altered Layout</p>
 
 In general, when interpreting a network, you want to focus on the connections you do see rather than on missing connections. Nodes that are completely separate from the graph are called **isolates**. The reason you may not want to focus too heavily on isolates is that they could be separated because of insufficient data. Or, they could be separated because of how you defined the edges.
 
