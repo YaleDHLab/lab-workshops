@@ -107,4 +107,4 @@ Networks take (or create) two kinds of lists:
 
 Below is a snippet of the node and edge list that we used to create the Marvel movies network. Each character was given a unique ID (which prevents confusion if characters share the same name), and that unique ID was used to create the edges.
 
-<p align="center"><img width="700" height="450" src="data-node-edge-lists.png"></br>Marvel Movies Node and Edge List</p>
+<p align="center"><img width="700" height="450" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/data-node-edge-lists.png"></br>Marvel Movies Node and Edge List</p>
