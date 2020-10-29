@@ -54,13 +54,13 @@ It's important to know which kind of network you have, because that will affect 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/projected-network.png"></p>
 
 ## How can we "read" a network?
-<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network.png"></p>
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network.png"></p>
 
-<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-edge-labels.png"></p>
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-edge-labels.png"></p>
 
-<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-degree.png"></p>
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-degree.png"></p>
 
-<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-betweenness-centrality.png"></p>
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-betweenness-centrality.png"></p>
 ## Why might we use networks?
 Networks are good for seeing underlying structures in your data — key players, weak spots, patterns. We can use networks to test and nuance our assumptions. For a few use cases:
 
