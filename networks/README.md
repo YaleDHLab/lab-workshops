@@ -52,3 +52,24 @@ Nodes, frequently represented as circles, can be anything—not just people. Nod
 It's important to know which kind of network you have, because that will affect what kind of statistics you can run on it. To convert a bipartite graph into a unipartite graph, you can **project** the network. For example, in a network where authors are connected to publishers, you can project the network by turning publishers into edges, leading to a graph where authors are connected to other authors if they have a publisher in common. 
 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/projected-network.png"></p>
+
+## How can we "read" a network?
+
+## Why might we use networks?
+Networks are good for seeing underlying structures in your data — key players, weak spots, patterns. We can use networks to test and nuance our assumptions. For a few use cases:
+
+- <a href='http://www.datasketch.es/october/code/nadieh/' target='_blank'>Royal Constellations</a> by Nadieh Bremer
+
+- <a href='http://republicofletters.stanford.edu/casestudies/franklin.html' target='_blank'>Visualizing Benjamin Franklin's Correspondence Network</a> in Mapping the Republic of Letters
+
+- Gendered Critique of Marvel Movies Network
+
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-whole.png"></p>
+
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-male.png"></p>
+
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-female.png"></p>
+
+
+
+
