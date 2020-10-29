@@ -54,13 +54,34 @@ It's important to know which kind of network you have, because that will affect 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/projected-network.png"></p>
 
 ## How can we "read" a network?
-<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network.png"></p>
-
+To think about how we interpret a network, let's imagine we want to create a graph that shows how students in a class are connected by shared research interests. As a proxy, we could link students to one another if they have favorite classes in common. The resulting graph might look something like: 
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-edge-labels.png"></p>
 
-<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-degree.png"></p>
+Turning the edge labels off, let's look at subregions of the network and their shape. Star and kite shapes represent **cliques**, subnetworks where everyone is connected to everyone else. Cliques are very resilient networks because if you remove one entity, the others are all still connected. At the opposite end of the spectrum, lines are vulnerable to target attack, because we could prevent communication between different nodes by taking out the node in the middle of the line. Circle subnetworks are somewhere in the middle; removing one node doesn't prevent communication from reaching other nodes, but it could increase the time it takes for a message to make its way to the whole group.
 
-<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-betweenness-centrality.png"></p>
+One type of node to look out for is a "broker." A broker is a node that connects otherwise disparate parts of the graph. 
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network.png">Network of Favorite Classes</p>
+
+For deeper insights, we change the color and size of nodes according to different properties or statistical measures. 
+
+### Degree
+A node's **degree** is determined by the number of connections it has. A higher degree means the node is more highly connected.
+
+### Modularity
+**Modularity** is a measure that tries to detect subcommunities within the larger network.
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-degree.png">Nodes Sized by Degree and Colored by Modularity Score</p>
+
+### Betweenness Centrality
+**Betweenness Centrality** measures how often a node is on the shortest path to any other node in the network. 
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-betweenness-centrality.png">Nodes Sized by Betweenness Centrality and Colored by Modularity Score</p>
+
+### Cautions
+In general, when interpreting a network, you want to focus on the connections you do see rather than on missing connections. Nodes that are completely separate from the graph are called **isolates**. The reason you may not want to focus too heavily on isolates is that they could be separated because of insufficient data. Or, they could be separated because of how you defined the edges.
+
+**The way you define edges will fundamentally determine the resulting network.** As an example, let's redefine our edges for the class network. Instead of connecting students because they have the exact favorite classes in common, let's connect them because they have the same type of favorite classes in common (in other words, it doesn't matter if it's the same literature class, just that it's a literature class). Now our network is more densely connected. There are no longer isolates, and Isabelle stands out as a broker, connecting the students who favor history in the orange group with those who favor literature in the blue group.
+
+<p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-disciplines.png">Network of Favorite Classes by Discipline</p>
+
 ## Why might we use networks?
 Networks are good for seeing underlying structures in your data — key players, weak spots, patterns. We can use networks to test and nuance our assumptions. For a few use cases:
 
