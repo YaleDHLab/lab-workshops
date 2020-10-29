@@ -42,7 +42,7 @@ Edges can also have a weight to them, which is generally represented by changing
 #### *Hamlet* Network
 Let's take a quick look at why properties like direction and weight matter. In this network of *Hamlet*, characters are connected to other characters if they exchanged dialogue. While this graph presents some insights into the plot's structure and the characters' centrality to the plot's unfolding, it also misses features that might be important, depending on what questions you're hoping to ask of the graph (as Moretti acknowledges). For instance, since there's no direction, we lose the significance of the ghost only responding to Hamlet. Without an edge weight, we can't tell that Hamlet and Claudius exchange far more lines with one another than do Horatio and Claudius. Whether these details matter depends on what you're trying to see with the network.
 
-<p align="center"><img width="600" height="500" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/hamlet-network.png"></p>
+<p align="center"><img width="600" height="500" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/hamlet-network.png">["Network Theory, Plot Analysis"](https://litlab.stanford.edu/pamphlets/)</p>
 
 ### Nodes
 Nodes, frequently represented as circles, can be anything—not just people. Nodes can be places, concepts, words, etc. Networks with nodes all of the same type (for example, all authors) are called unipartite graphs. Networks with two node types (authors and publishers) are bipartite.
@@ -54,7 +54,13 @@ It's important to know which kind of network you have, because that will affect 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/projected-network.png"></p>
 
 ## How can we "read" a network?
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network.png"></p>
 
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-edge-labels.png"></p>
+
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-degree.png"></p>
+
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/class-network-betweenness-centrality.png"></p>
 ## Why might we use networks?
 Networks are good for seeing underlying structures in your data — key players, weak spots, patterns. We can use networks to test and nuance our assumptions. For a few use cases:
 
@@ -69,7 +75,3 @@ Networks are good for seeing underlying structures in your data — key players,
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-male.png">Male Character Network</p>
 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-female.png">Female Character Network</p>
-
-
-
-
