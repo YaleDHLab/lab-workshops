@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ETS SYSTEM "http://www.lib.umich.edu/tcp/docs/code/eebo2prf.xml.dtd">
+<ETS>
+<TEMPHEAD>
+<REVDESCR>
+<CHANGE>
+<DATE>2006-02-27</DATE>
+<RESPSTMT>
+<NAME>Simon Charles</NAME>
+<RESP>MURP</RESP>
+</RESPSTMT>
+<ITEM>Corrected 1 illegibles of 1. Converted 0 illegibles to GAP DESC="illegible".</ITEM>
+</CHANGE>
+</REVDESCR>
+</TEMPHEAD>
+<EEBO>
+<IDG S="marc" R="OX" ID="K041203.000">
+<STC T="C">T042012</STC>
+<BIBNO T="docno">CW3310254864</BIBNO>
+<VID SET="ECLL">0154100200</VID>
+</IDG>
+<TEXT LANG="eng">
+<FRONT>
+<DIV1 TYPE="note">
+<PB REF="1" MS="y"/>
+<HEAD>ADVERTISEMENT.</HEAD>
+<P>COULD some gentlemen of approved ability have been prevailed
+upon to do justice to the subject of the following Ode, the present
+apology would have been unnecessary;—but as it was requisite to
+produce something of this kind upon the occasion, and the lot
+having unluckily fallen on the person perhaps the least qualified to
+succeed in the attempt, it is hoped the candour of the public will
+esteem the performance rather as an act of duty, than vanity in the
+author.</P>
+<P>As some news-paper writers have illiberally endeavoured to shake
+the poetic character of our immortal bard (too deeply indeed rooted
+in the heart to be affected by them) it is recommended to those
+who are not sufficiently established in their dramatic faith, to peruse
+a work lately published, called, <HI>An Essay on the Writings and Genius
+of</HI> SHAKESPEARE, by which they will with much satisfaction be
+convinced, that <HI>England</HI> may justly boast the honour of producing
+the greatest dramatic poet in the world.</P>
+<P>To strengthen and justify the general admiration of this astonish∣ing
+Genius, it has been thought proper to subjoin to the Ode some
+undeniable Testimonies (both in prose and verse) of his unequalled
+original talents.</P>
+<P>If it shall be found, that <HI>speaking</HI> that part of the Ode, which
+has usually been conveyed in recitative, produces a better effect,
+the Author flatters himself he may lay claim to some little merit on
+that account: As to the Ode itself, he presents it to the public as
+an object of their good-nature,—to his friends as an exercise of
+their partiality,—to his enemies, as a lucky opportunity of venting
+their wit, humour, criticism, spleen, or whatever else they please,
+should they think it worthy of their notice.</P>
+</DIV1>
+<DIV1 TYPE="errata">
+<PB REF="2"/>
+<P><HI>N. B.</HI> In page 2. line 11. by mistake, in some of the copies, the line that should be
+<Q><L>Now swell at once the choral song,</L>
+
+</Q>is,<Q><L>At once pour forth the choral song.</L></Q></P>
+</DIV1>
+</FRONT>
+<BODY>
+<DIV1 TYPE="ode">
+<PB REF="3" MS="y"/>
+<HEAD>ODE.</HEAD>
+<LG>
+<L>TO what blest genius of the isle,</L>
+<L>Shall Gratitude her tribute pay,</L>
+<L>Decree the festive day,</L>
+<L>Erect the statue, and devote the pile?</L>
+</LG>
+<LG>
+<L>Do not your sympathetic hearts accord,</L>
+<L>To own the "bosom's lord?"</L>
+<L>'Tis he! 'tis he!—that demi-god!</L>
+<L>Who Avon's flow'ry margin trod,</L>
+<L>While sportive <HI>Fancy</HI> round him flew,</L>
+<L>Where <HI>Nature</HI> led him by the hand,</L>
+<L>Instructed him in all she knew,</L>
+<L>And gave him absolute command!</L>
+<L>'Tis he! 'tis he!</L>
+<L>" The god of our idolatry!"</L>
+<L><PB N="2" REF="4" MS="y"/>
+To him the song, the Edifice we raise,</L>
+<L>He merits all our wonder, all our praise!</L>
+<L>Yet ere impatient joy break forth,</L>
+<L>In sounds that lift the soul from earth;</L>
+<L>And to our spell-bound minds impart</L>
+<L>Some faint idea of his magic art;</L>
+<L>Let awful silence still the air!</L>
+<L>From the dark cloud, the hidden light</L>
+<L>Bursts tenfold bright!</L>
+<L>Prepare! prepare! prepare!</L>
+<L>Now swell the choral song,</L>
+<L>Roll the full tide of harmony along;</L>
+<L>Let Rapture sweep the trembling strings,</L>
+<L>And Fame expanding all her wings,</L>
+<L>With all her trumpet-tongues proclaim,</L>
+<L>The lov'd, rever'd, immortal name!</L>
+<L>SHAKESPEARE! SHAKESPEARE! SHAKESPEARE!</L>
+<L>Let th'inchanting sound,</L>
+<L>From Avon's shores rebound;</L>
+<L>Thro' the Air,</L>
+<L>Let it bear,</L>
+<L>The precious freight the envious nations round!</L>
+</LG>
+<LG>
+<PB N="3" REF="5" MS="y"/>
+<HEAD>CHORUS.</HEAD>
+<L>Swell the choral song,</L>
+<L>Roll the tide of harmony along,</L>
+<L>Let Rapture sweep the strings,</L>
+<L>Fame expand her wings,</L>
+<L>With her trumpet-tongues proclaim,</L>
+<L>The lov'd, rever'd, immortal name!</L>
+<L>SHAKESPEARE! SHAKESPEARE! SHAKESPEARE!</L>
+</LG>
+<LG>
+<HEAD>AIR.</HEAD>
+<LG>
+<HEAD>I.</HEAD>
+<L>Sweetest bard that <HI>ever</HI> sung,</L>
+<L><HI>Nature's</HI> glory, <HI>Fancy's</HI> child;</L>
+<L>Never sure did witching tongue,</L>
+<L>Warble forth such wood-notes wild!</L>
+</LG>
+<LG>
+<HEAD>II.</HEAD>
+<L>Come each <HI>Muse,</HI> and sister <HI>Grace,</HI></L>
+<L><HI>Loves</HI> and <HI>Pleasures</HI> hither come;</L>
+<L>Well-you know this happy place,</L>
+<L><HI>Avon</HI>'s banks were once your home.</L>
+</LG>
+<LG>
+<PB N="4" REF="6" MS="y"/>
+<HEAD>III.</HEAD>
+<L>Bring the laurel, bring the flow'rs,</L>
+<L>Songs of triumph to him raise;</L>
+<L>He united all your pow'rs,</L>
+<L>All uniting, sing his praise!</L>
+</LG>
+</LG>
+<LG>
+<L>Tho' <HI>Philip</HI>'s fam'd unconquer'd son,</L>
+<L>Had ev'ry blood-stain'd laurel won;</L>
+<L>He sigh'd—that his creative word,</L>
+<L>(Like that which rules the skies,)</L>
+<L>Could not bid other nations rise,</L>
+<L>To glut his yet unsated sword:</L>
+</LG>
+<LG>
+<L>But when our SHAKSPEARE's matchless pen,</L>
+<L>Like <HI>Alexander</HI>'s sword, had done with men;</L>
+<L>He heav'd no sigh, he made no moan,</L>
+<L>Not limited to human kind,</L>
+<L>He fir'd his wonder-teeming mind,</L>
+<L>Rais'd other worlds, and beings of his own!</L>
+</LG>
+<LG>
+<HEAD>AIR.</HEAD>
+<L>When Nature, smiling, hail'd his birth,</L>
+<L>To him unbounded pow'r was given;</L>
+<L>The whirlwind's wing to sweep the sky,</L>
+<L>" The frenzy-rowling eye,</L>
+<L>To glance from heav'n to earth,</L>
+<L>From earth to heav'n!"</L>
+</LG>
+<LG>
+<PB N="5" REF="7" MS="y"/>
+<L>O from his muse of fire</L>
+<L>Could but one spark be caught,</L>
+<L>Then might these humble strains aspire,</L>
+<L>To tell the wonders he has wrought.</L>
+<L>To tell,—how sitting on his magic throne,</L>
+<L>Unaided and alone,</L>
+<L>In dreadful state,</L>
+<L>The subject passions round him wait;</L>
+<L>Who tho' unchain'd, and raging there,</L>
+<L>He checks, inflames, or turns their mad career;</L>
+<L>With that superior skill,</L>
+<L>Which winds the fiery steed at will,</L>
+<L>He gives the aweful word—</L>
+<L>And they, all foaming, trembling, own him for their Lord.</L>
+</LG>
+<LG>
+<L>With these his slaves he can controul,</L>
+<L>Or charm the soul;</L>
+<L>So realiz'd are all his golden dreams,</L>
+<L>Of terror, pity, love, and grief,</L>
+<L>Tho' conscious that the vision only seems,</L>
+<L>The woe-struck mind finds no relief:</L>
+<L>Ingratitude would drop the tear,</L>
+<L>Cold-blooded age take fire,</L>
+<L>To see the thankless children of old <HI>Lear,</HI></L>
+<L>Spurn at their king, and sire!</L>
+<L><PB N="6" REF="8" MS="y"/>
+With <HI>his</HI> our reason too grows wild!</L>
+<L>What nature had disjoin'd,</L>
+<L>The poet's pow'r combin'd,</L>
+<L><HI>Madness</HI> and <HI>age, ingratitude</HI> and <HI>child.</HI></L>
+</LG>
+<LG>
+<L>Ye guilty, lawless tribe,</L>
+<L>Escap'd from punishment, by art or bribe,</L>
+<L>At <HI>Shakespeare</HI>'s bar appear!</L>
+<L>No bribing, shuffling there—</L>
+<L>His genius, like a rushing flood,</L>
+<L>Cannot be withstood,</L>
+<L>Out bursts the penitential tear!</L>
+<L>The look appall'd, the crime reveals,</L>
+<L>The marble-hearted monster feels,</L>
+<L>Whose hand is stain'd with blood.</L>
+</LG>
+<LG>
+<HEAD>SEMI-CHORUS.</HEAD>
+<L>When law is weak, and justice fails,</L>
+<L>The poet holds the sword and scales.</L>
+</LG>
+<LG>
+<HEAD>AIR.</HEAD>
+<L>Though crimes from death and torture fly,</L>
+<L>The swifter muse,</L>
+<L>Their flight pursues,</L>
+<L>Guilty mortals more than die!</L>
+<L><PB N="7" REF="9" MS="y"/>
+They live indeed, but live to feel</L>
+<L>The scourge and wheel,</L>
+<L>" On the torture of the mind they lie;"</L>
+<L>Should harrass'd nature sink to rest,</L>
+<L>The Poet wakes the scorpion in the breast,</L>
+<L>Guilty mortals more than die!</L>
+</LG>
+<LG>
+<L>When our <HI>Magician,</HI> more inspir'd,</L>
+<L>By charms, and spells, and incantations fir'd,</L>
+<L>Exerts his most tremendous pow'r;</L>
+<L>The thunder growls, the heavens low'r,</L>
+<L>And to his darken'd throne repair,</L>
+<L>The <HI>Demons</HI> of the deep, and <HI>Spirits</HI> of the air!</L>
+</LG>
+<LG>
+<L>But soon these horrors pass away,</L>
+<L>Thro' storms and night breaks forth the day:</L>
+<L>He smiles,—they vanish into air!</L>
+<L>The buskin'd warriors disappear!</L>
+<L>Mute the trumpets, mute the drums,</L>
+<L>The scene is chang'd—<HI>Thalia</HI> comes,</L>
+<L>Leading the nymph <HI>Euphrosyne,</HI></L>
+<L>Goddess of joy and liberty!</L>
+<L>She and her sisters, hand in hand,</L>
+<L>Link'd to a num'rous srolick band,</L>
+<L><PB N="8" REF="10" MS="y"/>
+With roses and with myrtle crown'd,</L>
+<L>O'er the green velvet lightly bound,</L>
+<L>Circling the Monarch of th' inchanted land!</L>
+</LG>
+<LG>
+<HEAD>AIR.</HEAD>
+<LG>
+<HEAD>I.</HEAD>
+<L>Wild, frantick with pleasure,</L>
+<L>They trip it in measure,</L>
+<L>To bring him their treasure,</L>
+<L>The treasure of joy.</L>
+</LG>
+<LG>
+<HEAD>II.</HEAD>
+<L>How gay is the measure,</L>
+<L>How sweet is the pleasure,</L>
+<L>How great is the treasure,</L>
+<L>The treasure of joy.</L>
+</LG>
+<LG>
+<HEAD>III.</HEAD>
+<L>Like roses fresh blowing,</L>
+<L>Their dimpled-cheeks glowing,</L>
+<L>His mind is o'erflowing;</L>
+<L>A treasure of joy!</L>
+</LG>
+<LG>
+<PB N="9" REF="11"/>
+<HEAD>IV.</HEAD>
+<L>His rapture perceiving,</L>
+<L>They smile while they're giving,</L>
+<L>He smiles at receiving,</L>
+<L>A treasure of joy.</L>
+</LG>
+</LG>
+<LG>
+<L>With kindling cheeks, and sparkling eyes,</L>
+<L>Surrounded thus, the Bard in transport dies;</L>
+<L>The little <HI>Loves,</HI> like bees,</L>
+<L>Clust'ring and climbing up his knees,</L>
+<L>His brows with roses bind;</L>
+<L>While <HI>Fancy, Wit,</HI> and <HI>Humour</HI> spread</L>
+<L>Their wings, and hover round his head,</L>
+<L>Impregnating his mind.</L>
+<L>Which teeming soon, as soon brought forth,</L>
+<L>Not a tiny spurious birth,</L>
+<L>But out a mountain came,</L>
+<L>A mountain of delight!</L>
+<L>LAUGHTER roar'd out to see the sight,</L>
+<L>And FALSTAFF was his name!</L>
+<L>With sword and shield he, puffing, strides;</L>
+<L>The joyous revel-rout</L>
+<L>Receive him with a shout,</L>
+<L><PB N="10" REF="12" MS="y"/>
+And modest <HI>Nature</HI> holds her sides:</L>
+<L>No single pow'r the deed had done,</L>
+<L>But great and small,</L>
+<L><HI>Wit, Fancy, Humour, Whim,</HI> and <HI>Jest,</HI></L>
+<L>The huge, mishapen heap impress'd;</L>
+<L>And lo—SIR JOHN!</L>
+<L>A compound of 'em all,</L>
+<L>A comic world in ONE.</L>
+</LG>
+<LG>
+<HEAD>AIR.</HEAD>
+<LG>
+<L>A world where all pleasures abound,</L>
+<L>So fruitful the earth,</L>
+<L>So quick to bring forth,</L>
+<L>And the world too is wicked and round.</L>
+</LG>
+<LG>
+<L>As the well-teeming earth,</L>
+<L>With rivers and show'rs,</L>
+<L>Will smiling bring forth</L>
+<L>Her fruits and her flow'rs;</L>
+<L>So <HI>FALSTAFF</HI> will never decline;</L>
+<L>Still fruitful and gay,</L>
+<L>He moistens his clay,</L>
+<L>And his rain and his rivers are wine;</L>
+<L><PB N="11" REF="13"/>
+Of the world he has all, but its care;</L>
+<L>No load, but of flesh, will he bear;</L>
+<L>He laughs off his pack,</L>
+<L>Takes a cup of old sack,</L>
+<L>And away with all sorrow and care.</L>
+</LG>
+</LG>
+<LG>
+<L>Like the rich rainbow's various dyes,</L>
+<L>Whose circle sweeps o'er earth and skies,</L>
+<L>The heav'n-born muse appears;</L>
+<L>Now in the brighest colours gay,</L>
+<L>Now quench'd in show'rs, she sades away,</L>
+<L>Now blends her smiles and tears.</L>
+</LG>
+<LG>
+<L>Sweet <HI>Swan of Avon!</HI> ever may thy stream</L>
+<L>Of tuneful numbers be the darling theme;</L>
+<L>Not <HI>Thames</HI> himself, who in his silver course</L>
+<L>Triumphant rolls along,</L>
+<L>Britannia's riches and her force,</L>
+<L>Shall more harmonious flow in song.</L>
+</LG>
+<LG>
+<L>O had those bards, who charm the list'ning shore</L>
+<L>Of Cam and Isis, tun'd their classic lays,</L>
+<L><PB N="12" REF="14"/>
+And from their full and precious store,</L>
+<L>Vouchsaf'd to fairy-haunted <HI>Avon</HI> praise!</L>
+<L>(Like that kind bounteous hand<NOTE N="*" PLACE="foot">The D<GAP DESC="blank" RESP="oxf" EXTENT="1+ letters" DISP="_+"/> of D<GAP DESC="blank" RESP="oxf" EXTENT="1+ letters" DISP="_+"/>, with the concurrence of Mr. B<GAP DESC="blank" RESP="oxf" EXTENT="1+ letters" DISP="_+"/>y, most generously ordered a great number of Trees to be cut down, to open the river <HI>Avon</HI> for the Jubilee.</NOTE>,</L>
+<L>Which lately gave the ravish'd eyes</L>
+<L>Of Stratford swains</L>
+<L>A rich command,</L>
+<L>Of widen'd river, lengthen'd plains,</L>
+<L>And opening skies)</L>
+<L>Nor <HI>Greek,</HI> nor <HI>Roman</HI> streams would flow along,</L>
+<L>More sweetly clear, or more sublimely strong,</L>
+<L>Nor thus a shepherd's feeble notes reveal,</L>
+<L>At once the weakest numbers, and the warmest zeal.</L>
+</LG>
+<LG>
+<HEAD>AIR.</HEAD>
+<LG>
+<HEAD>I.</HEAD>
+<L>Thou soft-flowing <HI>Avon,</HI> by thy silver stream,</L>
+<L>Of things more then mortal, sweet <HI>Shakespear</HI> would dream,</L>
+<L>The fairies by moonlight dance round his green bed,</L>
+<L>For hallow'd the turf is which pillow'd his head.</L>
+</LG>
+<LG>
+<HEAD>II.</HEAD>
+<L>The love-stricken maiden, the soft-sighing swain,</L>
+<L>Here rove without danger, and sigh without pain,</L>
+<L><PB N="13" REF="15"/>
+The sweet bud of beauty, no blight shall here dread,</L>
+<L>For hallow'd the turf is which pillow'd his head.</L>
+</LG>
+<LG>
+<HEAD>III.</HEAD>
+<L>Here youth shall be fam'd, for their love, and their truth,</L>
+<L>And chearful old age, feel the spirit of youth;</L>
+<L>For the raptures of fancy here poets shall tread,</L>
+<L>For hallow'd the turf is that pillow'd his head.</L>
+</LG>
+<LG>
+<HEAD>IV.</HEAD>
+<L>Flow on, silver <HI>Avon,</HI> in song ever flow,</L>
+<L>Be the swans on thy bosom still whiter than snow,</L>
+<L>Ever full be thy stream, like his fame may it spread,</L>
+<L>And the turf ever hallow'd which pillow'd his head.</L>
+</LG>
+</LG>
+<LG>
+<L>Tho' bards with envy-aching eyes,</L>
+<L>Behold a tow'ring eagle rise,</L>
+<L>And would his flight retard;</L>
+<L>Yet each to <HI>Shakespeare</HI>'s genius bows,</L>
+<L>Each weaves a garland for his brows,</L>
+<L>To crown th' heaven-distinguish'd Bard.</L>
+<L>Nature had form'd him on her noblest plan,</L>
+<L>And to the genius join'd the feeling man.</L>
+<L><PB N="14" REF="16" MS="y"/>
+What tho' with more than mortal art,</L>
+<L>Like <HI>Neptune</HI> he directs the storm,</L>
+<L>Lets loose like winds the passions of the heart,</L>
+<L>To wreck the human form;</L>
+<L>Tho' from his mind rush forth, the Demons to destroy,</L>
+<L>His heart ne'er knew but love, and gentleness, and joy.</L>
+</LG>
+<LG>
+<HEAD>AIR.</HEAD>
+<L>More gentle than the southern gale,</L>
+<L>Which softly fans the blossom'd vale,</L>
+<L>And gathers on its balmy wing,</L>
+<L>The fragrant treasures of the spring,</L>
+<L>Breathing delight on all it meets,</L>
+<L>" And giving, as it steals, the sweets."</L>
+</LG>
+<LG>
+<L>Look down blest SPIRIT from above,</L>
+<L>With all thy wonted gentleness and love;</L>
+<L>And as the wonders of thy pen,</L>
+<L>By heav'n inspir'd,</L>
+<L>To virtue fir'd,</L>
+<L>The charm'd, astonish'd, sons of men!</L>
+<L>With no reproach, even now, thou view'st thy work,</L>
+<L>To nature sacred as to truth,</L>
+<L><PB N="15" REF="17"/>
+Where no alluring mischiefs lurk,</L>
+<L>To taint the mind of youth.</L>
+<L>Still to thy native spot thy smiles extend,</L>
+<L>And as thou gav'st it fame, that fame defend;</L>
+<L>And may no sacrilegious hand</L>
+<L>Near <HI>Avon</HI>'s banks be found,</L>
+<L>To dare to parcel out the land,</L>
+<L>And limit Shakespear's hallow'd ground<NOTE N="*" PLACE="foot">This alludes to a design of inclosing a large common field at <HI>Stratford.</HI></NOTE>▪</L>
+<L>For ages free, still be it unconfin'd,</L>
+<L>As broad, and general, as thy boundless mind.</L>
+</LG>
+<LG>
+<L>Can <HI>British</HI> gratitude delay,</L>
+<L>To him the glory of this isle,</L>
+<L>To give the festive day</L>
+<L>The song, the statue, and devoted pile?</L>
+<L>To him the first of poets, best of men?</L>
+<L>" <HI>We ne'er shall look upon his like again!</HI>"</L>
+</LG>
+<LG>
+<PB N="16" REF="18"/>
+<HEAD>DUETT.</HEAD>
+<L>Shall the hero laurels gain,</L>
+<L>For ravag'd fields, and thousands slain?</L>
+<L>And shall his brows no laurels bind,</L>
+<L>Who charms to virtue humankind?</L>
+</LG>
+<LG>
+<HEAD>CHORUS.</HEAD>
+<L>We will,—his brows with laurel bind,</L>
+<L>Who charms to virtue human kind:</L>
+<L>Raise the pile, the statue raise,</L>
+<L>Sing immortal <HI>Shakespeare</HI>'s praise!</L>
+<L>The song will cease, the stone decay,</L>
+<L>But his Name,</L>
+<L>And undiminish'd fame,</L>
+<L>Shall never, never pass away.</L>
+</LG>
+</DIV1>
+<DIV1 TYPE="testimonies">
+<PB REF="19"/>
+<HEAD>TESTIMONIES
+TO THE
+GENIUS AND MERITS
+OF
+SHAKESPEARE.</HEAD>
+<HEAD><PB REF="20"/>TESTIMONIES.</HEAD>
+<Q><L>To draw no envy, SHAKESPEARE, on thy name,</L>
+<L>Am I thus ample to thy book and fame.</L>
+<L>While I confess thy writings to be such,</L>
+<L>As neither man nor muse can praise too much,</L>
+<L>I therefore will begin. Soul of the age!</L>
+<L>Th' applause! delight! the wonder of our stage!</L>
+<L>My SHAKESPEAR rise. I will not lodge thee by</L>
+<L><HI>Chaucer</HI> or <HI>Spencer,</HI> or bid <HI>Beaumont</HI> lie</L>
+<L>A little farther to make thee a room;</L>
+<L>Thou art a monument without a tomb.</L>
+<L>Triumph, my <HI>Britain,</HI> thou hast one to show,</L>
+<L>To whom all scenes of <HI>Europe</HI> homage owe,</L>
+<L>He was not of an age, but for all time!</L>
+<L>And all the muses still were in their prime;</L>
+<L>When like <HI>Apollo</HI> he came forth to warm</L>
+<L>Our ears, or like a <HI>Mercury</HI> to charm!</L>
+<L>Nature herself was proud of his designs,</L>
+<L>And joy'd to wear the dressing of his lines!</L>
+<L>Which were so richly spun, and woven so fit,</L>
+<L>As since she will vouchsafe no other wit.</L>
+<L>My gentle Bard! look how the father's face</L>
+<L>Lives in his issue, even so the race</L>
+<L><PB N="20" REF="21"/>
+Of SHAKESPEARE's mind and manners brightly shines,</L>
+<L>In his well-turned and true-filed lines:</L>
+<L>In each of which he seems to shake a lance,</L>
+<L>As brandish'd at the eyes of ignorance,</L>
+<L>Sweet Swan of <HI>Avon!</HI> what a sight it were</L>
+<L>To see thee in our water yet appear,</L>
+<L>And make those flights upon the banks of <HI>Thames.</HI></L>
+<L>That so did take <HI>Eliza,</HI> and our <HI>James!</HI></L>
+<L>But stay, I see thee in the hemisphere</L>
+<L>Advanc'd, and made a constellation there!</L>
+<L>Shine forth, thou Star of poets, and with rage,</L>
+<L>Or influence, chide, or chear the drooping stage;</L>
+<L>Which since thy flight from hence, hath mourn'd like night,</L>
+<L>And despairs day, but sor thy volume's light.</L><BIBL>BEN JONSON.</BIBL></Q>
+<Q><L>What needs my SHAKESPEARE for his honour'd bones</L>
+<L>The labour of an age in piled stones,</L>
+<L>Or that the hallow'd reliques should be hid</L>
+<L>Under a star-ypointing pyramid?</L>
+<L>Dear son of memory, great heir of fame,</L>
+<L>What need'st thou such weak witness of thy name?</L>
+<L>Thou in our wonder and astonishment</L>
+<L>Hast built thyself a live-long monument.</L>
+<L>For whilst to the shame of slow endeavouring art</L>
+<L>Thy easy numbers flow, and that each heart</L>
+<L>Hath from the leaves of thy unvalu'd book</L>
+<L>Those Delphic lines with deep impression took,</L>
+<L>Then thou our fancy of itself bereaving,</L>
+<L>Dost make us marble with too much conceiving;</L>
+<L><PB N="21" REF="22"/>
+And so sepulcher'd in such pomp dost lie,</L>
+<L>That kings for such a tomb would wish to die!</L><BIBL>MILTON.</BIBL></Q>
+<Q><L>SHAKESPEARE, who (taught by none) did first impart,</L>
+<L>To <HI>Fletcher</HI> wit, to labouring <HI>Jonson</HI> art:</L>
+<L>He, monarch-like, gave those his subject law,</L>
+<L>And <HI>is</HI> that Nature which they paint and draw:</L>
+<L><HI>Fletcher</HI> reach'd that which on his heights did grow,</L>
+<L>Whilst <HI>Jonson</HI> crept, and gather'd all below:</L>
+<L>This did his love, and this his mirth digest;</L>
+<L>One imitates him most, the other best:</L>
+<L>If they have since out-writ all other men,</L>
+<L>'Tis with the drops which fall from SHAKESPEARE's pen:</L>
+<L>But SHAKESPEARE's magic could not copied be,</L>
+<L>Within that circle none durst walk but he;</L>
+<L>He works by magic supernatural things,</L>
+<L>For SHAKESPEARE's pow'r is sacred as a king's.</L><BIBL>DRYDEN.</BIBL></Q>
+<Q><L>SHAKESPEARE, (whom you, and ev'ry playhouse bill,</L>
+<L>Style the divine, the matchless, what you will)</L>
+<L>For gain, not glory, wing'd his roving flight,</L>
+<L>And grew <HI>immortal</HI> in his own despight.</L><BIBL>POPE.</BIBL></Q>
+<Q><L>—For lofty sense,</L>
+<L>Creative fancy, and inspection keen,</L>
+<L>Thro' the deep windings of the human heart,</L>
+<L>Is not wild SHAKESPEARE thine and Nature's boast?</L><BIBL>THOMPSON.</BIBL></Q>
+<Q><PB N="22" REF="23"/>
+<L>When learning's triumph o'er her barb'rous foes</L>
+<L>First rear'd the stage, immortal SHAKESPEARE rose;</L>
+<L>Each change of many-colour'd life he drew,</L>
+<L>Exhausted worlds, and then imagin'd new:</L>
+<L>Existence saw him spurn her boundless reign,</L>
+<L>And panting Time toil'd after him in vain:</L>
+<L>His pow'rful strokes presiding truth impress'd,</L>
+<L>And unresisted passion storm'd the breast.</L><BIBL>JOHNSON.</BIBL></Q>
+<Q><L>What are the lays of artful <HI>Addison,</HI></L>
+<L>Coldly correct, to SHAKESPEARE's warblings wild?</L>
+<L>Whom on the winding <HI>Avon</HI>'s willow'd banks</L>
+<L>Fair Fancy found, and bore the smiling babe</L>
+<L>To a close cavern: (still the shepherds shew</L>
+<L>The sacred place, whence with religious awe</L>
+<L>They hear, returning from the field at eve,</L>
+<L>Strange whisp'ring of sweet musick thro' the air)</L>
+<L>Here, as with honey gather'd from the rock,</L>
+<L>She fed the little pratler, and with songs</L>
+<L>Oft sooth'd his wondering ears, with deep delight,</L>
+<L>On her soft lap he sat, and caught the sounds.</L><BIBL>WARTON.</BIBL></Q>
+<Q><L>—But happier <HI>Stratford,</HI> thou</L>
+<L>With incontested laurels deck thy brow;</L>
+<L>Thy bard was thine <HI>unschool'd,</HI> and from thee brought</L>
+<L>More than all <HI>Egypt, Greece,</HI> or <HI>Asia</HI> taught.</L>
+<L>Not <HI>Homer</HI>'s self such matchless honours won,</L>
+<L>The <HI>Greek</HI> has rivals, but thy SHAKESPEARE none.</L><BIBL>SEWARD.</BIBL></Q>
+<Q><PB N="23" REF="24"/>
+<L>O youth and virgins: O declining eld:</L>
+<L>O pale misfortune's slaves: O ye who dwell</L>
+<L>Unknown with humble quiet; ye who wait</L>
+<L>In courts, or fill the golden seat of kings:</L>
+<L>O sons of sport and pleasure: O thou wretch</L>
+<L>That weep'st for jealous love, or the sore wounds</L>
+<L>Of conscious guilt, or death's rapacious hand</L>
+<L>Which left thee void of hope: O ye who roam</L>
+<L>In exile; ye who thro' the embattl'd field</L>
+<L>Seek bright renown; or who for nobler palms</L>
+<L>Contend, the leaders of a public cause;</L>
+<L>Approach: behold this marble. Know ye not</L>
+<L>The feature? Hath not oft his faithful tongue</L>
+<L>Told you the fashion of your own estate,</L>
+<L>The secrets of your bosom? Here then, round</L>
+<L>His monument with reverence while ye stand,</L>
+<L>Say to each other: " This was SHAKESPEARE's form;</L>
+<L>Who walk'd in every path of human life,</L>
+<L>Felt every passion; and to all mankind</L>
+<L>Doth now, will ever, that experience yield</L>
+<L>Which his own GENIUS only could acquire."</L><BIBL>AKINSIDE.</BIBL></Q>
+<Q><L>Far from the sun and summer gale,</L>
+<L>In thy green lap was Nature's <NOTE N="*" PLACE="foot">SHAKESPEARE.</NOTE> darling laid,</L>
+<L>What time, when lucid <HI>Avon</HI> stray'd,</L>
+<L>To him the mighty mother did unveil</L>
+<L>Her awful face: The dauntless child</L>
+<L>Stretch'd forth his little arms, and smil'd.</L>
+<L><PB N="24" REF="25"/>
+This pencil take (she said) whose colours clear</L>
+<L>Richly paint the vernal year:</L>
+<L>Thine too these golden keys, immortal boy!</L>
+<L>This can unlock the gates of joy;</L>
+<L>Of horror that, and thrilling fears,</L>
+<L>Or ope the sacred source of sympathetic tears.</L><BIBL>GRAY.</BIBL></Q>
+<Q><L>Bring thou to <HI>Britain</HI>'s plain the choral throng;</L>
+<L>Display thy buskin'd pomp, thy golden lyre;</L>
+<L>Give her historic powers the soul of song,</L>
+<L>And mingle <HI>Attic</HI> art with SHAKESPEARE's fire.</L>
+<L>Ah! what, fond boy, dost thou presume to claim?</L>
+<L>The Muse reply'd: Mistaken suppliant, know,</L>
+<L>To light in SHAKESPEARE's breast the dazzling flame</L>
+<L>Exhausted all Parnassus could bestow.</L><BIBL>MASON.</BIBL></Q>
+<Q><L>In the first seat, in robe of various dyes,</L>
+<L>A noble wildness flashing from his eyes,</L>
+<L>Sat SHAKESPEARE.—In one hand a wand he bore,</L>
+<L>For mighty wonders fam'd in days of yore;</L>
+<L>The other held a globe, which to his will</L>
+<L>Obedient turn'd, and own'd the master's skill:</L>
+<L>Things of the noblest kind his genius drew,</L>
+<L>And look'd thro' Nature at a single view:</L>
+<L>A loose he gave to his unbounded soul,</L>
+<L>And taught new lands to rise, new seas to roll;</L>
+<L>Call'd into being scenes unknown before,</L>
+<L>And, passing Nature's bounds, was something more.</L><BIBL>CHURCHILL.</BIBL></Q>
+<Q><PB N="25" REF="26"/>
+<L>Hail, prodigy of Nature's genuine growth!</L>
+<L>Collected in thyself thou standst sublime,</L>
+<L>A world of intellect, and fancy! Thou,</L>
+<L>Reaching from high to low, with magic touch,</L>
+<L>Inchanted'st ev'ry theme. To thee was shewn</L>
+<L>Each passion's inmost source, with all the wiles,</L>
+<L>And each meander of the changeful heart.</L>
+<L>Thy pen from life's warm school its copies drew,</L>
+<L>The striking feature, and descriptive air,</L>
+<L>Comic, or grave, and, by the mimic scene</L>
+<L>Compell'd, loud Laughter roar'd amain, Grief wept,</L>
+<L>And Terror look'd aghast. Ev'n royalty,</L>
+<L>Array'd by thee, mov'd more majestic. Wit</L>
+<L>And humour flow'd spontaneous from thy mind,</L>
+<L>As flow'rs from Earth's green lap. Thy potent spells</L>
+<L>From their bright seats aerial sprites detain'd,</L>
+<L>Or from their unseen haunts, and slumb'ring shades</L>
+<L>The fairy tribes awak'd, with jocund step,</L>
+<L>The circled green and leafy hall to tread:</L>
+<L>While, from his dripping caves, old <HI>Avon</HI> sent</L>
+<L>His willing Naiads to their harmless rout.</L><BIBL>JAGO.</BIBL></Q>
+<Q><L>Hear them on SHAKESPEARE! there they foam, they rage!</L>
+<L>Yet taste not half the beauties of HIS page;</L>
+<L>Nor see that Art, as well as Nature, strove</L>
+<L>To place HIM foremost in th' <HI>Aonian</HI> grove.</L>
+<L>For there, there only, where the Sisters meet,</L>
+<L>His Genius triumphs, and the work's complete.</L><BIBL>WHITEHEAD, <HI>Poet Laureat.</HI></BIBL></Q>
+<P><PB N="26" REF="27"/>
+Though there are many, many more poets who have spoken of
+<HI>SHAKESPEARE</HI> with equal praise and admiration, yet these, which
+first occurred, were thought sufficient.—Lest any of our readers
+should think with a certain gentleman, who, upon hearing <HI>Milton</HI>'s
+verses in praise of <HI>SHAKESPEARE,</HI> said, He never regarded what
+was said in poetry,—that the very nature of it was fiction, and
+had no value without it,—there is added some undeniable testi∣monies
+in prose, of <HI>SHAKESPEARE</HI>'s unparalleled genius.</P>
+<Q><P>—SHAKESPEARE was a man, who, of all modern, and
+perhaps ancient poets, had the largest and most comprehensive
+soul. All the images of Nature were still present to him, and he
+drew them not labouriously, but luckily: when he describes any
+thing, you more than see it, you feel it too. Those who accuse
+him to have wanted learning, give him the greater commendation:
+he was naturally learned: he needed not the spectacles of books to
+read Nature; he looked inwards, and found her there. I cannot
+say he is every where alike; where he so, I should do him injury
+to compare him with the greatest of mankind. But he is always
+great, where some great occasion is presented to him: No man
+can say he ever had a fit subject for his wit, and did not then raise
+himself as high above the rest of poets,
+<Q>Quantum lenta solent inter viburna cupressi.</Q></P>
+<BIBL>DRYDEN.</BIBL></Q>
+<Q><P>Among the <HI>English,</HI> SHAKESPEARE has incomparably excelled
+all others. That noble extravagance of fancy, which he had in
+so great perfection, thoroughly qualified him to touch this weak
+superstitious part of his reader's imagination; and made him ca∣pable
+of succeeding, when he had nothing to support him besides
+<PB N="27" REF="28"/>
+the strength of his own genius. There is something so wild, and
+yet so solemn, in the speeches of his ghosts, fairies, witches, and
+the like imaginary persons, that we cannot forbear thinking them
+natural, though we have no rule by which to judge of them, and
+must confess, if there are such beings in the world, it looks highly
+probable they should talk and act as he has represented them.</P>
+<P>—Our inimitable SHAKSPEARE is a stumbling-block to the
+whole tribe of these rigid criticks: who would not rather read one
+of his plays, when there is not a single rule of the stage observed,
+than any production of a modern critic, where there is not one of
+them violated? SHAKESPEARE was indeed born with all the seeds
+of poetry, and may be compared to the stone of <HI>Pyrrhus</HI>'s ring,
+which, as <HI>Pliny</HI> tells us, had the figure of Apollo and the nine
+muses in the viens of it, produced by the spontaneous hand of
+Nature without any help from art.</P>
+<BIBL>ADDISON.</BIBL></Q>
+<Q><P>But certainly the greatness of this Author's genius does no where
+so much appear, as where he gives his imagination an entire loose,
+and raises his fancy to a flight above mankind, and the limits of the
+visible world.</P>
+<BIBL>ROWE.</BIBL></Q>
+<Q><P>If ever any author deserved the name of an original it was
+SHAKESPEARE. Homer himself drew not his art so immediately
+from the fountains of Nature, it proceeded through Egyptian
+stainers and channels, and came to him not without some tincture
+of the learning, or some cast of the models of those before him.
+The poetry of SHAKESPEARE was inspiration indeed: he is not so
+much an imitator, as an instrument of Nature; and it is not so just
+to say that he speaks from her, as that she speaks through him.</P>
+<P><PB N="28" REF="29"/>
+His characters are so much Nature herself, that it is a sort of in∣jury
+to call them by so distant a name as copies of her. Those of
+other poets have a constant resemblance, which shews that they re∣ceived
+them from one another, and were but multipliers of the
+same image: each picture, like a mock rainbow, is but the re∣flection
+of a reflection. But every single character in SHAKESPEARE
+is as much an individual, as those in life itself; it is as impossible to
+find any two alike; and such as from their relation or affinity in any
+respect appear most to be twins, will, upon comparison, be found
+remarkably distinct. To this life and variety of character, we must
+add the wonderful preservation of it; which is such throughout
+his plays, that had all the speeches been printed without the very
+names of the persons, I believe one might have applied them with
+certainty to every speaker.</P>
+<P>The power over our passions was never possessed in a more eminent
+degree, or displayed in so different instances. Yet all along, there is
+seen no labour, no pains to raise them; no preparation to guide
+our guess to the effect, or to be perceived to lead toward it: but
+the heart swells, and the tears burst out, just at the proper places:
+we are surprized the moment we weep; and yet upon reflection
+find the passion so just, that we should be surprized if we had not
+wept, and wept at that very moment.</P>
+<P>How astonishing is it again, that the passions directly opposite to
+these, Laughter and Spleen, are no less at his command! That he
+is not more a master of the great, than of the ridiculous, in human
+nature; of our noblest tendernesses, than of our vainest foibles;
+of our strongest emotions, than of our idlest sensations!</P>
+<P>Nor does he only excel in the passions; in the coolness of re∣flection
+and reasoning, he is full as admirable. His sentiments are
+not only in general the most pertinent and judicious upon every
+subject, but by a talent very peculiar, something between pene∣tration
+<PB N="29" REF="30"/>
+and felicity, he hits upon that particular point on which the
+bent of each argument turns, or the force of each moment de∣pends.
+This is perfectly amazing, from a man of no education
+or experience in those great and public scenes of life, which are
+usually the subject of his thoughts: so that he seems to have known
+the world by intuition, to have looked through human nature at one
+glance, and to be the only author that gives ground for a very new
+opinion, That the philosopher, and even the man of the world,
+may be born as well as the poet.</P>
+<BIBL>POPE.</BIBL></Q>
+<Q><P>SHAKESPEARE created, as it were, the <HI>English</HI> theatre: that he
+boasted a strong, fruitful genius: that he was natural and sublime:
+that his scenes are beautiful and noble, though sometimes dread∣ful:
+that his passages are strong and forcible, and atone sor all his
+faults: and that his dramatic pieces dart such resplendant flashes
+as amaze and astonish!</P><BIBL>VOLTAIRE's Letters concerning the <HI>English</HI> Nation.</BIBL></Q>
+<Q>
+
+
+<P>In how many points of light must we be obliged to gaze at
+this great poet! In how many branches of excellence to consider
+and admire him! Whether we view him on the side of art or
+nature, he ought equally to engage our attention: whether we re∣spect
+the force and greatness of his genius, the extent of his
+knowledge and reading, the power and address with which he
+throws out and applies either Nature, or Learning, there is ample
+scope both for our wonder and pleasure. If his diction, and the
+cloathing of his thoughts attract us, how much more must we be
+charmed with the richness and variety of his images and ideas! If his
+images and ideas steal into our souls, and strike upon our fancy,
+how much are they improved in price, when we come to reflect with
+what propriety and justness they are applied to character! If we
+<PB N="30" REF="31"/>
+look into his characters, and how they are furnished and propor∣tioned
+to the employment he cuts out for them, how are we taken
+up with the mastery of his portraits! What draughts of Nature!
+What variety of originals, and how differing from each other! How
+are they dressed from the stores of his own luxurious imagination,
+without being the apes of mode, or borrowing from any foreign
+wardrobe!</P>
+<BIBL>THEOBALD.</BIBL></Q>
+<Q><P>Since therefore other nations have taken care to dignify the works
+of their most celebrated poets with the fairest impressions, beauti∣fied
+with the ornaments of sculpture, well may our SHAKESPEARE
+be thought to deserve no less consideration: and as a fresh acknow∣ledgment
+hath lately been paid to his merit, and a high regard to his
+name and memory, by erecting his statue at a public expence; so it
+it is desired that this new edition of his works, which has cost some
+attention and care, may be looked upon as another small monument
+designed and dedicated to his honour.</P>
+<BIBL>HANMER.</BIBL></Q>
+<Q><P>WILLIAM SHAKESPEARE, whose excellent Genius opened to
+him the whole heart of man, all the mines of Fancy, all the
+stores of nature, and gave him power beyond all other writers to
+move, astonish, and delight mankind.</P>
+<BIBL>Lord LYTTELTON.</BIBL></Q>
+<Q><P>Of all the literary exercitations of speculative man, whether de∣signed
+for the use or entertainment of the world, there are none of
+so much importance, or what are more of our immediate concern,
+than those which let us into the knowledge of our nature. Others
+may exercise the reason, or amuse the imagination; but these only
+can improve the heart, and form the human mind to wisdom. Now
+in this science our SHAKESPEARE is confessed to occupy the fore∣most
+<PB N="31" REF="32"/>
+place; whether we consider the amazing sagacity with which
+he investigates every hidden spring and wheel of human action; or
+his happy manner of communicating this knowledge, in the just
+and lively paintings which he has given us of all our passions, appe∣tites,
+and pursuits.</P>
+<BIBL>WARBURTON.</BIBL></Q>
+<Q><P>I shall not attempt any laboured encomiums on SHAKESPEARE,
+or endeavour to set forth his perfections, at a time when such uni∣versal
+and just applause is paid him: He himself tells us,
+<Q><L>To gild refined gold, or paint the lily,</L>
+<L>To throw a perfume on the violet,</L>
+<L>To smooth the ice, or add another hue</L>
+<L>Unto the rainbow, or with taper-light</L>
+<L>To seek the beauteous eye of heaven to garnish,</L>
+<L>Is wasteful and ridiculous excess.</L></Q>And wasteful and ridiculous indeed it would be, to say any thing
+in his praise, when presenting the world with such a collection of
+beauties, as perhaps is no where to be met with; and, I may very
+safely affirm, cannot be paralleled from the productions of any
+other single author, ancient or modern.</P>
+
+<BIBL>DODD.</BIBL></Q>
+<Q><P>—If such another poet could arise, should I very vehemently
+reproach him, that his first act passed at <HI>Venice,</HI> and his next at
+<HI>Cyprus.</HI> Such violations of rules merely passive, becomes the com∣prehensive
+Genius of SHAKESPEARE, and such censures are suitable
+to the minute and slender criticism of Voltaire:
+<Q><L>Non usque adeo permiscuit imis</L>
+<L>Longus summa dies, ut non, si voce Metelli</L>
+<L>Serventur leges, malint a Caesare telli.</L></Q></P>
+<P><PB N="32" REF="33"/>
+This therefore is the praise of SHAKESPEARE, that his drama is
+the mirrour of life; that he who has mazed his imagination, in fol∣lowing
+the phantoms which other writers raise up before him, may
+here be cured of his delirious extasies, by reading human senti∣ments
+in human language; by scenes from which a hermit may
+estimate the transactions of the world, and a confessor predict the
+progress of the passions.</P>
+<BIBL>JOHNSON.</BIBL></Q>
+<Q><P>—My design amounted to no more than a desire to en∣courage
+others to think of preserving the oldest editions of the
+<HI>English</HI> writers, which are growing scarcer every day; and to afford
+the world all the assistance or pleasure it can receive from the most
+authentic copies extant of its NOBLEST POET.</P>
+<BIBL>STEVENS.</BIBL></Q>
+<Q><P>It is said of the ostrich, that she drops her egg at random, to be
+disposed of as chance pleases; either brought to maturity by the
+sun's kindly warmth, or else crushed by beasts, and the feet of pas∣sengers:
+such, at least, is the account which naturalists has given us
+of this extraordinary bird; and admitting it for a truth, she is in
+this a fit emblem of almost every great genius; they conceive and
+produce with ease those noble issues of human understanding; but
+incubation, the dull work of putting them correctly upon paper,
+and afterwards publishig, is a task they cannot away with. If the
+original state of all such author's writings, even from <HI>Homer</HI> down∣ward,
+could be inquired into and known, they would yield proof
+in abundance of the justness of what is here asserted: but the author
+now before us shall suffice for them all; being at once the greatest
+instance of genius in producing noble things, and of negligence in
+providing for them afterwards.</P>
+<BIBL>CAPEL.</BIBL></Q>
+<Q><PB N="33" REF="34"/>
+<P>There was a time, when the art of Johnson was set above the
+divinest raptures of SHAKESPEARE. The present age is well con∣vinced
+of the mistake. And now the Genius of SHAKESPEARE is
+idolized in its turn. Happily for the public taste it can scarcely be
+too much so.</P>
+<BIBL>HURD.</BIBL></Q>
+<Q><P>SHAKESPEARE is a kind of established religion in poetry, and
+his bays will always flourish with undiminished verdure. When
+I say this, I am not for maintaining that he is not guilty of trans∣gressions,
+but for every transgression he recompences his auditors
+with beauties which no art will ever equal. That the notes
+established by <HI>Aristotle</HI> and <HI>Horace</HI> are agreeable to nature, I am
+ready to allow, and that inferior geniuses may avail themselves by
+a skilful conformity to them, I as freely assent to. But fable is but
+a secondary beauty; the exhibition of character, and the excite∣ment
+of the passions, justly claim the precedence in dramatic
+poetry. It is in writing as in gardening, where nature does not
+afford spontaneous beauties, recourse must be had to the establish∣ments
+of slow and endeavouring art, to the regularity of uniform
+vistas, the intricacy of elaborate mazes, and a studied insertion of
+ever-greens; but when the course of the country of itself presents
+attractive scenes on every side, when the trees branch out with a
+free expansion, and the bold prospect surprizes with the heath, the
+lawn, the hill, and valley in wild variety, the littleness of tedious
+culture is unnecessary, and trifling ornaments are unlooked for.</P>
+<BIBL>Gray's-Inn Journal.</BIBL></Q>
+<Q><P>SHAKESPEARE came out of Nature's hand like Pallas out of
+Jove's head, at full growth and mature.</P>
+<BIBL>COLMAN.</BIBL></Q>
+<Q><PB N="34" REF="35"/>
+<P><HI>Voltaire</HI> is a genius, but not of SHAKESPEARE's magnitude
+Without recurring to disputable authority, I appeal from <HI>Voltaire</HI>
+to himself. I shall not avail myself of his former encomiums on
+our mighty poet; though the <HI>French</HI> critic has twice translated the
+same speech in <HI>Hamlet,</HI> some years ago in admiration, latterly in de∣rision;
+and I am sorry to find that his judgment grows weaker,
+when it ought to be further matured.</P>
+<BIBL>WALPOLE.</BIBL></Q>
+<Q><P>Such is SHAKESPEARE's merit, that the more just and refined the
+taste of the nation has become, the more he has increased in re∣putation.
+He was approved by his own age, admired by the next,
+and is revered, and almost adored by the present. His merit is
+disputed by little wits, and his errors are the jests of little critics;
+but there has not been a great poet, or great critic, since his time,
+who has not spoken of him with the highest veneration, Mr. <HI>Vol∣taire</HI>
+excepted. His translations often, his criticisms still oftener,
+prove he did not perfectly understand the words of the author: and
+therefore it is certain he could not enter into his meaning. He com∣prehended
+enough to perceive he was unobservant of some established
+rules of composition; the felicity with which he performs what no
+rules can teach, escapes him. Will not an intelligent spectator ad∣mire
+the prodigious structures of <HI>Stone-henge,</HI> because he does not
+know by what law of mechanics they were raised? Like them our
+author's works will remain for ever the greatest monuments of the
+amazing force of nature, which we ought to view as we do other
+prodigies, with an attention to, and admiration of their stupendous
+parts, and proud irregularity of greatness.</P>
+
+<BIBL>An Essay on the Writings and Genius of SHAKESPEARE; Author unknown.</BIBL></Q>
+</DIV1>
+<TRAILER>FINIS.</TRAILER>
+</BODY>
+</TEXT>
+</EEBO>
+</ETS>
+

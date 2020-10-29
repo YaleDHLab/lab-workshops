@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ETS SYSTEM "http://www.lib.umich.edu/tcp/docs/code/eebo2prf.xml.dtd">
+<ETS>
+<TEMPHEAD>
+<REVDESCR>
+<CHANGE>
+<DATE>2008-07-05</DATE>
+<RESPSTMT>
+<NAME>Alexis Jakobson</NAME>
+<RESP>MURP</RESP>
+</RESPSTMT>
+<ITEM>*Proofed title page(s).
+*Reviewed structure.
+*Checked division-marking material at heads and feet of divisions (HEADS, CLOSER, OPENER, ARGUMENT, EPIGRAPH, SIGNED, BYLINE, etc.). 
+*Added TYPEs to DIVs in order to validate. 
+*Checked for N=""s. 
+*Checked <SUP>s</SUP>. 
+*Checked placement and completeness of PBs. 
+*Checked for foreign, damage and missing-page GAPs, #, --. 
+*Checked for LBs, startqs / endqs, q;s, {que}s, ABBRs and Qs. 
+*Checked for FIGUREs and decorated initials.
+*Checked proofsheets and made corrections found there. 
+*Corrected $$s and $word$s etc. 
+*Converted $$s to GAP DESC="illegible" RESP="[vendor name]".
+*Revalidated. </ITEM>
+</CHANGE>
+</REVDESCR>
+</TEMPHEAD>
+<EEBO>
+<IDG S="marc" R="XX" ID="K021267.000">
+<STC T="C">T002100</STC>
+<BIBNO T="docno">CW3306674195</BIBNO>
+<VID SET="ECFA">1182700900</VID>
+</IDG>
+<TEXT LANG="eng">
+<FRONT>
+<DIV1 TYPE="half title">
+<PB REF="1"/>
+<P>RETALIATION, A FARCE.</P>
+<P>[PRICE ONE SHILLING.]</P>
+</DIV1>
+<DIV1 TYPE="title page">
+<PB REF="2" MS="y"/>
+<P>RETALIATION, A FARCE, IN TWO ACTS, As it is performed, with universal Applause, at the THEATRE ROYAL, COVENT GARDEN.</P>
+<P>By LEONARD MAC NALLY, ESQ.</P>
+<P><HI>LONDON:</HI> PRINTED FOR F. BLYTH, AND S. BLADON, PATER-NOSTER-ROW. 1782.</P>
+</DIV1>
+<DIV1 TYPE="author's note">
+<PB REF="3"/>
+<P>To the great exertions of the performers, and the ex∣cellence of their theatrical abilities, the author imputes the approbation with which <HI>RETALIATION</HI> has been received by the public, and he thanks them for the generous emulation with which they supported the piece.</P>
+</DIV1>
+<DIV1 TYPE="dedication">
+<PB REF="4"/>
+<HEAD>TO THOMAS HARRIS, ESQ.</HEAD>
+<OPENER><SALUTE>SIR,</SALUTE></OPENER>
+<P>THE kind attention with which you brought forward the following piece, claims my most warm and grateful thanks. You will excuse me for taking this public manner of assuring you how sensible I am of the obligation; and I hope you will be∣lieve me to be,</P>
+<CLOSER><SIGNED>Your sincere humble servant, LEONARD MAC NALLY.</SIGNED>
+<DATE><HI>May</HI> 10, 1782.</DATE></CLOSER>
+</DIV1>
+<DIV1 TYPE="prologue">
+<PB REF="5"/>
+<HEAD>PROLOGUE.</HEAD>
+<BYLINE>Spoken by Mr. LEE LEWES.</BYLINE>
+<SP>
+<LG>
+<L>TRITE seems our Author's Task, when all Creation</L>
+<L>Obey the Maxims of <HI>Retaliation.</HI></L>
+<L>The old, the young, the rich, poor, great, and small,</L>
+<L>Are governe'd by <HI>retorting</HI> one and all.</L>
+</LG>
+<LG>
+<L>Lord Dangle would intrigue to cut a Figure,</L>
+<L>For Treach'ry makes your Folks of Rank look bigger—</L>
+<L>My Lady's stung, and so, 'twixt Vice and Whim</L>
+<L>Intrigues—and thus <HI>retaliates</HI> on him.</L>
+</LG>
+<LG>
+<L>Jane, was a Draper's Wife, and Jane within her</L>
+<L>Felt strong Temptation to become a Sinner;</L>
+<L>Not from Caprice nor Whim—but mark—th' Event is</L>
+<L>She lik'd, and scarce knew why—the elder 'Prentice—</L>
+<L>The Husband hears, and cursing at the Slur,</L>
+<L>Resolves to break his vow as well as her—</L>
+<L>So lifts his Maid to fill his Spouse's Station,</L>
+<L>A blessed Instance of <HI>Retaliation.</HI></L>
+</LG>
+<LG>
+<L>Nor yet to private Life confine this Notion,</L>
+<L>It spreads expansive as the boundless Ocean:</L>
+<L><HI>Retaliate,</HI> speaks the hostile Cannon's roar—</L>
+<L><HI>Retaliate</HI> echo's from the British Shore—</L>
+<L>The Genius of the Isle is now awake,</L>
+<L>Speaks like brave Russel, frowns like noble Blake;</L>
+<L>Calls forth such Spirits, as of <HI>old</HI> were known,</L>
+<L>When <HI>England's King</HI> was crown'd on <HI>Gallia</HI>'s Throne—</L>
+<L>When Holland pray'd to succour her, distrest,</L>
+<L>And Spanish Pride had struck her lofty Crest.</L>
+<L>"Vict'ry" she says "shall smile, fell Discord cease,</L>
+<L>"And War produce the Olive Branch of <HI>Peace.</HI></L>
+<L>"Britain secure from all <HI>intestine</HI> Harms,</L>
+<L>"Is confident against the <HI>World</HI> in Arms.</L>
+<L>"<HI>Now, British Minds,</HI> with <HI>British Hearts</HI> unite,</L>
+<L>"Mature the Council, and direct the Fight:</L>
+<L>"<HI>Again</HI> shall Britain mighty Deeds perform,</L>
+<L>"Ride on the Whirlwind, and direct the Storm;</L>
+<L><PB REF="6"/>
+"Serenely brave, smile while the Thunder's hurl'd,</L>
+<L>"And <HI>undivided,</HI> face the threat'ning World."</L>
+</LG>
+<LG>
+<L>To Strains so hold our Author <HI>dare</HI> not rise—</L>
+<L>He views <HI>that Ardor</HI> glowing in <HI>your</HI> Eyes.</L>
+<L>There needs no "Muse of Fire" to rouse the Nation,</L>
+<L>You're all united for <HI>Retaliation.</HI></L>
+</LG>
+<LG>
+<L>This, as a first Essay, our Bard submits—</L>
+<L>To deal in Brokers, Bankrupts, Lawyers, Cits—</L>
+<L>His Bales are class'd with his best Skill and Care—</L>
+<L>His ardent Wish is—that you like his Ware—</L>
+<L>And since to please you fills his ev'ry Feature,</L>
+<L>Then pray <HI>retaliate</HI> with your best <HI>Good-Nature.</HI></L>
+</LG>
+</SP>
+</DIV1>
+<DIV1 TYPE="dramatis personae">
+<PB REF="7"/>
+<HEAD>Dramatis Personae.</HEAD>
+<LIST>
+<ITEM><LABEL>OLD REBATE,</LABEL> <HI>Mr. Quick.</HI></ITEM>
+<ITEM><LABEL>PRAECIPE REBATE,</LABEL> <HI>Mr. Edwin.</HI></ITEM>
+<ITEM><LABEL>TRUEMAN,</LABEL> <HI>Mr. Whitfield.</HI></ITEM>
+<ITEM><LABEL>FRANK,</LABEL> <HI>Mr. Robson.</HI></ITEM>
+<ITEM><LABEL>EZEKIEL SPOTLESS,</LABEL> <HI>Mr. Jones.</HI></ITEM>
+<ITEM><LABEL>SERVANT,</LABEL> <HI>Mr. Newton.</HI></ITEM>
+</LIST>
+<LIST>
+<ITEM><LABEL>AMELIA,</LABEL> <HI>Mrs. Mattocks.</HI></ITEM>
+<ITEM><LABEL>LUCY,</LABEL> <HI>Mrs. Wilson.</HI></ITEM>
+</LIST>
+</DIV1>
+</FRONT>
+<BODY>
+<DIV1 TYPE="play">
+<PB REF="8"/>
+<HEAD>RETALIATION.</HEAD>
+<DIV2 N="1" TYPE="act">
+<HEAD>ACT I.</HEAD>
+<STAGE>SCENE. <HI>A Hall in Mr.</HI> FAIRPORT's <HI>House.</HI></STAGE>
+<STAGE>FRANK <HI>sitting reading a News-Paper,</HI> LUCY <HI>work∣ing—Bottle and Glasses on the Table.</HI></STAGE>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>O We are ruined, Lucy!—We are undone!</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Speak for yourself, Frank, heigho!— I am neither ruined nor undone.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Here's a paragraph confirms all
+<STAGE>(<HI>reads</HI>)</STAGE>
+"We hear that a great house not one hundred miles from Leadenhall-street, stopped payment yesterday for a considerable sum."—It must be our house!</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Yes, it must be our house;—but pray, Frank, who is this <HI>we,</HI> who pretends to know so much about master's affairs?</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Who is <HI>we?</HI>—Why in truth, Lucy, I don't rightly know who <HI>we</HI> is; but <HI>we</HI> is somebody
+<PB N="12" REF="9"/>
+who knows, or pretends to know, every body, and every thing—<HI>we</HI> used to abuse opposition—<HI>we</HI> now are come over with ministry—<HI>we</HI> writes against men on one side, and <HI>we</HI> writes against measures on the other—<HI>we</HI> attacks majority in one paper, and <HI>we</HI> cuts up minority in another—<HI>we</HI> puffs admirals and demireps—<HI>we</HI> ridicules generals and women of character—<HI>we</HI> is an critic who tears authors to pieces—it is <HI>we</HI> who strives to write players out of their bread.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Then is <HI>we</HI> an ill-natured, crabbed, un∣conscionable fellow—I love play actors in my heart—they say so many good things I can't think they do any thing bad.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>As I live here comes Mr. Trueman—</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And Miss Amelia with him—there will be a match, Frank.</P>
+</SP>
+<STAGE><HI>Enter</HI> TRUEMAN <HI>and</HI> AMELIA.</STAGE>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Your hand, honest Frank—the West-India fleet's arrived!</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Bravo!</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>And the homeward-bound East-Indiamen are all safe in port.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Bravissimo!</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>And Mr. Fairport has traced the report of our house's failure up to old Rebate, the money∣lender.</P>
+</SP>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>What motive could have urged his malice to such premeditated villainy?</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>The worst of motives, madam, resentment and avarice—your uncle rescued a distressed young gentleman from his usurious demands, and is indebted to him eleven thousand pounds.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>But what brings him here?</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Your uncle being denied to him in town, he left a memorandum that he should come here
+<PB N="13" REF="10"/>
+to seek him; and I am commissioned to give the rascal an answer to one of the most impudent proposals that ever insolence dictated.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Pray what is it, Mr. Trueman?</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Ah! dear sir, what is it?</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>No less than a written proposal of mar∣riage, between his son and your cousin Augusta</P>
+</SP>
+<STAGE>(to Amelia.)</STAGE>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>O! Mercy!</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Accompanied with a threat to lay on an execution immediately, in case of a refusal; and a discharge in full of all demands, as a bribe, in case of compliance.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I know Praecipe his son well, sir—he's as precious a twig of the law as ever switched a client through Westminster hall.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>The old man knows, I suppose, that my cousin's fortune is independent of her father—</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>But for Heaven's sake, sir, how did my young lady receive the proposal?</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Laughed at it—she is a generous-hearted girl, and offered the whole of her fortune to sup∣port her father's credit.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>This is city sentiment—the uncourtly citizens, not only speak as they think, but act as they speak.</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>And I wish, madam, every other class of men, would make their public actions the criterion of their public professions.—Take care Lucy, old Rebate's a terrible fellow, tormented with as insa∣tiable an appetite for young girls as for money —the monster would devour a virgin every morn∣ing for breakfast.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I remember when he was partner in a re∣gister-office, for the purpose of ruining young creatures out of place.</P>
+</SP>
+<SP>
+<PB N="14" REF="11"/>
+<SPEAKER>Tru.</SPEAKER>
+<P>And though he'd impose upon his nearest friend to obtain money, he'd lavish the earnings of his avarice with prodigality to destroy inno∣cence.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>And shan't we be reveng'd on him?— Suppose I was to throw myself in his way, and se∣duce him into an intrigue.</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>If you do, I'll take a part in the farce, and we'll retaliate on him with a vengeance.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And leave the young lawyer to me—ne∣ver fear, I'll bring him to the stool of repen∣tance
+<STAGE>(knocking without.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Perhaps here they come.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Then, I'll let them in, and give the anti∣quated Adonis a most encouraging reception— Come, Mr. Trueman.
+<STAGE>(going.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>I attend you, madam.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Strike him at once, madam, with a lan∣guishing look.
+<STAGE>(Exeunt Amelia and Trueman)</STAGE>
+La, Frank, there's a scheme in my head—but I'm ashamed to tell you—Well, I'll hide my face
+<STAGE>(throws her apron over her face)</STAGE>
+Suppose you were to introduce me to the young attorney as my lady.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>An excellent thought, my sprightly girl! —run and communicate it to Mr. Trueman and Miss Amelia—But I must have a kiss.
+<STAGE>(kisses her.)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> REBATE.</STAGE>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>To her! to her! Hey! hey! Egad, tho' the circulation of cash has stopped here, the circulation of the blood flows in a warm tide of wantonness.
+<STAGE>(Exit. Lucy, Rebate viewing her through a glass)</STAGE>
+Neat limbed—slender waisted—elastic in her feet, with a noble protuberance in front, and a most entic∣ing rotunda in the rear; no cork or whalebone in her composition, I warrant.—Your servant, young
+<PB N="15" REF="12"/>
+man, your servant—Pray who is the elegant young lady who gave me admittance?</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I suppose it was Miss Amelia, sir, my master's niece—I thought you knew her.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>No, I'm unacquainted with the females of your family. She is really a charming girl, with a pair of as piercing, sparkling rogueish eyes, as ever sported in amorous glance—A good fortune, I sup∣pose?</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Not a shilling, sir; Miss Amelia is de∣pendent on my master.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Poor girl—a delicious morsel! but must now seek for a new protector.—Your mas∣ter's broke, young man—Have you seen the pub∣lic prints?</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>The public prints, sir—there's no believ∣ing the public prints! It was but the other day the General Advertiser made the combined fleets sixty-six sail of the line—the Courant encreased them to eighty sail—the Post anchored them <HI>in Nu∣bibus</HI>—the Herald wind-bound them in Brest har∣bour—the Gazetteer lost them in a fog—the Pub∣lic Advertiser brought them into Plymouth Sound —the Chronicle sent them to the Land's-end, and the Ledger assured us they were not ships, but sixty whales, which had made the coast, and that the express had been brought up to London-Bridge by Lieutenant Grampus.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Ah! ha! ha! ha! You're a wag—but there's no joke in the loss of the East and West-India ships—You're master's ruined by it, and I have his bond for eleven thousand.</P>
+</SP>
+<STAGE><PB N="16" REF="13"/><HI>Enter</HI> PRAECIPE.</STAGE>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>On which I have advised you repeat∣edly, that you may take out a <HI>fi. fa. ad satisfa∣ciendum</HI>—for it is laid down in Viner's Abridgement of the Law, volume the thirty-sixth, page one thousand and seventy nine, letter A. that —</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Silence, I say,
+<STAGE>(stopping Praecipe's mouth.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>You should never command silence, but with an oyez! oyez! oyez!
+<STAGE>(in a court crier's tone.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>O! confound your tongue—its your mother's to an inch—I'll cut it out, you dog.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Cut out my tongue!—mayhem—death by the Coventry act.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>But do you think, Sir, we shall be de∣clared bankrupt?</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>I hope not; for as your bankrupt com∣mission business falls into the hands of the lawyers, it generally consumes the best part of the effects.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Actionable words—let me see—to call a lawyer ambodexter, or double handed, is—</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Calling him by his right name, you rascal.</P>
+</SP>
+<STAGE>Enter Servant.</STAGE>
+<SP>
+<SPEAKER>Servant.</SPEAKER>
+<P>Mr. Trueman—Sir, my master's clerk, requests your company in the parlor.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Mr. Trueman, my business is with your master, not with his clerk; and in his present in∣digent circumstances, it was his duty to have at∣tended me—but I'll follow you.
+<STAGE>(Exit servant.)</STAGE>
+You live in splendor here, young man,
+<STAGE>(to Frank)</STAGE>
+a noble house—magnificent furniture—Heavens! what luxury!—The Augsburgh merchant, who lent half a million to an emperor on his bond, and
+<PB N="17" REF="14"/>
+afterwards, at an entertainment, burned his secu∣rity in a fire of cinnamon, had not a more superb dwelling. — Mercy! What a side-board of plate!</P>
+</SP>
+<STAGE>Exit.</STAGE>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>My walk down here, as a body may say, has created me a voracious appetite—but I never travel without belly munition
+<STAGE>(takes out bread and meat)</STAGE>
+and yet, as the saying is, I'm thin as parchment.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>And it being as necessary to moisten the clay, as to manure the soil—what think you, Sir, of a glass of nice Madeira?</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>A good motion for staying—as my Master Stripclient says, it's all the same to me, whether I drink at the suit of the plaintiff, or at the suit of the defendant.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P><STAGE>(Bringing a bottle from the table)</STAGE>
+Here's Madeira has crossed the Line twice, bright as a topaz,
+<STAGE>(filling a glass)</STAGE>
+and generous as an old maid on the day of marriage.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Marriage—that's in point—I am come down, do you see me, to marry Miss Fairport; that is, to file a declaration of love, over-rule her demurrer, and so join issue.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>You have seen her, I suppose?</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>No, never saw her.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Why she left the room just as you came in.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Is that she? Egad, she's a fine girl, and saluted me with a most condescending smile.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Lucy, I see, has begun the attack.
+<STAGE>(aside.)</STAGE>
+Another glass—Mr. Praecipe, you're a man of gallantry no doubt.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>I plead guilty to the indictment— Keep as smart a piece as you'd lay eye on in a whole circuit.</P>
+</SP>
+<SP>
+<PB N="18" REF="15"/>
+<SPEAKER>Frank.</SPEAKER>
+<P>And live pleasantly.
+<STAGE>(helping him.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>In a funny stile, as a body may say— Poll lodges at Islington, so I travel down to her every Saturday afternoon—take tea with Poll, spend my evening at the Angel—Next morning rise from Poll, swallow rum and milk at the Angel—breakfast with Poll, take my whet and jill at the Angel—Dine with Poll, spend my after∣noon at the Angel—Take tea with Poll, spend my evening at the Angel—Sup with Poll, take my Punch at the Angel—So on Monday morning, leave Poll betimes, take the stage at the Angel, and am at chambers by eight.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Really, Sir, between Miss Poll and the Angel, you lead a devilish angelic life—But I fear, Mr. Praecipe, there is a fatal objection to your marrying Miss Fairport.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>You mean my connection with Poll; but I can soon get rid of her, and provide for her into the bargain—Mark a writ against her, move her by <HI>Habeas Corpus</HI> into the King's Bench, and there, though wives are not permitted to live with their husbands, a demirep may make a fortune.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>You mistake my young lady's objection —she has vowed never to marry a lawyer.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Aye!</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>True indeed—But if you're not afraid of a frolic, I'll put you in a way of carrying her.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Afraid! Never fear me, I love a frolic in my heart; nevertheless, and always providing, that the said frolic is not contrary to law—<HI>Caveat actor,</HI> do you understand me, is my maxim.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Then your father must not know a word of the business.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Right—we'll oust him from the suit, and then he'll have no concern in the fortune.</P>
+</SP>
+<STAGE><PB N="19" REF="16"/><HI>Enter</HI> SERVANT.</STAGE>
+<SP>
+<SPEAKER>Servant.</SPEAKER>
+<P>A Quaker-man, Mr. Frank, desires to speak with Mr. Rebate, or his son.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Shew him in. I know his business.</P>
+</SP>
+<STAGE>Exit Servant.</STAGE>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I'll step into the next room and lay out a cold venison-pasty, and if you're the man of spirit I take you for, Miss Fairport and her fortune will be both your own.
+<STAGE>Exit.</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>I'll be with you in a twinkling, as the saying is</P>
+<STAGE><HI>Enter</HI> EZEKIEL.</STAGE>
+<P>Ah friend Ezekiel Spotless, welcome from Am∣sterdam—What news? Eh.</P>
+</SP>
+<SP>
+<SPEAKER>Ezekiel.</SPEAKER>
+<P>There's no time to speak of news—I have a large sum to pay unto thy father.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Or to me—It is the same in law, friend Ezekiel, whether you pay the attorney, or the prin∣cipal.</P>
+</SP>
+<SP>
+<SPEAKER>Ezekiel.</SPEAKER>
+<P>True, true, friend Praecipe, but that is where the attorney hath a principle. The clerk informed me at thy house of thy coming here—But where's thy father.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>My father—why—my father—O my father's gone a little farther into the country with the gentleman of the house.</P>
+</SP>
+<SP>
+<SPEAKER>Ezekiel.</SPEAKER>
+<P>Then will I deliver the monies to thee, being obliged to go for Ostend this night, having collected some material intelligence. Here read —
+<STAGE>(delivers a letter to Praecipe.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P><STAGE>(reads)</STAGE>
+Signed "Primitive Tribula∣tion" dated "Amsterdam, March 26 1782" Friend
+<PB N="20" REF="17"/>
+Rebate, I take the opportunity of the bearer, Eze∣kiel Spotless, to inform thee, that the copper and gunpowder, consigned by thee unto my care, on board the good ship Contraband from Corke, ar∣rived in due time, and, according to thy directions, I remit unto thee the amount of the sales thereof, in Bank of England notes, which I found difficult to procure here. The bearer will also deliver un∣to thy hands the diamonds, which I advised thee of, some time ago, and which thou art to dispose of for my account.—Thy Friend.</P>
+</SP>
+<SP>
+<SPEAKER>Ezekiel.</SPEAKER>
+<P>Here are the notes, and here are the diamonds—Sign this receipt
+<STAGE>(<HI>Praecipe signs</HI>)</STAGE>
+fare∣well, peace be to thy spirit.
+<STAGE>Exit.</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Here are the notes—here are the diamonds,
+<STAGE>(looking at them)</STAGE>
+and possession, as the saying is, is the eleventh point of the law—The devil a shilling shall my honest father ever touch of these bills—And the devil a shilling shall his honest correspondent. Tribulation, ever touch of the produce of these diamonds.
+<STAGE>(looks at them)</STAGE>
+He, he, he, egad, there's more argument in the brilli∣ancy of their sparkle, than in the tongues of the whole bar, and they shall be my counsel with Miss Fairport—This letter will keep my father si∣lent—high treason to correspond with the enemy— but this is losing time, and I long to be up to the elbows in the venison-pasty.</P>
+</SP>
+<STAGE>Exit looking at the diamonds.</STAGE>
+<STAGE><PB N="21" REF="18"/>SCENE. <HI>A Chamber.</HI></STAGE>
+<STAGE><HI>Enter</HI> REBATE <HI>and</HI> TRUEMAN.</STAGE>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>And so, this young lady, this Miss Amelia, Mr Fairport's niece, is entirely depen∣dant on his bounty.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Yes, poor lady; her father, on his re∣turn from India, died at Amsterdam; he had con∣verted his effects into diamonds, but it could never be discovered what became of them.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>No.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>No, Sir—But there is a strong suspi∣cion that they were stolen by a Quaker, at whose house he lodged.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Aye—These diamonds must be the very same of which Primitive Tribulation has advised me
+<STAGE>(aside)</STAGE>
+—So you say her fortune was in dia∣monds—well, well—but to the business I'm come upon—I am ready to settle your master's affairs, if he agrees to marry his daughter to my son.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>And if not, you are ready to seize upon his effects.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>I am ready to secure my property, young man—will he accede to my proposal, he can have no doubt upon my sufficiency, he knows me to be a <HI>good</HI> man.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>A good man, Sir—Yes, you are a good man, Sir, and I wish many whom I know to be good men, in money transactions, were good men in the discharge of every other moral obligation.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>I don't comprehend you, young man.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Then I'll be explicit, old gentleman— What good does your boasted goodness arise from —Is it from transacting business with the necessi∣tous,
+<PB N="22" REF="19"/>
+upon such terms of hardship, as cramp every effort of industry? Is it from advancing money on the jointures of distressed widows—the com∣missions of reduced officers—and the livings of poor clergymen?</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Eh.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Do you consider yourself a good man, because you can make good bargains? or is it be∣cause you can laugh with good humour at every man's distress? I have known the enormous wealth of such good men, who while living never did a generous action, bequeathed at the hour of death to build an hospital, wherein the poor have languished for want of common necessaries, while the stewards and domestics have feasted and fat∣tened upon the revenues.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Do you forget I have your master's bond for eleven thousand, and could overwhelm him with ruin?</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>I tell you, Sir, Mr. Fairport rejects your proposal with contempt—What would the world say, should a British merchant act with such dishonor.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Dishonor! Why, man, there is no such thing as dishonor in a transaction of traffic; this is the golden age, in which every thing is bought and sold.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>But conscience, Mr. Rebate—consci∣ence the estimate of justice—she is a judge whose admonitions are not to be silenced, and rectitude alone can save us from the poignancy of her stings.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Conscience may be a judge for aught I know; but eleven thousand pounds would effectu∣ally silence her accusations—many a judge has held his tongue for half the money—But I shall
+<PB N="23" REF="20"/>
+wait to see your master, young man, so will take a turn in the garden, and, no doubt, will find the elegance of his improvements equal to the mag∣nificence of his mansion.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Sir, your servant.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Your most obedient sweet-scented Sir
+<STAGE>(Exit Trueman)</STAGE>
+What an impudent moralizing rascal—this fellow is not one of your cloven-tongued gentry, with one tongue for his public, and another tongue for his private principles—he should have been bred to the church—But how am I to act? interest and passion possess me—This Amelia mo∣nopolizes my mind—Let me consider; her father died at Amsterdam in the house of a Quaker—aye, it's plain my correspondent, Tribulation, was the plunderer of his diamonds, and these diamonds he was to consign to me for sale—the uncle's ruined, and could I persuade the niece to come under my protection, this would turn out an Argonaut ex∣pedition, and I should have the sheering of a golden fleece—Let me see—
+<STAGE>(<HI>Musing</HI>)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> Lucy.</STAGE>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>So! here he is—Have at you, old rogue —Hem! hem!</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P><STAGE>(Turning about suddenly.)</STAGE>
+Ah! ha! my girl
+<STAGE>(Takes Lucy's hand.)</STAGE>
+Egad, you are all beauties in this house.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Beauties, Sir—Miss Amelia, my master's niece, is beautiful indeed.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>And a witty rogue, I dare say.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>A fool, your honor; for I have heard her say, she'd prefer an old man to a young one.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>You joke, hussey; you joke.</P>
+</SP>
+<SP>
+<PB N="24" REF="21"/>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Not I indeed, Sir—Then sometimes she's half mad.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Foolish and insane!—Both in my fa∣vour.
+<STAGE>Aside.</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Then to be sure, Sir, as she is foolish and maddish, if she was to marry an old gentleman, now suppose such a healthy old gentleman as you, Sir, he might lock her up, you know, to preserve her from young gallants.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Egad you're a wit, my girl.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Who I? No, indeed, your honor—I am but young, foolish, and flighty myself; yet I think if a husband was to lock me up, to preserve my virtue, I'd be tempted to turn so troublesome a companion out of my company.—But as I was going to say, I do think Miss Amelia has as deli∣cate a shape as any lady in England.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>So she has, so she has, you baggage, and as inticing a look.—Could you now contrive to introduce me to this foolish, half-mad Amelia? Eh.—</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>La, Sir, if I was found out in such a business, it would for ever ruin my reputation.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>But it would get you money, hussey— and those who have money are above reputation, or what would become of parties in <HI>crim. con.?</HI></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Then, your honor, my conscience.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Conscience! Why conscience, child, is expelled from both ends of the town, or we should not get an enemy's ship insured for love or money; the whole system of stock-jobbing would be over∣turned; the lottery offices might put out their lamps, and the deluded people would no longer be led to destruction by authorized jack-a-lanterns.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>But my honesty.</P>
+</SP>
+<SP>
+<PB N="25" REF="22"/>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Honesty! Honesty, my lamb, is a ma∣terial drawback on pleasure and profit. Those who never deviate from the paths of honesty, move like snails through the world; they leave a shining track behind, but make a very slow progress in the road to preferment.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>But what right have you to expect I should be your friend with the lady?
+<STAGE>(<HI>Holding out her hand and rubbing the palm.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>When I have given you nothing.—Eh! Well, well; here, here's a retainer for you.
+<STAGE>(<HI>Gives her money.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>O dear, your honor
+<STAGE>(<HI>Holding up the money and looking at it.</HI>)</STAGE>
+I see the matter now quite in a new light.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>And don't let me find you one of those voluble advocates who say a great deal to little purpose, or one of those tacit pleaders who pocket their clients fee, and say nothing.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Well, Sir, step into the parlour on the left side of the hall, I'll attend you immediately, and will render you every service in my power
+<STAGE>(Going)</STAGE>
+but, Sir, remember now you must be very secret— There's no lover a woman admires so much as a secret one.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Secret! never fear me, I'm silent as an air gun, which does execution without making a report—But before you go, egad, I must have—</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P><STAGE>(curtseying and wiping her mouth)</STAGE>
+A kiss, your honor—
+<STAGE>(kiss)</STAGE>
+O dear! dear! I see you'll carry the lady.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Well, I'll wait in the parlor—and see, find out my son, and tell him I desire he may re∣turn to London—How sweet the little hussey kisses! —nothing so renovating to age, as the breath of a young female—its more vivifying than the per∣fumes
+<PB N="26" REF="23"/>
+of the Spice Islands, or the odoriserous breezes of Arabia Felix.
+<STAGE>Exit.</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Oh! here come the lovers—
+<STAGE>(retires)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> AMELIA <HI>and</HI> TRUEMAN.</STAGE>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>Nay, prithee peace now—surely this is no time to speak of love.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P><STAGE>(coming forward and standing between them)</STAGE>
+Indeed, Ma'am, but it is—the present time is al∣ways the best to speak of love, and I know the cap∣tain loves you in his soul.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>The captain! Lucy—What captain?</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>What captain but yourself—are you not in the military 'sociation? Well I never thought the 'sociators would grow so stout—Indeed, Madam, they shoot cannons—
+<STAGE>(Looking at Amelia)</STAGE>
+O how Mr. Trueman loves you! don't blush, Ma'am—"Would she but marry me, my dear Lucy" said he, when he gave me this ring—"If I had but the good fortune to gain her consent"—
+<STAGE>(Looking at Trueman)</STAGE>
+La', don't look so sheepish, Mr. Trueman—Now I'd leave nothing to Fortune.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>You are right, Lucy, Fortune's a gay coquet, and neglects the soldier or lover, who de∣pends too much upon her smiles. My dear Amelia, will you give me an answer?</P>
+</SP>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>An answer—You have'nt asked me the question.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Lord! Lord! Ma'am, can you look in his face and say so? are not his eyes twinkling out this very instant, will you marry me, will you mar∣ry me? Take her hand, Mr. Trueman; she told me this very day you had her heart.</P>
+</SP>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>And I said true—
+<STAGE>(gives her hand)</STAGE>
+but you must procure my uncle's consent. I have ever
+<PB N="27" REF="24"/>
+found in him the attention and affection of a fa∣ther, and am bound to obey him from gratitude, as well as duty.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>My dear Amelia, I admire your can∣dor—When a woman approves the honest addresses of a man who loves her, sure there can be no in∣delicacy in confessing that she's sensible of his pas∣sion.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>O! O! O! there's no standing this ten∣der scene— may, may, may heaven bless you both!—
+<STAGE>(<HI>sobbing</HI>)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> FRANK.</STAGE>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I'm as full of intelligence as an Extraor∣dinary Gazette!</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Pray don't be a Gazette on the occa∣sion, let us have the whole truth.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I have left Master Praecipe in the pantry, where he gormandizes with the appetite of a cor∣morant, and drinks like a fish. I have fully per∣suaded him that Lucy is your cousin Augusta, and shall presently introduce him to an interview with her, quite in a new character.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>The old gentleman has swallowed every thing I've told him, and believes you, Ma'am, to be a half witted kind of a flighty hair-brained gen∣tlewoman—his passion has made a fool of him, and as this is a trial of skill between Frank and me, I'll try if I can't get him to take up a new charac∣ter, as well as his son.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Why, Lucy, you're a perfect mistress of intrigue.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>I lived two years at a French boarding-school, Sir—besides, women were always better negotia∣tors than men; and were half a dozen brisk girls
+<PB N="28" REF="25"/>
+like me, sent out commissioners to America, we'd soon settle business with the Congress.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>I have no doubt of your ability.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Doubt, Sir—La! I wish we had the settling of the Irish affairs.</P>
+</SP>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>Come, let us retire to our several du∣ties.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>I'll go prepare the old man.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>And I the young one.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>And never fear, they shall both have a surfeit of amours.
+<STAGE>Exeunt.</STAGE></P>
+</SP>
+</DIV2>
+<DIV2 N="2" TYPE="act">
+<PB N="29" REF="26"/>
+<HEAD>ACT II.</HEAD>
+<STAGE>SCENE. <HI>A Dressing-room, a Table, Dressing-Glass, and Chair.</HI></STAGE>
+<STAGE><HI>Enter</HI> REBATE, <HI>and</HI> LUCY, <HI>carrying an uniform suit.</HI></STAGE>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>YOUR son, Sir, is gone to town, and so is Mr. Trueman; and my master has sent word he won't be here this evening, and I've put all the servants out of the way; and so we'll have a clear coast to ourselves.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Well, well, that's right, my girl, that's right—But, Lucy, I can scarcely credit what you tell me of Amelia's disposition.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Indeed, Sir, it is true; she loves the army above all things, and will sometimes speak for an hour together, particularly in the full of the moon, Sir, about battles, and soldiers, and cutting of throats. Here are Mr. Trueman's 'sociation regimentals—pay your addresses to her in them, Sir, and you'll carry the day.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Then leave them on the chair, and as there's no one in the house to see me play the fool with this mad girl, egad I'll e'en attack her <HI>a la militaire.</HI></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And while you're dressing, I'll prepare your mistress to receive you—
+<STAGE>(Going, she returns)</STAGE>
+But remember, you are to persuade Miss Amelia, that you've loved her a long time, and that hear∣ing of her uncle's failure, you're come to offer her your heart and fortune.
+<STAGE>Exit.</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Foolish and insane as this young lady may be, it is rather extraordinary that she should
+<PB N="30" REF="27"/>
+prefer age to youth.
+<STAGE>(takes off his coat)</STAGE>
+As to her liking soldiers better than men of any other profes∣sion, that's common—your green-girls bite as voraciously at a red rag as mackarel.
+<STAGE>(takes off his waistcoat)</STAGE>
+But what should become of me, if in her madness she should take a sudden aver∣sion to scarlet, and fly at me like a turkey-cock?
+<STAGE>(puts on the uniform waistcoat)</STAGE>
+I cannot think she has preference for old man
+<STAGE>(puts on the coat, and looks in the glass)</STAGE>
+yet why not? Love is a capricious passion, and not always the con∣sequence of beauty or assiduity—This dress really becomes me—
+<STAGE>(looks in the glass)</STAGE>
+and I have known one lucky moment often produce, what years of solicitation, rivers of tears, and storms of sighs, could never bring about.
+<STAGE>(Puts on the helmet)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> LUCY.</STAGE>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>La, Sir!—You are quite the thing! I have prepared Miss Amelia, and indeed—O! she looks charming.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>But have you been feeling the pulse of her affections, how do they beat? Eh, Lucy— eh, eh—
+<STAGE>(seizing Lucy's hand)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Mercy, Sir, let go my hand—La, Sir, why are you so warm?</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Warm! I'm all fire!—irritation, like rubbing a dry stick, sets me in a blaze!—Let us be going—
+<STAGE>(going)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Yes, Sir, but remember you must use her gently—she's of a mild, religious dispo∣sition.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Religious! That's fuel to my fire—No pleasure gives such exquisite satisfaction to a man of gallantry, as ruining a devotee—
+<STAGE>(<HI>aside</HI>)</STAGE>
+But how do I look, Lucy? eh!</P>
+</SP>
+<SP>
+<PB N="31" REF="28"/>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Look! your honour looks killingly—
+<STAGE>(<HI>walks round him</HI>)</STAGE>
+These light-horsemen are so smart about the head, so spurred upon the heel, wear their cloaths so neat to their shapes, and have their skirts so trimmed to their hips, they always appear ready for action, like so many game-cocks cut out of feather for fighting—But your cheeks are not half red, Sir—
+<STAGE>(<HI>brings a box from the toilet and paints him</HI>)</STAGE>
+And your eye-brows must be blackened—
+<STAGE>(<HI>brings another box and blackens his eye-brows</HI>)</STAGE>
+Now, your honour, you've a noble soldierly appearance.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>These swingeing eye-brows give me too fierce a countenance—but then, they set off a smile
+<STAGE>(<HI>grins in the glass</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Good-day, how amiable you look! But you must hold up your head thus—
+<STAGE>(<HI>puts up his head</HI>)</STAGE>
+And wear your helmet over your left eye thus—
+<STAGE>(<HI>settles his helmet</HI>)</STAGE>
+And keep your arms thus—
+<STAGE>(<HI>settles his arms</HI>)</STAGE>
+And I must tighten your stock.
+<STAGE>(<HI>tightens his stock.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Zounds! Lucy, you'll strangle me!</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Never fear, your honour—A soldier should always wear his stock tight enough to force a colour into his face—a tight stock is a sol∣dier's dram—You see the guards appear as ruddy in the face, and as stiff in the shoulders as if they had been exercised in a pillory—You must turn out your toes
+<STAGE>(<HI>turns out his toes with her feet</HI>)</STAGE>
+Keep your breast full out thus—
+<STAGE>(<HI>Bends him back</HI>)</STAGE>
+March thus—
+<STAGE>(<HI>takes him under the arm and marches</HI>)</STAGE>
+To the right about—
+<STAGE>(<HI>they face the au∣dience</HI>)</STAGE>
+—Aye, now you appear perfectly at ease.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>At ease!—Egad, my muscles are cracking with exquisite torture. But I like this masque∣rading, it seasons an amour to the highest <HI>goüt,</HI> and is the very spice, the poignant sauce of an intrigue—I shall reward you liberally!</P>
+</SP>
+<SP>
+<PB N="32" REF="29"/>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And I sha'n't oppose your honour's libe∣rality—to be proof against a bribe, would shew a vulgar education—</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>True—And persons of the first rank are rewarded under the head of secret service. But here—
+<STAGE>(<HI>gives her a purse</HI>)</STAGE>
+You have no more scruples now, I hope, about conscience, honour, and honesty.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>No indeed, your honour, they are your's, you have bought them, and may dispose of them as you think proper.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Then I'll give them to those who want them—Honour to the Gamblers—Conscience to the Methodists—and Honesty to the Jews.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Nay, your honour, keep a little of each for us poor christians.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Egad, my girl, I see you're no novice.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>A novice at eighteen! No no, we have more experience at that age in London, than country girls at twenty-five. City roses blow apace, and it's generally summer with us, before it should be spring—I shot my first arrow at sixteen, hit my man, and he turning false, I have ever since carried two strings to my bow— But it's time, colonel, I should introduce you.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Lead on, I follow—
+<STAGE>(<HI>They march off, Lucy humming a march.</HI>)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> PRAECIPE <HI>and</HI> FRANK.</STAGE>
+<STAGE>(PRAECIPE <HI>in an old fashioned naval uniform and hat, a sword, stick, and black patch on one eye.</HI>)</STAGE>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>This uniform fits you exactly, Sir, I borrowed it from an old sea officer in the neigh∣bourhood—You really look as brave, and sea∣man-like, as if you were one of the Admirals in
+<PB N="33" REF="30"/>
+Westminster Abbey, descended from his monu∣ment.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>I wish some of them had descended, they have been wanting Master Frank—But I object to this black patch on my eye, it brings me under statute ninth of George the first, chap∣ter twenty-second, which makes it felony with∣out clergy to go with the face disguised.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>That act must have lost its force, Sir, or what would become of the painted beauties of London?</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Then, as a body may say, I am only a seaman by fiction; but the law says, fictions are beneficial—But then, says the law again, no fiction shall work an injury. Very well, there can be no injury in my marrying a woman of fortune.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>True, Sir.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Let us moot the case—In fiction sub∣sists equity and justice, say the books—then will I marry Miss Fairport in the equity of fiction, and afterwards be happy.—</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>In reality, Sir?—</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>If not happy, we can separate by fiction—I'll state you a case in point—A brings his action of <HI>crim. con.</HI> against B; now though the cause of action had been transacted in the most loving manner between B, and the wife of A, yet must A state in his declaration, that the said B did wickedly and maliciously, with force and arms, that is to say, with sticks, clubs, staves, swords, guns, and other offensive weapons, se∣duce and—<HI>et caetera,</HI> the wife of the said A— Do you understand me?</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Perfectly.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>But this is not all—for though A and wife had lived together, like cat and dog, as the saying is, yet must A aver, that B deprived
+<PB N="34" REF="31"/>
+him of all worldly comfort. —Oh, Master Frank, many a good fortune has been made by the fiction of <HI>crim. con.</HI> but now a plaintiff can scarce recover a <HI>shilling.</HI></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>And is this law, Sir?</P>
+</SP>
+<SP>
+<SPEAKER>Prae.</SPEAKER>
+<P>Yes, it is law, but nothing to what they do at the Admiralty, where the whole ocean's brought upon dry land—It was but the other day a pirate was tried for feloniously robbing the good ship St. Joseph, on the high seas, four leagues off Cape St. Vincent, in the county of Norfolk.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Now you joke indeed, Mr. Praecipe!</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Joke! The devil a joke! Why man it has been proved to the satisfaction of the ci∣vilians and the bar, that the Thirteen Colonies of America are situate in, and part of the county of Kent.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I think I hear Miss Fairport's foot coming down stairs.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Then I'm off—You'll break the ice for me—</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Never fear—She's a good creature, and as familiar with me as if I was her fellow-servant.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>But won't it seem odd if I don't court her myself?</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Bless me! —no—it's quite fashionable to make love by proxy.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Well then, be my <HI>amicus curiae,</HI> and I'll take another glass or two—a man should always appear full of spirits before his mistress.</P>
+</SP>
+<STAGE>Exeunt Praecipe.</STAGE>
+<STAGE><HI>Enter</HI> LUCY, <HI>laughing.</HI></STAGE>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Ha, ha, ha, I've had a peep at my swain, and he looks as tremendous as the head of a Dutch ship—</P>
+</SP>
+<SP>
+<PB N="35" REF="32"/>
+<SPEAKER>Frank.</SPEAKER>
+<P>Formidable as he looks, Lucy, if you regard your own interest you'll make your fortune of him—I say marry him, marry him!</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Marry him!</P>
+</SP>
+<SP>
+<SPEAKER>Fran.</SPEAKER>
+<P>Yes you shall marry him—I say you shall marry him—Mr.Trueman says you shall marry him —and Miss Amelia says you shall marry him— Come, no denial, I have sent to town for a special licence and the Curate will be here presently to tack you together.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>La Frank! why the fellow's a fool.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>No such thing;—the gentleman has wit.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>In his cups—drinking is of the same use to his brain, as travelling to a blockhead; it heightens his impertinence, and transforms him from a drowsy fool into a prating coxcomb.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Or, it improves his understanding as bottling improves small beer, which then becomes brisk without growing stronger.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And you insist on my marrying him?</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>I do—</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Then shall you be my father on the oc∣casion;—and see, Frank I'll learn French and cotillions, and dance perhaps with an Alderman, at a Lord Mayor's ball.—Then I'll pretend to be half blind, and spy at the play-actors through my glass
+<STAGE>(imitating)</STAGE>
+and I'll walk as if I wanted the use of my limbs
+<STAGE>(imitating)</STAGE>
+and speak so nice, that no one shall understand me.
+<STAGE>(imitating.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Nay, but this is losing time, Lucy.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And I'll blacken my eye-brows, pinkify my hair, rouge my cheeks, and pearl powder my neck—Then I'll flaunt every summer at the re∣views in the artillery ground, and go up the river every autumn a swan hopping.
+<STAGE>(running off.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>A brave girl, faith, come I'll bring you to your lover, and make the best use of your time.</P>
+</SP>
+<STAGE>Exeunt.</STAGE>
+<STAGE><PB N="36" REF="33"/>SCENE. <HI>A Chamber,</HI> AMELIA <HI>and</HI> REBATE <HI>discovered sitting on a sofa.</HI></STAGE>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Ha! ha! ha! Egad, madam you are a perfect soldier, and have given me as accurate a description of a camp, as I could have given my∣self who have seen service.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Seen service!—to me, sir, you appear a veteran, worn out in the service;—but are you really a colonel? Colonels are in general so young, and subalterns so old, that from your age I took you to be a lieutenant.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>We were speaking of the qualities neces∣sary to form a commander, madam.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>True, I was going to communicate to you a receipt for making commanders; I had it from a learned physician, who though not diploma'd from a University to kill by the regular rules of art—</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Is a licensed quack, I suppose, madam, and murders under the authority of letters pa∣tent.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>A cessation of wit, and listen to my re∣ceipt, sir.—Take ten drops of Marlborough spirit —one ounce flower of Ligonier—two drams pow∣der of Granby—one scruple of Wolfe's laurel, and a single grain of Cumberland oak bark; let these ingredients be put in a brass mortar, mix them up with oil of Andrè, marine essence of Farmer and alkaline salt of Pierson, and they'll produce an in∣spiring draught, of sufficient power to infuse a courageous soul into the most inanimate body.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Why, madam you are a perfect political Esculapius!</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Yes, colonel, and our new state physicians have ordered my prescription to be taken in large doses by every commander at sea and land.</P>
+</SP>
+<SP>
+<PB N="37" REF="34"/>
+<SPEAKER>Reb.</SPEAKER>
+<P>Let us return to my suit, fair creature— your uncle is undone—you have no friend;—put yourself under my protection, and we'll live—</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P><STAGE>(rising suddenly)</STAGE>
+In the country! For I am enraptured with the sports of the field, and glory in the pleasures of the chace—Not a fortnight since I rode a day's sport after twenty couple of hounds, staunch tartars as ever yelp'd or run a drag—took a flying leap across a stream—dashed thro' two quicksets, and leaped three five bar gates.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Aye!</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>We unkennelled Reynard before eight, had a view hollow by ten—Tallee ho, ho ho ho— hoick forward—wind him, the villain, wind him. At eleven he took the water, we plunged after— crossed the Thames—at twelve the whole pack close in with him, you could cover them with a sheet, and we killed him exactly at nineteen mi∣nutes three seconds after one.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Why, madam you're not only an Ama∣zon, but a Diana.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Then I can shoot sitting or flying—kill a trout or salmon with a single hair—bit a horse for the field, break him in for the carriage—staunch a pointer, and understand the odds and chances at horse-racing, cards, hazard, pass-dice, Pharoah and E O, as well as any black-leg of the turf, or judge in the stand at Newmarket.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Egad, madam, all the amiable qualities of a modern high-blooded fine lady seem to be centered in you.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Dear Colonel you don't know half—In driving a phaeton I'll back my skill against any ti∣tled or untitled female in the kingdom, and am ready to lay you three to two, play or pay, that I drive four hunters from London to Bath, without
+<PB N="38" REF="35"/>
+once losing the whip-hand of the road, and turn them on the breadth of a shilling's edge.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Why! you're an Olympic charioteer, ma∣dam.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>And I say done first.</P>
+</SP>
+<STAGE>(knocking, Amelia goes to the door.)</STAGE>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>It will do—it will do—aye, aye, she's half mad, and when wearied of her I'll soon find a doctor shall make her compleatly so.
+<STAGE>(aside)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> FRANK, <HI>(Rebate conceals his face with his hat.)</HI></STAGE>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>News! madam, news! I bring news will delight your ear, and charm your heart: Mr. Trueman is returned from town, and brings word, that the West India fleet's arrived, that the East Indiamen are in port;—but, madam, he is here, and there, and every where, foaming with rage, and roaring out horrid vengeance against old Re∣bate.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>O! Mercy! I'm lost.
+<STAGE>(aside.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Do you know that old villain, Rebate, Colonel?</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>No, madam, I'm acquainted with no old villains.
+<STAGE>(<HI>in an under voice.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>And one of the servants, madam, has told Mr. Trueman that this officer's with you, and he's mad jealous,
+<STAGE>(<HI>goes up to Rebate</HI>)</STAGE>
+Lord your honour, I would not be in your coat for a thousand pounds; so to prevent two murders, I'll seek old Rebate, and get him out of the way.
+<STAGE>Exit.</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>I'll lock myself up in this closet.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>And I'll follow you—</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Not for the world—you must stay here and defend me.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P><STAGE>(<HI>within</HI>)</STAGE>
+Sir—Sir—you can't come in here—</P>
+</SP>
+<SP>
+<PB N="39" REF="36"/>
+<SPEAKER>Tru.</SPEAKER>
+<P><STAGE>(<HI>within</HI>)</STAGE>
+Frank, I will have entrance—</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P>Mercy here he comes!</P>
+</SP>
+<STAGE>(<HI>retires into the closet, and shuts the door.</HI>)</STAGE>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>So I'm to be assassinated!—is there no place of retreat?
+<STAGE>(<HI>looking about.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P><STAGE>(<HI>within</HI>).</STAGE>
+Put up your sword, dear sir.</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P><STAGE>(<HI>looking out of the closet</HI>)</STAGE>
+Insist upon fighting him with pistols, colonel;—at swords, its nothing with him, but ha, ha, ha, and he whips his antago∣nist, quart over the arm, through the lungs.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Quart over the arm, and through the lungs!—with a ha!—O my lungs!
+<STAGE>(<HI>coughs</HI>)</STAGE>
+what will become of me?</P>
+</SP>
+<SP>
+<SPEAKER>Ame.</SPEAKER>
+<P><STAGE>(<HI>looking out</HI>)</STAGE>
+And, Colonel, don't fight him with his own pistols, with them he can strike the spot out of an ace of diamonds, or kill a swallow flying with a single ball.
+<STAGE>(<HI>shuts the door</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Kill a swallow flying—then if he kills me it shall be flying.
+<STAGE>(<HI>going.</HI>)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> TRUEMAN <HI>with two swords.</HI></STAGE>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>They are of one length, sir, take your choice;
+<STAGE>(<HI>presenting the swords</HI>)</STAGE>
+you have injured me in the tenderest point, injured me in my love —knowing I was a citizen, you presumed I would not resent an affront from a soldier; but I will con∣vince you, sir, that in this country, a soldier and a citizen are one character.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Sir,
+<STAGE>(<HI>biding his face with his hat.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Sir—</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Sir—hem—sir—Having unfortunately re∣ceived a wound in this arm—I—hem—hem—I—I cannot hold a sword.
+<STAGE>(distorting his arm.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Then, sir, take your choice of these
+<STAGE>(pro∣ducing a case of pistols.)</STAGE>
+they are Tower-proof, and kill point-blank at thirty yards.</P>
+</SP>
+<SP>
+<PB N="40" REF="37"/>
+<SPEAKER>Reb,</SPEAKER>
+<P>I am an old man—I've been used to fight for my countrymen not against them</P>
+</SP>
+<STAGE>(going towards the door.)</STAGE>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P><STAGE>(<HI>intercepting him</HI>)</STAGE>
+If you have not spirit to meet a man, how dare you face a woman.— Heavens, what a figure! withered like a winter apple
+<STAGE>(<HI>Rebate walks, Trueman follows him, still keep∣ing him from the door</HI>)</STAGE>
+shrivelled and decayed like an autumnal pear—weak and bowed down by in∣firmities—a living hospital of old disorders—a martyr to diseases, cramps, aches, pains, spasms, agues, contractions, rheums, and paroxysms.</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>I know of nothing that ails me but a little cough
+<STAGE><HI>(coughs</HI>)</STAGE>
+pray let me pass.
+<STAGE>(<HI>bowing.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Are you not taped, spliced, spiced, and glewed together like an Egyptian mummy?</P>
+</SP>
+<STAGE>(<HI>Rebate walking, Trueman following.</HI>)</STAGE>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P><STAGE>(<HI>Bowing very low</HI>)</STAGE>
+What you please—what you please.</P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Are you not a burden to yourself, a nui∣sance to your acquaintance, an evil example to youth, and a scandal to old age?</P>
+</SP>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>A nuisance!—then pray let me remove the nuisance.
+<STAGE>(<HI>going</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Tru.</SPEAKER>
+<P>Get home, purchase flannel, and engage a nurse to swaddle you. But if I ever catch you again poaching on this ground, I'll show you no more mercy than a country justice shews a peasant who kills partridge—I'll truss you up as warreners truss up kites, a horrid scarecrow to birds of prey.</P>
+</SP>
+<STAGE>Exit.</STAGE>
+<SP>
+<SPEAKER>Reb.</SPEAKER>
+<P>Truss me up!—O you damned villain.
+<STAGE>(<HI>very loud and threatning with his hand</HI>)</STAGE>
+Yes, rascal! If ever you catch me here again, you may truss me up, and quarter me into the bargain—O plague on this lobster's shell!
+<STAGE>(<HI>tearing open his coat</HI>)</STAGE>
+I shall be
+<PB N="41" REF="38"/>
+the laughing stock of the whole town. But softly, let me see, he mistakes me for an officer; so I'll seek Lucy, change my cloaths, and make my es∣cape to town.—O woman! woman! you make idiots of the wisest and oldest of us—Why can't I shake off this passion for the sex? Surely! sure∣ly! the greatest curse under heaven is to be afflict∣ed with an appetite we can neither satisfy nor get rid of.</P>
+<STAGE>Exit.</STAGE>
+</SP>
+<STAGE><HI>Enter</HI> LUCY, <HI>with</HI> PRAECIPE, <HI>intoxicated.</HI></STAGE>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And so you've deceived me? I have mar∣ried an attorney and not a captain?</P>
+</SP>
+<SP>
+<SPEAKER>Prae.</SPEAKER>
+<P>There's no difference I tell you between them. I've a case in point—Styles, versus Nokes on the Game Laws. John a Nokes was indicted by Tom a Styles for having a hare in his possession. Nokes gave in evidence that the hare was killed in his garden by a hog, and the judge would have non-pross'd Styles, had not a learned serjeant ar∣gued contra, that the game laws were not made against hogs, nor made against dogs, but were made against persons having game in their posses∣sion, and therefore <HI>quo ad hoc</HI> a hog was a dog, and a dog was a hog—</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>What! would you make a hog or a dog of me?—</P>
+</SP>
+<SP>
+<SPEAKER>Prae.</SPEAKER>
+<P>No—no—I am only proving, do you see me, that as captains and attornies have the same end in marrying, so in our case, as in the case of the hog and the dog, <HI>caeteris paribus,</HI> with a <HI>quo ad hoc,</HI> an attorney is a captain and a captain is an attorney.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>But my father, I fear, will be dreadfully angry—</P>
+</SP>
+<SP>
+<SPEAKER>Prae.</SPEAKER>
+<P>Never mind your father; your fortune is in your own possession—your father never asked your consent to marry, and why should you ask his?—
+<PB N="42" REF="39"/>
+But here my dear Augusta Fairport—<HI>alias</HI> Au∣gusta Rebate—<HI>alias</HI> my love—<HI>alias</HI> my charmer— I endow you with these diamonds, and bank notes
+<STAGE>(<HI>gives the caskets and pocket book</HI>)</STAGE>
+and take care of this letter; it contains evidence to hang my father, if he should take exceptions:</P>
+</SP>
+<STAGE><HI>Enter</HI> FRANK.</STAGE>
+<SP>
+<SPEAKER>Lucy:</SPEAKER>
+<P>Well Mr. Frank, we have made up every thing, and we have determined to sport a vis a vis of the brimstone, and a tim whiskey of the em∣peror's eye.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Yes; we will have a vis and a timmy, and never be without wine in the cellar, and cold meat in the pantry—and now I am married, I'll drink—
+<STAGE>(sings.)</STAGE>
+<Q><L>Drink and set your heart at rest,</L>
+<L>Of a bad bargain make the best.</L></Q></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Bravo, Sir. But, Madam, it is time you should introduce the old gentleman, Mr. Praecipe's prepared, I hope.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Yes, yes, I have instructed him. Well, adieu!—Heigh-ho!
+<STAGE>Exit.</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Adieu! Heigh-ho!—your hand honest Frank—I have been drinking most devoutly— toasting on my knees, drinking and courting—and smoaking and kissing—and every thing goes round.
+<STAGE>(Sings.)</STAGE>
+<Q>Round the world thus we march with merry glee.</Q>
+You shall always be welcome to victuals and drink at our house—I play as merry a knife and fork as an overseer of the poor.
+<STAGE>(Sings.)</STAGE>
+<Q><L>O the roast beef of Old England,</L>
+<L>O the old English roast beef.</L></Q></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>Remember you are to pass upon your father as lieutenant of a man of war, speak loud, disguise your voice, and flourish your stick.</P>
+</SP>
+<SP>
+<PB N="43" REF="40"/>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Never fear me. Then I have been drinking, as my school-master used to say, gram∣matically—drinking through the tenses—drinking like a camel, for the time past, the time present, and the time to come.
+<STAGE>(Sings.)</STAGE>
+<Q><L>Fill me a bowl, a mighty bowl,</L>
+<L>Large as my capacious soul.</L></Q></P>
+</SP>
+<STAGE><HI>Enter</HI> LUCY.</STAGE>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Here comes the old gentleman raving with anger—My love, stand you here.</P>
+</SP>
+<STAGE><HI>Enter</HI> REBATE, <HI>(in a rage.)</HI></STAGE>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>My cloaths gone—O fool! fool!
+<STAGE>(beats his head.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P><STAGE>(Taking Rebate aside.)</STAGE>
+Keep your tem∣per, colonel; here's a lieutenant of the navy as furious as a hurricane, and unrelenting as a great gun—he is your rival too, and half drunk.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P><STAGE>(Stamping.)</STAGE>
+O blockhead, blockhead, blockhead.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Blockhead! Let him keep a civil tongue or I'll make him skip—it <HI>was</HI> me he called blockhead,
+<STAGE>(drawing his hanger.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Indeed, lieutenant, it is not <HI>you</HI> the co∣lonel calls blockhead—begin—begin,
+<STAGE>(pushing Prae∣cipe.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Noble lieutenant, don't draw blood here.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P>The fellow must be a coward by his noise—suppose you put his mettle to the proof.</P>
+</SP>
+<STAGE>(Aside to Rebate.)</STAGE>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>I see you don't know me, Frank— O shame! shame!—I am Old Rebate.</P>
+</SP>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P><STAGE>(Affecting surprize.)</STAGE>
+Bless me! Mr. Re∣bate.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Let me at him, I say,
+<STAGE>(pretending to struggle with Lucy.)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Protect me from that bloody-minded sea∣monster— here, here,
+<STAGE>(gives money.)</STAGE></P>
+</SP>
+<SP>
+<PB N="44" REF="41"/>
+<SPEAKER>Frank.</SPEAKER>
+<P>Keep up your spirits, Sir, and I will.</P>
+</SP>
+<STAGE>Exit.</STAGE>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>See, old codger, if passion has kicked up a riot in your brain, you had best call in your prudence as a constable to keep the peace.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>You really mistake me, noble lieu∣tenant,
+<STAGE>(<HI>bowing.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>That won't do—you shan't get at the blind side of me—I have but one eye, 'tis true; but it's an eye would frighten the French, the Dutch and the Spaniards—it's a Hawke's eye—damn me, it's a Hawke's eye—it's a Hawke's eye.</P>
+</SP>
+<STAGE><HI>Enter</HI> FRANK <HI>with a blunderbuss, which he gives to</HI> REBATE.</STAGE>
+<SP>
+<SPEAKER>Frank.</SPEAKER>
+<P><STAGE>(<HI>Aside.</HI>)</STAGE>
+Here, Sir, now defend your∣self, it's charged up to the muzzle with swan shot.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Fire and storms.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P><STAGE>(<HI>Kneeling and presenting the blunderbuss.</HI>)</STAGE>
+Out of the way and let me pass, or I'll make a riddle of your carcase.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P><STAGE>(<HI>Turning suddenly about, falls.</HI>)</STAGE>
+Murder! mercy! spare me;
+<STAGE>(<HI>pulls off his hat and black patch,</HI>)</STAGE>
+consider, dear father, it you fire, though you should miss me, the very intention is death by the black act.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>My graceless son in conspiracy against me!—O you unnatural villain!—But here comes another tormenter,
+<STAGE>(<HI>still kneeling.</HI>)</STAGE></P>
+</SP>
+<STAGE><HI>Enter</HI> TRUEMAN. <HI>He stands between</HI> REBATE <HI>and</HI> PRAECIPE.</STAGE>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>What, colonel! I thought you had left the house.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>I'll make affidavit he's no more a co∣lonel than I am.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>And who are you, Sir?</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe</SPEAKER>
+<P>Praecipe Rebate, at your service— spare me, and hereafter I'll live an honest attorney.</P>
+</SP>
+<SP>
+<PB N="45" REF="42"/>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Live an honest attorney!—No, no, my love, you shan't live an original character.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Which deserves chastisement most, the father or son?
+<STAGE>(<HI>looks at them alternately.</HI>)</STAGE>
+You are equally deserving; for I know of none who merit severer punishment than those who assume his majesty's livery, and put on the insignia of a soldier, without possessing that dignity, honor and courage, which are essential to a military cha∣racter.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>And heaven knows, Sir, there are plenty of such uncommissioned coxcombs about town. But pray rise, your honor,
+<STAGE>(<HI>to Rebate</HI>)</STAGE>
+this is ho∣nest Mr. Rebate, equipt in your 'sociation uni∣form.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Caught with the <HI>maner</HI>—that is to say, with the property upon you
+<STAGE>(<HI>to his father.</HI>)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>But see, I have done my business without your assistance. I have married Miss Fairport
+<STAGE>(<HI>puts his hand under Lucy's arm</HI>)</STAGE>
+here she stands; her for∣tune's mine, I am her <HI>baron,</HI> she's my <HI>feme,</HI> and under my coverture.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>It is true, indeed, Sir, I am your daughter, but not Miss Fairport; and as to fortune, mine lies in a deal-box.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>So—I have stultified myself in open court—But father I'm not an old fool—and we have money enough, and diamonds too—and give me your hand, bone of my bone.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<STAGE>(to Praecipe)</STAGE>
+<P>In marriage you know a captain's an attorney, and an attorney's a captain— So by the same rule a gentlewoman's a waiting maid, and a waiting maid a gentlewoman.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>A clear case, <HI>caeteris paribus,</HI> with a <HI>quo ad hoc.</HI></P>
+</SP>
+<STAGE><PB REF="43"/><HI>Enter</HI> AMELIA.</STAGE>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>My dear Mr. Trueman, read this letter.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Which I received from my spouse.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Here is evidence of the blackest crime can be committed by a subject against his king and country—giving succour to their enemies.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>High-treason! as I always told you father when you quoted the Dutch as a precedent for having, when at war, sold powder and ball to the enemy to pepper their own carcases.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>Mr. Rebate—This letter is directed to you, Sir, and from its contents, I have reason to conclude, that the diamonds you have received from Amsterdam, are the property of this lady.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Diamonds!</P>
+</SP>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<P>Yes Sir, diamonds—This letter is cer∣tainly written by the Quaker, at whose house my father lodged.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<STAGE>(Looking at the letter)</STAGE>
+<P>O! I shall run mad.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<P>Here are the diamonds, Madam
+<STAGE>(deliver∣ing the case)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>And did you, idiot, give a receipt for those monies and diamonds in my name?
+<STAGE>(to Prae∣cipe)</STAGE></P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>I am an Englishman, and not bound to answer personal interrogatories.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>I'll hang you for the forgery, you dog.</P>
+</SP>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>I defy your indictment—I acted as your lawful attorney; or if I had not, a Quaker is your only witness; and your Quakers are so conscientious, they would let the worst of rogues escape, sooner than take an oath.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>Oh! you rascal—Peter the Great was right, when having but two lawyers in his domi∣nions, he hung one as an example to the other.</P>
+</SP>
+<SP>
+<PB N="47" REF="44"/>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>You may abuse the law, father; but we should not have imposing lawyers, if there were not litigious clients.</P>
+</SP>
+<SP>
+<SPEAKER>Lucy.</SPEAKER>
+<STAGE>(<HI>Standing on his left hand.</HI>)</STAGE>
+<P>Remember your advice to me,
+<Q>be ashamed of nothing, Lucy, but being poor—the rich are above shame.</Q></P>
+</SP>
+<SP>
+<SPEAKER>Amelia.</SPEAKER>
+<STAGE>(<HI>Standing on his right hand.</HI>)</STAGE>
+<P>And re∣member, that the credit of a merchant, like the virtue of a woman, or the courage of a soldier, is his point of honor; and that as no recompense can satisfy the loss of credit, no punishment is too se∣vere for the villain who dares to traduce it.</P>
+</SP>
+<SP>
+<SPEAKER>Rebate.</SPEAKER>
+<P>I'll stay no longer—I'll convert all my effects into cash, and fly to Holland, where every man who has money may be sure of protection.</P>
+</SP>
+<STAGE>Exit.</STAGE>
+<SP>
+<SPEAKER>Praecipe.</SPEAKER>
+<P>Wait for your cloaths, father—my wife shall recover your suit—.</P>
+</SP>
+<SP>
+<SPEAKER>Trueman.</SPEAKER>
+<P>What we have experienced will, I hope, teach us this moral—that while virtue guides our passions, happiness is the certain consequence, and that misery is ever the result of submitting to vicious habits. May every Briton bring these pre∣cepts into practice—and may every Briton also re∣member, that as the credit, the wealth, the strength, the dignity of the British empire flow from com∣merce, to support and extend commerce is the in∣dispensible duty of every British subject.
+<STAGE>Exeunt.</STAGE></P>
+</SP>
+</DIV2>
+<TRAILER>THE END.</TRAILER>
+</DIV1>
+</BODY>
+<BACK>
+<DIV1 TYPE="by the same author">
+<PB REF="45"/>
+<HEAD>Lately published, by the same Author</HEAD>
+<P>Price 2s. 6d. sewed, The SECOND EDITION, of SENTIMENTAL EXCURSIONS TO WINDSOR, and other Places. A SHANDEAN BAGATELLE, under various HEADS and TALES, <HI>viz.</HI></P>
+<P>The Highwayman—The Star and Garter—Origin of Hoops—The Waggon Rut—Travelling Picquet—The poor Seaman—Windsor Terrace—The Departure—Lord Praetor's electioneering Expedition—The Meeting—The old Maid and old Soldier—Chit-Chat—Story of Count O'Riely—Aquatic Sport of Swan-Hopping—Tristram Shandy—Story of Count O'Dunn, and the Queen of Portugal—<HI>Un patit Souper</HI>—The <HI>Illustration,</HI> by an Extinguisher, &amp;c.</P>
+<P>With NOTES, illustrative, historical, critical, philological, &amp;c. &amp;c.</P>
+<Q>As a MOTTO is a Word to the Wise, or rather a broad Hint to the whole World of a Person's Taste and Principles, VIVE LA BAGATELLE, would be most expressive of your Ladyship's Characteristic.
+<BIBL>MACKLIN'S MAN OF THE WORLD.</BIBL></Q>
+<P>Also, Price <HI>1</HI>s. <HI>6</HI>d. sewed,</P>
+<P>THE CLAIMS OF IRELAND, and the RESOLUTIONS of the VOLUNTEERS vindicated, on the Principles of Selden, Sidney, Locke, Hooke, Sir William Temple, Chatham, Cambden, Rockingham, Es∣singham, Fox, Burke, Shelburne, &amp;c.</P>
+<Q><HI>And by opposing end them.</HI>
+<BIBL>SHAKES.</BIBL></Q>
+</DIV1>
+</BACK>
+</TEXT>
+</EEBO>
+</ETS>
+
