@@ -42,7 +42,7 @@ Edges can also have a weight to them, which is generally represented by changing
 #### *Hamlet* Network
 Let's take a quick look at why properties like direction and weight matter. In this network of *Hamlet*, characters are connected to other characters if they exchanged dialogue. While this graph presents some insights into the plot's structure and the characters' centrality to the plot's unfolding, it also misses features that might be important, depending on what questions you're hoping to ask of the graph (as Moretti acknowledges). For instance, since there's no direction, we lose the significance of the ghost only responding to Hamlet. Without an edge weight, we can't tell that Hamlet and Claudius exchange far more lines with one another than do Horatio and Claudius. Whether these details matter depends on what you're trying to see with the network.
 
-<p align="center"><img width="600" height="500" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/hamlet-network.png"><a href='https://litlab.stanford.edu/pamphlets/' target='_blank'>"Network Theory, Plot Analysis"</a></p>
+<p align="center"><img width="600" height="500" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/hamlet-network.png"><a href='https://litlab.stanford.edu/pamphlets/' target='_blank'></br>"Network Theory, Plot Analysis"</a></p>
 
 ### Nodes
 Nodes, frequently represented as circles, can be anything—not just people. Nodes can be places, concepts, words, etc. Networks with nodes all of the same type (for example, all authors) are called unipartite graphs. Networks with two node types (authors and publishers) are bipartite.
