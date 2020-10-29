@@ -32,7 +32,7 @@ In the case of a **directed network**, edges are typically represented as arrows
 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/basic-network.png"></p>
 
-If you're unsure what kind of network you have, start out by treating it as a directed network when putting your edge list together, because it's much more time intensive to switch from undirected to directed midway through a project.
+If you're unsure what kind of network you have, start out by treating it as a directed network when compiling your edge list, because it's much more time intensive to switch from undirected to directed midway through a project than it is to switch from directed to undirected. It's considered bad practice to have a network that is mixed, with undirected and directed connections in one graph, as it's harder to decipher what's happening in the graph.
 
 #### Weight
 Edges can also have a weight to them, which is generally represented by changing the thickness of the line. An edge with a weight of 10 would be thicker than an edge with a weight of 1. You can use edge weight to indicate a stronger connection. For example, in a graph of a novel, we might connect characters to one another if they exchange lines. Characters that exchange lines frequently with one another would have a higher weight.
@@ -99,3 +99,12 @@ Networks are good for seeing underlying structures in your data — key players,
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/marvel-network-male.png"></br>Male Character Network</p>
 
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/marvel-network-female.png"></br>Female Character Network</p>
+
+## How do we prepare our data?
+Networks take (or create) two kinds of lists:
+- the node list stores information about individual entities,
+- the edge list stores information about the relationship between entities.
+
+Below is a snippet of the node and edge list that we used to create the Marvel movies network. Each character was given a unique ID (which prevents confusion if characters share the same name), and that unique ID was used to create the edges.
+
+<p align="center"><img width="700" height="450" src="data-node-edge-lists.png"></br>Marvel Movies Node and Edge List</p>
