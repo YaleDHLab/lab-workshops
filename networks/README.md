@@ -62,13 +62,13 @@ Networks are good for seeing underlying structures in your data — key players,
 
 - <a href='http://republicofletters.stanford.edu/casestudies/franklin.html' target='_blank'>Visualizing Benjamin Franklin's Correspondence Network</a> in Mapping the Republic of Letters
 
-- Gendered Critique of Marvel Movies Network
+- Gendered Critique of Marvel Movies (circa 2017) Network
 
-<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-whole.png"></p>
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-whole.png">Whole Network</p>
 
-<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-male.png"></p>
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-male.png">Male Character Network</p>
 
-<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-female.png"></p>
+<p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/networks/networks/images/marvel-network-female.png">Female Character Network</p>
 
 
 
