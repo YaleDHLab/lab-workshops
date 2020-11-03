@@ -4,7 +4,7 @@ This workshop offers an introduction to the Python programming language. By work
 
 ## Getting Started
 
-To access the tutorial from a Google Colab environment, click on <a href='https://colab.research.google.com/drive/16nVU7bgFEhgkFdDwARKWg86kV3Q0-rLX?usp=sharing' target='_blank'>Google Colab notebook</a>. Once you have the Colab notebook open, click on "Copy to Drive" near the top of the notebook to create a local copy of the notebook, to which you can add your own notes and code.
+To access the workshop tutorial from a Google Colab environment, click on <a href='https://colab.research.google.com/drive/16nVU7bgFEhgkFdDwARKWg86kV3Q0-rLX?usp=sharing' target='_blank'>Google Colab notebook</a>. Once you have the Colab notebook open, click on "Copy to Drive" near the top of the notebook to create a local copy of the notebook, to which you can add your own notes and code.
 ![Colab Notebook Setup](https://github.com/YaleDHLab/lab-workshops/blob/master/first-steps-with-python/assets/colab-setup.png)
   
 To access the tutorial as a Jupyter Notebook, try following the steps below.
