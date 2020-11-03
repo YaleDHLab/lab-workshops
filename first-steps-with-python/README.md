@@ -1,10 +1,13 @@
 # First Steps with Python
 
-This workshop offers a gentle introduction to the Python programming language. By working through this workshop, users will come to learn some of the most important building blocks in Python, and will have a chance to start creating simple but powerful Python programs on their own.
+This workshop offers an introduction to the Python programming language. By working through this workshop, users will come to learn some of the most important building blocks in Python, and will have a chance to start creating simple but powerful Python programs on their own.
 
 ## Getting Started
 
-The following steps will prepare you to get started with this workshop.
+To access the tutorial from a Google Colab environment, click on <a href='https://colab.research.google.com/drive/16nVU7bgFEhgkFdDwARKWg86kV3Q0-rLX?usp=sharing' target='_blank'>Google Colab notebook</a>. Once you have the Colab notebook open, click on "Copy to Drive" near the top of the notebook to create a local copy of the notebook, to which you can add your own notes and code.
+![Colab Notebook Setup](https://github.com/YaleDHLab/lab-workshops/blob/master/first-steps-with-python/assets/colab-setup.png)
+  
+To access the tutorial as a Jupyter Notebook, try following the steps below.
 
 **Step One: Install Anaconda**
 
@@ -27,7 +30,7 @@ Next, you'll need to start a terminal. The method for starting a terminal will d
 | Mac     | type COMMAND+SPACE_BAR, type <i>terminal</i>, and hit ENTER |
 | Windows | go to Programs/Apps -> Anaconda3 -> Anaconda Prompt         |
 
-**Step Four: Move Terminal to Lab Workshops Folder**
+**Step Four: Direct Terminal to Lab Workshops Folder**
 
 Once your terminal is running, we need to move the terminal into the "lab-workshops" folder on your desktop. To accomplish this goal, we can use the "cd" command. The "cd" command stands for "change directories" (directory is a fancy term for a folder). Specifically you should run the command below that corresponds to your operating system:
 
