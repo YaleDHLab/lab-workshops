@@ -1,3 +1,4 @@
+colorthief==0.2.1
 Keras==2.4.3
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
