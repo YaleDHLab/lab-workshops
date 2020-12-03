@@ -37,12 +37,14 @@ Creation Date | Topic |
 10-22-2020 | [Intro to HTML Parsing with Python](https://colab.research.google.com/drive/1r3SJQbE0NFcyl6GkVK3IvajXoAt_3lsF?usp=sharing)
 10-29-2020 | [Getting Started with Networks](https://github.com/YaleDHLab/lab-workshops/tree/master/networks)
 11-05-2020 | [Classification with Python](https://colab.research.google.com/drive/1toV8HrDatNKsJBxgwiI1dg3Z9C0DDlZ7?usp=sharing)
+12-03-2020 | [Color Analysis with Python](https://colab.research.google.com/drive/1q1za7RkX5Fm70dv_ZTPrlad3_ww7zvcZ?usp=sharing)
 
 ### DHLab Python for Humanists Series
 Sequence Number | Topic |
 :-------------- |:-------------
-01 | [First Steps with Python](https://github.com/YaleDHLab/lab-workshops/tree/master/first-steps-with-python)  
-02 | [Getting Started with Application Programming Interfaces (APIs)](https://colab.research.google.com/drive/1R7hckc1-Rm34zFlUBg0-pKWF3zOawYS0?usp=sharing)  
-03 | [Intro to HTML Parsing with Python](https://colab.research.google.com/drive/1r3SJQbE0NFcyl6GkVK3IvajXoAt_3lsF?usp=sharing)  
-04 | [Getting Started with Networks](https://github.com/YaleDHLab/lab-workshops/tree/master/networks)  
-05 | [Classification with Python](https://colab.research.google.com/drive/1toV8HrDatNKsJBxgwiI1dg3Z9C0DDlZ7?usp=sharing)  
+01 | [First Steps with Python](https://github.com/YaleDHLab/lab-workshops/tree/master/first-steps-with-python)
+02 | [Getting Started with Application Programming Interfaces (APIs)](https://colab.research.google.com/drive/1R7hckc1-Rm34zFlUBg0-pKWF3zOawYS0?usp=sharing)
+03 | [Intro to HTML Parsing with Python](https://colab.research.google.com/drive/1r3SJQbE0NFcyl6GkVK3IvajXoAt_3lsF?usp=sharing)
+04 | [Getting Started with Networks](https://github.com/YaleDHLab/lab-workshops/tree/master/networks)
+05 | [Classification with Python](https://colab.research.google.com/drive/1toV8HrDatNKsJBxgwiI1dg3Z9C0DDlZ7?usp=sharing)
+06 | [Color Analysis with Python](https://colab.research.google.com/drive/1q1za7RkX5Fm70dv_ZTPrlad3_ww7zvcZ?usp=sharing)
