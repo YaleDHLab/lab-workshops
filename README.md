@@ -38,6 +38,7 @@ Creation Date | Topic |
 10-29-2020 | [Getting Started with Networks](https://github.com/YaleDHLab/lab-workshops/tree/master/networks)
 11-05-2020 | [Classification with Python](https://colab.research.google.com/drive/1toV8HrDatNKsJBxgwiI1dg3Z9C0DDlZ7?usp=sharing)
 12-03-2020 | [Color Analysis with Python](https://colab.research.google.com/drive/1q1za7RkX5Fm70dv_ZTPrlad3_ww7zvcZ?usp=sharing)
+12-10-2020 | [Analyzing Image Similarity with Python](https://colab.research.google.com/drive/13ySDJFYIvmhxUf6F9CAytZDQhD_XyKBS?usp=sharing)
 
 ### DHLab Python for Humanists Series
 Sequence Number | Topic |
@@ -48,3 +49,4 @@ Sequence Number | Topic |
 04 | [Getting Started with Networks](https://github.com/YaleDHLab/lab-workshops/tree/master/networks)
 05 | [Classification with Python](https://colab.research.google.com/drive/1toV8HrDatNKsJBxgwiI1dg3Z9C0DDlZ7?usp=sharing)
 06 | [Color Analysis with Python](https://colab.research.google.com/drive/1q1za7RkX5Fm70dv_ZTPrlad3_ww7zvcZ?usp=sharing)
+07 | [Analyzing Image Similarity with Python](https://colab.research.google.com/drive/13ySDJFYIvmhxUf6F9CAytZDQhD_XyKBS?usp=sharing)

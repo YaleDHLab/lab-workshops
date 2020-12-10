@@ -99,28 +99,28 @@ def plot_images(image_paths, positions, size=45):
   plt.show()
 
 
-def upload_output():
+def upload_output(email='', username='', token=''):
   '''
   Upload all contents in `./output` to github pages for viewing
   '''
   # create a new repository for this visualization
   guid = str(uuid.uuid1())
-  g = Github('5b4ecb0ba35fd20c6019baa007437c6aa1e304b8')
+  g = Github(token)
   user = g.get_user()
   repo = user.create_repo(guid)
 
   # push content to gh-pages branch of repository
   os.system('git init')
-  os.system('git config --global user.email "dhlab@yale.edu"')
-  os.system('git config --global user.name "yale-dhlab-web"')
-  os.system('git remote add webhost https://yale-dhlab-web:5b4ecb0ba35fd20c6019baa007437c6aa1e304b8@github.com/yale-dhlab-web/{}.git'.format(guid))
+  os.system('git config --global user.email "{}"'.format(email))
+  os.system('git config --global user.name "{}"'.format(username))
+  os.system('git remote add webhost https://{}:{}@github.com/{}/{}.git'.format(username, token, username, guid))
   os.system('git checkout -b gh-pages')
   os.system('git add output')
   os.system('git commit -m "add {}"'.format(guid))
   os.system('git push webhost gh-pages')
 
   # identify the url where the page will be available
-  url = 'https://yale-dhlab-web.github.io/{}/output/index.html'.format(guid)
+  url = 'https://{}.github.io/{}/output/index.html'.format(username, guid)
 
   # inform the user of the url
   print(' * your plot will soon be available at', url)
