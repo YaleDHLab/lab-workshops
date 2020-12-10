@@ -1,5 +1,5 @@
 image_datasets==0.0.5
-Keras==2.4.3
+Keras==2.3.0
 matplotlib
 numpy
 pixplot>=0.0.100

@@ -5,7 +5,9 @@ from keras.applications import inception_v3, InceptionV3, imagenet_utils
 from keras.preprocessing.image import load_img, img_to_array
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 import matplotlib.pyplot as plt
+from github import Github
 import numpy as np
+import os, uuid
 
 
 # initialize inception model
@@ -95,3 +97,30 @@ def plot_images(image_paths, positions, size=45):
 
   # show the plot
   plt.show()
+
+
+def upload_output():
+  '''
+  Upload all contents in `./output` to github pages for viewing
+  '''
+  # create a new repository for this visualization
+  guid = str(uuid.uuid1())
+  g = Github('5b4ecb0ba35fd20c6019baa007437c6aa1e304b8')
+  user = g.get_user()
+  repo = user.create_repo(guid)
+
+  # push content to gh-pages branch of repository
+  os.system('git init')
+  os.system('git config --global user.email "dhlab@yale.edu"')
+  os.system('git config --global user.name "yale-dhlab-web"')
+  os.system('git remote add webhost https://yale-dhlab-web:5b4ecb0ba35fd20c6019baa007437c6aa1e304b8@github.com/yale-dhlab-web/{}.git'.format(guid))
+  os.system('git checkout -b gh-pages')
+  os.system('git add output')
+  os.system('git commit -m "add {}"'.format(guid))
+  os.system('git push webhost gh-pages')
+
+  # identify the url where the page will be available
+  url = 'https://yale-dhlab-web.github.io/{}/output/index.html'.format(guid)
+
+  # inform the user of the url
+  print(' * your plot will soon be available at', url)
