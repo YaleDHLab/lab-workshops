@@ -40,7 +40,7 @@ def project_terms(method='umap'):
   if method == 'tsne':
     return TSNE(n_components=2, random_state=0)
   elif method == 'umap':
-    return UMAP(n_neighbors=5, min_dist=2)
+    return UMAP(n_neighbors=5, min_dist=2, spread=2)
   else:
     raise Exception('The requested model type could not be found!')
 
