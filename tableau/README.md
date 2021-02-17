@@ -19,7 +19,7 @@ As a sample research scenario, let's imagine that someone just handed us this da
 - Abc = string (text) data,
 - T|F = Boolean (true or false) data,
 - Calendar = temporal data.  
-For our dataset, we need to change the "Year" column from a numeric value to a date. To do so, click on the hashtag symbol above "Year" and select "Date." You should notice that all of our years now also have a month and day attached to them; by default, Tableau treats dates as day-month-year.
+For our dataset, we need to change the "Year" column from a numeric value to a date. To do so, click on the hashtag symbol above "Year" and select "Date." You should notice that all of our years now also have a month and day attached to them; by default, Tableau treats dates as month-day-year.
 4. To begin working with our data, click on the orange "Sheet 1" rectangle toward the bottom left-hand corner of the application. This will create our first Tableau sheet, a blank space for generating visualizations.
 
 ### Interface Changes
