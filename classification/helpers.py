@@ -2,9 +2,9 @@ from matplotlib.colors import ListedColormap
 from mpl_toolkits.mplot3d import Axes3D
 from collections import defaultdict
 import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
 import warnings
+import pandas
 
 # quiet scipy future warnings
 warnings.filterwarnings('ignore')
