@@ -4,6 +4,7 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
 import warnings
+import pandas
 
 # quiet scipy future warnings
 warnings.filterwarnings('ignore')
@@ -38,8 +39,14 @@ def plot_decision_boundary(clf, X, labels, margin=0.2, mesh_unit=0.1, proba=Fals
   @returns:
     void
   '''
-  # convert the input matrix to an array if it's a list
-  if isinstance(X, list): X = np.array(X)
+  # convert the input matrix to an array if necessary
+  if isinstance(X, list):
+    X = np.array(X)
+  elif isinstance(X, pandas.core.series.Series) or isinstance(X, pandas.core.frame.DataFrame):
+    X = X.to_numpy()
+  # convert the labels to an array if necessary
+  if isinstance(labels, pandas.core.series.Series):
+    labels = labels.to_numpy()
   # convert the labels to integers if they're not integers
   labels_integerized = False
   if isinstance(labels[0], str):
