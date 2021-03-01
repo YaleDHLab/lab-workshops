@@ -3,8 +3,10 @@ from mpl_toolkits.mplot3d import Axes3D
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
+import scattertext
 import warnings
 import pandas
+import spacy
 
 # quiet scipy future warnings
 warnings.filterwarnings('ignore')
@@ -235,3 +237,31 @@ def plot_iforest_decision_boundary(*args, **kwargs):
     'classified as outlier',
   ], loc=[0.025, 0.05], framealpha=0.97)
   plt.show()
+
+
+def plot_distinctive_words(x_label='', x_files=[], y_label='', y_files=[]):
+  '''
+  Create a scatterplot that shows the distinctive words among x_files and y_files.
+  Use x_label as the x axis label and y_label as the y_axis label.
+  Return HTML content that can be rendered to show the distinctive words.
+  '''
+  rows = []
+  for i in x_files: rows.append([ x_label, open(i).read() ])
+  for i in y_files: rows.append([ y_label, open(i).read() ])
+
+  df = pandas.DataFrame(rows, columns=['Group', 'Text'])
+
+  corpus = scattertext.CorpusFromPandas(
+    df,
+    category_col='Group',
+    text_col='Text',
+    nlp=spacy.load('en')).build()
+
+  html = scattertext.produce_scattertext_html(corpus,
+    category=y_label,
+    category_name=y_label,
+    not_category_name=x_label,
+    minimum_term_frequency=5,
+    width_in_pixels=1000)
+
+  return html
