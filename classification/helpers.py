@@ -1,10 +1,12 @@
 from matplotlib.colors import ListedColormap
 from mpl_toolkits.mplot3d import Axes3D
 from collections import defaultdict
+import matplotlib.style as style
 import matplotlib.pyplot as plt
 import numpy as np
 import scattertext
 import warnings
+import seaborn
 import pandas
 import spacy
 
@@ -23,7 +25,7 @@ point_colors = ListedColormap([
   '#0000ff',
 ])
 
-def plot_decision_boundary(clf, X, labels, margin=0.2, mesh_unit=0.1, proba=False):
+def plot_decision_boundary(clf, X, labels, margin=0.4, mesh_unit=0.2, proba=False):
   '''
   Plot the classification decision for each point in a quantized grid
   From: http://scikit-learn.org/stable/auto_examples/neighbors/plot_classification.html
@@ -41,6 +43,7 @@ def plot_decision_boundary(clf, X, labels, margin=0.2, mesh_unit=0.1, proba=Fals
   @returns:
     void
   '''
+  style.use('seaborn-white')
   # convert the input matrix to an array if necessary
   if isinstance(X, list):
     X = np.array(X)
@@ -248,23 +251,71 @@ def plot_distinctive_words(x_label='', x_files=[], y_label='', y_files=[], max_w
   rows = []
   for i in x_files[:max_files]: rows.append([ x_label, ' '.join(open(i).read().split()[:max_words]) ])
   for i in y_files[:max_files]: rows.append([ y_label, ' '.join(open(i).read().split()[:max_words]) ])
-
   df = pandas.DataFrame(rows, columns=['Group', 'Text'])
-
   nlp = spacy.load('en')
   nlp.max_length = 2**64
-
   corpus = scattertext.CorpusFromPandas(
     df,
     category_col='Group',
     text_col='Text',
     nlp=nlp).build()
-
   html = scattertext.produce_scattertext_html(corpus,
     category=y_label,
     category_name=y_label,
     not_category_name=x_label,
     minimum_term_frequency=5,
     width_in_pixels=1000)
-
   return html
+
+
+def plot_word_counts(files=[], x_word='', y_word=''):
+  '''Given a list of file paths and word/s for the x/y axes, create a plot of the word counts'''
+  style.use('fivethirtyeight')
+  # check that the user provided files to process
+  if not files: raise Exception('Please provide a list of files to the `files` argument')
+  # check that the user provided one or more words to plot
+  if not x_word and not y_word: raise Exception('Please provide an `x_word` and/or `y_word` argument')
+  # accumulate the data for the pandas dataframe
+  rows = []
+  for i in files:
+    if   'archeological' in i: group = 'archeological'
+    elif 'medical' in i: group = 'medical'
+    elif 'geometrical' in i: group = 'geometrical'
+    elif 'astronomical' in i: group = 'astronomical'
+    else: raise Exception('''
+      Rutroh! We only expected to use this function to plot two simple scatterplots in our workshop.
+      If you are interested in plotting word counts in other datasets, please consult this blog post:
+      https://amiradata.com/how-to-draw-a-scatter-plot-python/
+    ''')
+    colors = {
+        'archeological': 'blue',
+        'medical': 'red',
+        'geometrical': 'orange',
+        'astronomical': 'purple',
+    }
+    with open(i) as f:
+      text = f.read()
+      rows.append([
+        text.count(x_word) if x_word else 0,
+        text.count(y_word) if y_word else 0,
+        group,
+        colors[group],
+      ])
+  x_col = 'Count_{}'.format(x_word)
+  y_col = 'Count_{}'.format(y_word)
+  df = pandas.DataFrame(rows, columns=[x_col, y_col, 'Group', 'Color'])
+  # determine which variables to use on the axes
+  x_var = x_col if x_word else 'Group'
+  y_var = y_col if y_word else 'Group'
+  fig, ax = plt.subplots(figsize=(10, 6))
+  seaborn.scatterplot(data=df, hue='Group', x=x_var, y=y_var, s=100, alpha=0.6)
+  if x_word: ax.set_xlabel('Count of word "{}" per document'.format(x_word))
+  if y_word: ax.set_ylabel('Count of word "{}" per document'.format(y_word))
+  plt.legend(loc=1)
+  # get the title
+  title_middle = ''
+  if x_word and y_word: title_middle += '"{}" and "{}"'.format(x_word, y_word)
+  elif x_word: title_middle += '"{}"'.format(x_word)
+  elif y_word: title_middle += '"{}"'.format(y_word)
+  title = 'Counts of {} per document'.format(title_middle)
+  plt.title(title)
