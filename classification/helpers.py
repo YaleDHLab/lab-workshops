@@ -242,7 +242,7 @@ def plot_iforest_decision_boundary(*args, **kwargs):
   plt.show()
 
 
-def plot_distinctive_words(x_label='', x_files=[], y_label='', y_files=[], max_words=10000, max_files=12):
+def plot_distinctive_words(x_label='', x_files=[], y_label='', y_files=[], max_words=10000, max_files=100):
   '''
   Create a scatterplot that shows the distinctive words among x_files and y_files.
   Use x_label as the x axis label and y_label as the y_axis label.
