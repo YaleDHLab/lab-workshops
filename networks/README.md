@@ -40,7 +40,7 @@ Edges can also have a weight to them, which is generally represented by changing
 <p align="center"><img width="700" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/weighted-network.png"></p>
 
 #### *Hamlet* Network
-Let's take a quick look at why properties like direction and weight matter. In this network of *Hamlet*, characters are connected to other characters if they exchanged dialogue. While this graph presents some insights into the plot's structure and the characters' centrality to the plot's unfolding, it also misses features that might be important, depending on what questions you're hoping to ask of the graph (as Moretti acknowledges). For instance, since there's no direction, we lose the significance of the ghost only responding to Hamlet. Without an edge weight, we can't tell that Hamlet and Claudius exchange far more lines with one another than do Horatio and Claudius. Whether these details matter depends on what you're trying to see with the network.
+Let's take a quick look at why properties like direction and weight matter. In this network of *Hamlet*, characters are connected to other characters if they exchanged dialogue. While this graph presents some insights into the plot's structure and the characters' centrality to the plot's unfolding, it also misses features that might be important, depending on what questions you're hoping to ask of the graph (as the graph's author acknowledges). For instance, since there's no direction, we lose the significance of the ghost only responding to Hamlet. Without an edge weight, we can't tell that Hamlet and Claudius exchange far more lines with one another than do Horatio and Claudius. Whether these details matter depends on what you're trying to see with the network.
 
 <p align="center"><img width="600" height="500" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/hamlet-network.png"><a href='https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf' target='_blank'></br>"Network Theory, Plot Analysis"</a></p>
 
@@ -57,12 +57,12 @@ It's important to know which kind of network you have, because that will affect 
 To think about how we interpret a network, let's imagine we want to create a graph that shows how students in a class are connected by shared research interests. As a proxy, we could link students to one another if they have favorite classes in common. The resulting graph might look something like:
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network-edge-labels.png"></br>Network of Favorite Classes</p>
 
-Turning the edge labels off, let's look at subregions of the network and their shape. Star and kite shapes represent **cliques**, subnetworks where everyone is connected to everyone else. Cliques are very resilient networks because if you remove one entity, the others are all still connected. At the opposite end of the spectrum, lines are vulnerable to target attack, because we could prevent communication between different nodes by taking out the node in the middle of the line. Circle subnetworks are somewhere in the middle; removing one node doesn't prevent communication from reaching other nodes, but it could increase the time it takes for a message to make its way to the whole group.
+Turning the edge labels off, let's look at subregions of the network and their shape. Star and kite shapes represent **cliques**, subnetworks where everyone is connected to everyone else. Cliques are very resilient networks because if you remove one entity, the others are all still connected. At the opposite end of the spectrum, lines are vulnerable to targeted attacks, because we could disrupt communication between different nodes in the line by taking out the node in the middle. Circle subnetworks are somewhere in the middle; removing one node doesn't prevent communication from reaching other nodes, but it could increase the time it takes for a message to make its way to the whole group.
 
 One type of node to look out for is a "broker." A broker is a node that connects otherwise disparate parts of the graph.
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network.png"></br>Network of Favorite Classes</p>
 
-For deeper insights, we change the color and size of nodes according to different properties or statistical measures.
+For deeper insights, we can change the color and size of nodes according to different properties or statistical measures.
 
 ### Degree
 A node's **degree** is determined by the number of connections it has. A higher degree means the node is more highly connected.
@@ -76,10 +76,10 @@ A node's **degree** is determined by the number of connections it has. A higher 
 <p align="center"><img width="800" height="350" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network-betweenness-centrality.png"></br>Nodes Sized by Betweenness Centrality and Colored by Modularity Score</p>
 
 ### Cautions
-Be careful of reading into the overall layout of nodes on the network. Human perception innately wants to interpret close objects as being more connected than distant objects, but in networks, layout of oftentimes arbitrary. Just because I move Lauren closer to Amy, doesn't change their relationship. They're still 5 hops away from one another (you can calculate this by counting the edges between them).
+Be careful of reading into the overall layout of nodes in the network. Humans tend to interpret physically close objects as being more connected than distantly placed ones, but in networks, layout of oftentimes arbitrary. My moving the Lauren node closer to Amy doesn't change their relationship. They're still 5 hops away from one another (you can calculate this by counting the edges between them).
 <p align="center"><img width="900" height="450" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/class-network-layout.png"></br>Class Network with Altered Layout</p>
 
-In general, when interpreting a network, you want to focus on the connections you do see rather than on missing connections. Nodes that are completely separate from the graph are called **isolates**. The reason you may not want to focus too heavily on isolates is that they could be separated because of insufficient data. Or, they could be separated because of how you defined the edges.
+Nodes that are completely separate from the graph are called **isolates**. In general, when interpreting a network, you want to focus on the connections you see rather than on missing links. The reason you may not want to focus too heavily on isolates is that they could be separate because of insufficient data. Or, they could be separated because of how you defined the edges.
 
 **The way you define edges will fundamentally determine the resulting network.** As an example, let's redefine our edges for the class network. Instead of connecting students because they have the exact favorite classes in common, let's connect them because they have the same type of favorite classes in common (in other words, it doesn't matter if it's the same literature class, just that it's a literature class). Now our network is more densely connected. There are no longer isolates, and Isabelle stands out as a broker, connecting the students who favor history in the orange group with those who favor literature in the blue group.
 
@@ -105,11 +105,11 @@ Networks take (or create) two kinds of lists:
 - the node list stores information about individual entities,
 - the edge list stores information about the relationship between entities.
 
-Below is a snippet of the node and edge list that we used to create the Marvel movies network. Each character was given a unique ID (which prevents confusion if characters share the same name), and that unique ID was used to create the edges.
+Below is a snippet of the node and edge list that we used to create the Marvel movies network. Each character was given a unique ID (which prevents confusion if characters share the same name) that was used in both the node and edge lists.
 
 <p align="center"><img width="700" height="450" src="https://github.com/YaleDHLab/lab-workshops/blob/master/networks/images/data-node-edge-lists.png"></br>Marvel Movies Node and Edge List</p>
 
 
 ## Going Further with NetworkX
 
-To get started building custom networks with NetworkX in Python, feel free to explore the DHLab's [Introduction to NetworkX Notebook](https://colab.research.google.com/drive/1dfh9kZVHTKve9BS_hIn9tit9oZkeihCS?usp=sharing).
+To get started building custom networks with NetworkX in Python, explore the DHLab's [Introduction to NetworkX Notebook](https://colab.research.google.com/drive/1dfh9kZVHTKve9BS_hIn9tit9oZkeihCS?usp=sharing).
