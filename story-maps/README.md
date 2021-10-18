@@ -51,8 +51,12 @@ There are a lot of open data repositories online. Here are a couple places you m
 2. Go to "Map" 
 3. Make sure you're using the "Classic Map Viewer", if offered the choice.
 4. Drag a .csv spreadsheet that has a "latitude" and "longitude" column over the map. Voila! We have a map. You can experiment with the drawing style to see what makes sense for your data. For a spreadsheet of pizza locations around New Haven, a heat map could be good for highlighting clusters of pizza locations in the city. This could help someone looking for pizza zero in on a popular spot. Since for this particular Story Map we want to call attention to individual restaurants, we'll go with "Location (Single Symbol)"
-5. Customize the map by clicking on "Options." Let's change our dots to pizzas! Click on "Symbols," then choose "People Places" from the dropdown menu. Select the pizza icon and increase symbol size to 15. Click "Ok" twice and then "Done" 
-6. Our pop-ups still have a lot of unnecessary information. Let's change that by clicking on the ellipses and selecting "Configure Pop-Up."
+5. Customize the map by clicking on "Options." Let's change our dots to pizzas! Click on "Symbols," then choose "People Places" from the dropdown menu. 
+
+![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/symbol_pizza.png?raw=true)
+
+Select the pizza icon and increase symbol size to 15. Click "Ok" twice and then "Done" 
+10. Our pop-ups still have a lot of unnecessary information. Let's change that by clicking on the ellipses and selecting "Configure Pop-Up."
 
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/configure_popup.png?raw=true)
 
@@ -60,7 +64,7 @@ There are a lot of open data repositories online. Here are a couple places you m
 
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/configure_attributes.png?raw=true)
 
-Unselect the display box for everything except for "Company_Name" and "Neighborhood." Click "Ok" twice
+Unselect the **Display** box for everything except for `{Company_Name}` and `{"Neighborhood}`. Click "Ok" twice
 12. Save the map. Add a "Title," "Tags," and "Summary"
 
 
