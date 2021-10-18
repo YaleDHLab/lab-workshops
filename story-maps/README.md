@@ -5,7 +5,7 @@
 ## Creating a map from a spreadsheet
 
 1. Log in to [ArcGIS.com](http://arcgis.com) (see instructions in "Sign in to Story Maps" section below)
-2. Go to (Map)[https://yalemaps.maps.arcgis.com/home/webmap/viewer.html?useExisting=1]
+2. Go to [Map](https://yalemaps.maps.arcgis.com/home/webmap/viewer.html?useExisting=1)
 3. Make sure you're using the "Classic Map Viewer", if offered the choice.
 4. Drag a .csv spreadsheet that has a "latitude" and "longitude" column over the map. Voila! We have a map. You can experiment with the drawing style to see what makes sense for your data. For a spreadsheet of pizza locations around New Haven, a heat map could be good for highlighting clusters of pizza locations in the city. This could help someone looking for pizza zero in on a popular spot. Since for this particular Story Map we want to call attention to individual restaurants, we'll go with "Location (Single Symbol)"
 5. Customize the map by clicking on "Options." Let's change our dots to pizzas! Click on "Symbols," then choose "People Places" from the dropdown menu. 
