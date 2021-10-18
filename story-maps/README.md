@@ -10,7 +10,7 @@ _(Make sure you're using the "Classic Map Viewer", if offered the choice.)_
 
 4. Download this [spreadsheet of Pizza restuarants in New Haven](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) to your computer. (Hint: **Choose File** -> **Save As...** to save the `geocoded_pizza_locations.csv` file somewhere you can easily find it, such as your Desktop or Downloads folder.)
 
-5. Before you close the tab with the spreadsheet data in it, take a look at how the text is formatted in the `geocoded_pizza_locations.csv` file. Is it easy or difficult to read? What do you think the first line of the file is doing?
+5. Take a look at how the text is formatted in the [`geocoded_pizza_locations.csv`](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) file. Is it easy or difficult to read? What do you think the first line of the file is doing?
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/csv_raw.png?raw=true)
 
 6. If you have Microsoft Excel, Numbers, or another spreadsheet on your computer, try opening the `geocoded_pizza_locations.csv` file by double-clicking it.  Is the file easier or more dificult to read?
