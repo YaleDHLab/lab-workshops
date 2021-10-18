@@ -2,7 +2,7 @@
 
 [StoryMaps](https://storymaps.arcgis.com/) is a free, open-source platform for combining texts, images, and videos alongside maps (though technically, maps aren't required!). In this workshop, we'll discuss the pros and cons of the various templates, offering tips along the way for how you might collect, analyze, and visualize the data that will serve as the basis for your StoryMap.
 
-## Creating a map from a spreadsheet
+## Step 1: Creating a map from a spreadsheet
 
 1. Log in to [ArcGIS.com](http://arcgis.com) (see instructions in "Sign in to Story Maps" section below)
 2. Go to the [Web Map Viewer](https://yalemaps.maps.arcgis.com/home/webmap/viewer.html?useExisting=1)
@@ -29,7 +29,7 @@ Unselect the **Display** box for everything except for `{Company_Name}` and `{"N
 10. Save the map. Add a "Title," "Tags," and "Summary"
 
 
-## Sign in to Story Maps
+## Step 2: Creating a StoryMap based on your geodata
 
 Anyone can sign up for a free account with Esri. For this workshop, we encourage you to sign in with your Yale NetID, which will give you access to additional content that's been created and shared by members of the Yale community. To sign in, follow the steps below.
 
