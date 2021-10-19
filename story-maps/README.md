@@ -57,16 +57,21 @@ Unselect the **Display** box for everything except for `{Company_Name}` and `{"N
 
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/savemap.png?raw=true)
 
-Add a "Title" so you can find this map later.
+Add a "Title" of "New Haven Pizza Locations" so you can find this map later.
 
 # Include this map of spreadsheet data points in a StoryMap
 
-1. Go to http://storymaps.arcgis.com/en/
-2. Click "Sign In" in the upper right-hand corner
-3. Click "Sign in with Enterprise Account"
-4. Type "yalemaps" into the address as indicated ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/yale_login.png) and press "Continue"
-5. Sign in with your NetID
-6. Click on "My Stories" to create your first story!
+1. Go to http://storymaps.arcgis.com/
+2. Click on "New Story" and "Start from Scratch" to create a blank StoryMap.
+3. Fill in a basic title if you wish.
+4. Click the plus symbol in a green circle and add a Map:
+
+![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/create_newmap.png?raw=true)
+
+5. Select the New Haven Pizza Locations map you created moments ago from the spreadsheet.
+
+
+![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/add_map_arcgis.png?raw=true)
 
 ## Create Map Journal: New Haven Pizza Rivalries
 
