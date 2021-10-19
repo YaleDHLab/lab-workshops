@@ -2,6 +2,9 @@
 
 [StoryMaps](https://storymaps.arcgis.com/) is a free, open-source platform for combining texts, images, and videos alongside maps (though technically, maps aren't required!). In this workshop, we'll discuss the pros and cons of the various templates, offering tips along the way for how you might collect, analyze, and visualize the data that will serve as the basis for your StoryMap.
 
+## Introduction: Explore some typical StoryMaps
+
+
 ## Step 1: Creating a map from a spreadsheet
 
 1. Log in to [ArcGIS.com](http://arcgis.com) (see instructions in "Sign in to Story Maps" section below)
@@ -126,7 +129,7 @@ With the remaining time in the workshop, expand on New Haven Pizza Rivalries or 
 
 ## Next steps and additional tips
 
-* Want to customize your Story Map beyond what's immediately available? Google "Story Map \[insert template name here] GitHub," and you'll be taken to the underlying code.
+* [Getting Started Documentation](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4)
 
 * Experiment with embedding Story Maps within one another. For example, you could embed an existing Map Tour inside a Map Journal. Follow this [Esri guide](https://blogs.esri.com/esri/arcgis/2016/07/15/embed-story-map-in-story-map/) to try it out.
 
