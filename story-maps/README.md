@@ -21,33 +21,44 @@ _In-class exercise_
 7. Click past the new user setup screen.
 8. Click on "Map" at the top of the screen to go to the [Web Map Viewer](https://yalemaps.maps.arcgis.com/home/webmap/viewer.html?useExisting=1)
 _(Make sure you're using the "Classic Map Viewer", if offered the choice.)_
+
  ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/newmap_no.png) 
 
 3. Download this [spreadsheet of Pizza restuarants in New Haven](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) to your computer. (Hint: **Choose File** -> **Save As...** to save the `geocoded_pizza_locations.csv` file somewhere you can easily find it, such as your Desktop or Downloads folder.)
 4. Take a look at how the text is formatted in the [`geocoded_pizza_locations.csv`](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) file. Is it easy or difficult to read? What do you think the first line of the file is doing?
+
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/csv_raw.png?raw=true)
+
 5. If you have Microsoft Excel, Numbers, or another spreadsheet on your computer, try opening the `geocoded_pizza_locations.csv` file by double-clicking it.  Is the file easier or more dificult to read?
+
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/csv_excel.png?raw=true)
-6.  Close Excel Voila! We have a map. You can experiment with the drawing style to see what makes sense for your data. For a spreadsheet of pizza locations around New Haven, a heat map could be good for highlighting clusters of pizza locations in the city. This could help someone looking for pizza zero in on a popular spot. Since for this particular Story Map we want to call attention to individual restaurants, we'll go with "Location (Single Symbol)"
-7. Customize the map by clicking on "Options." Let's change our dots to pizzas! Click on "Symbols," then choose "People Places" from the dropdown menu. 
+
+6.  Close the file in Excel, if you opened it.
+7.  Make sure your **ArcGIS Map Viewer** web browser is visible from step 2, and find the `geocoded_pizza_locations.csv` file on your Desktop, in your Downloads folder, or wherever you saved it.  
+8.  Drag the `geocoded_pizza_locations.csv` file into the map section of your ArcGIS Map Viewer web browser window.
+9.  Voila! We have a map. You can experiment with the drawing style to see what makes sense for your data. For a spreadsheet of pizza locations around New Haven, a heat map could be good for highlighting clusters of pizza locations in the city. This could help someone looking for pizza zero in on a popular spot. Since for this particular Story Map we want to call attention to individual restaurants, we'll go with "Location (Single Symbol)"
+10. Customize the map by clicking on "Options." Let's change our dots to pizzas! Click on "Symbols," then choose "People Places" from the dropdown menu. 
+
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/symbol_pizza.png?raw=true)
 
-Select the pizza icon and increase symbol size to 15. Click "Ok" twice and then "Done" 
+Select the pizza icon and increase symbol size to 15. Click "Ok" twice and then "Done".
+
 8. Our pop-ups still have a lot of unnecessary information. Let's change that by clicking on the ellipses and selecting "Configure Pop-Up."
 
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/configure_popup.png?raw=true)
 
-9.    Next select "Configure Attributes" on the screen that appears. 
+9. Next select "Configure Attributes" on the screen that appears. 
 
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/configure_attributes.png?raw=true)
 
-Unselect the **Display** box for everything except for `{Company_Name}` and `{"Neighborhood}`. Click "Ok" twice
-10. Save the map. Add a "Title," "Tags," and "Summary"
+Unselect the **Display** box for everything except for `{Company_Name}` and `{"Neighborhood}`. Click "OK" twice
 
+10. Save the map by clicking on the (small) floppy disk icon on the toolbar. 
 
-## Step 2: Creating a StoryMap based on your geodata
+![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/configure_attributes.png?raw=true)
 
-Anyone can sign up for a free account with Esri. For this workshop, we encourage you to sign in with your Yale NetID, which will give you access to additional content that's been created and shared by members of the Yale community. To sign in, follow the steps below.
+Add a "Title" so you can find this map later.
+
 
 1. Go to http://storymaps.arcgis.com/en/
 2. Click "Sign In" in the upper right-hand corner
