@@ -2,14 +2,27 @@
 
 [StoryMaps](https://storymaps.arcgis.com/) is a free, open-source platform for combining texts, images, and videos alongside maps (though technically, maps aren't required!). In this workshop, we'll discuss the pros and cons of the various templates, offering tips along the way for how you might collect, analyze, and visualize the data that will serve as the basis for your StoryMap.
 
-## Introduction: Explore some typical StoryMaps
+## Introduction: Explore some example StoryMaps
+* [Preserving Significant Places of Black History](https://storymaps.arcgis.com/stories/2e2f8343e7254e948f5a0d3699ba91fd)
+* [The lines that shape our cities: Connecting present-day environmental inequalities to redlining policies of the 1930s](https://storymaps.arcgis.com/stories/0f58d49c566b486482b3e64e9e5f7ac9?adumkts=product)
 
+## Hands-on: Creating a StoryMap about Bubble Tea in New Haven
 
-## Step 1: Creating a map from a spreadsheet
+_In-class exercise_
 
-1. Log in to [ArcGIS.com](http://arcgis.com) (see instructions in "Sign in to Story Maps" section below)
-2. Go to the [Web Map Viewer](https://yalemaps.maps.arcgis.com/home/webmap/viewer.html?useExisting=1)
+## Advanced: Creating a map from a spreadsheet of data
+
+1. Log in to [ArcGIS.com](http://arcgis.com)
+2. Click "Sign In" in the upper right-hand corner
+3. Click "Sign in with Enterprise Account"
+4. Type "yalemaps" into the address as indicated and press "Continue"
+ ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/yalemapslogin.png) 
+6. Sign in with your NetID
+7. Click past the new user setup screen.
+8. Click on "Map" at the top of the screen to go to the [Web Map Viewer](https://yalemaps.maps.arcgis.com/home/webmap/viewer.html?useExisting=1)
 _(Make sure you're using the "Classic Map Viewer", if offered the choice.)_
+ ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/newmap_no.png) 
+
 3. Download this [spreadsheet of Pizza restuarants in New Haven](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) to your computer. (Hint: **Choose File** -> **Save As...** to save the `geocoded_pizza_locations.csv` file somewhere you can easily find it, such as your Desktop or Downloads folder.)
 4. Take a look at how the text is formatted in the [`geocoded_pizza_locations.csv`](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) file. Is it easy or difficult to read? What do you think the first line of the file is doing?
 ![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/csv_raw.png?raw=true)
@@ -122,17 +135,12 @@ hours." Link: https://en.wikipedia.org/wiki/Sally%27s_Apizza
 ```
 We now have a Story Map that celebrates one famous pizza rivalry in New Haven. 
 
-## Experiment with your own Story Map
-
-With the remaining time in the workshop, expand on New Haven Pizza Rivalries or create a new Story Map from scratch. 
-
 
 ## Next steps and additional tips
 
 * [Getting Started Documentation](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4)
-* * [Sidecar Feature (most common interactive tool)](https://storymaps.arcgis.com/stories/82509aafc8ba435f8c1264122d299763)
+ * [Sidecar Feature (most common interactive tool)](https://storymaps.arcgis.com/stories/82509aafc8ba435f8c1264122d299763)
 
-* Experiment with embedding Story Maps within one another. For example, you could embed an existing Map Tour inside a Map Journal. Follow this [Esri guide](https://blogs.esri.com/esri/arcgis/2016/07/15/embed-story-map-in-story-map/) to try it out.
 
 * Find latitude and longitude:
 
@@ -143,50 +151,3 @@ With the remaining time in the workshop, expand on New Haven Pizza Rivalries or 
 3. Add the latitude and longitude to corresponding columns in a spreadsheet 
 
 
-
-
-
------
-
-# StoryMaps templates
-
-Story Maps offers a number of templates that you can choose from. Some will be better if you have a lot of textual data, whereas others work especially well if you have geographic data or high-quality visual content. Each template also provides a different user experience. Is chronology important to your argument? If yes, you might choose a template that requires visitors to scroll through your Story Map instead of one that gives visitors the flexibility to jump around to different sections. 
-
-### Spy Glass template
-
-[The World in 1812 and 2013](https://story.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=b8ece5952db443858442f122984602ba&webmap=8ea34ba9a4f843e08a468595d8d91188#) - comparison of modern and historic maps
-
-### Map Journal template
-
-[Aeneid](http://www.arcgis.com/apps/MapJournal/index.html?appid=33be151cbe1942d99a300da085884729) - great example for how you can move through a timeline that's linked to a map - you could easily replace any of the photos in the left-hand column with videos, if desired
-
-### Cascade template
-
-[The Uprooted](http://storymaps.esri.com/stories/2016/the-uprooted/index.html) - demonstrates the range of media your site might include
-
-[Restoring Old Havana](http://storymaps.esri.com/stories/2017/havana-restoration/index.html?language=english) - shows that you could have a Story Map set up in different languages   
-
-### Crowdsourcing template
-
-[Tropical Storm Harvey](https://napsg.maps.arcgis.com/apps/StoryMapCrowdsource/index.html?appid=b6ef838e4d26489e8f62102639dc3d91) - example of how you can crowdsource photographs in real time and for crisis relief efforts
-
-[1Frame4Nature](https://conservationphotographers.org/1f4n/) - example of how you can embed a Story Map within your own site
-
-## Gathering content for Story Map 
-
-For this workshop, we'll create a Story Map using the Map Journal template to showcase New Haven pizza rivalries. Gathering content is the hardest part of creating a Story Map. For the purposes of this tutorial, we'll provide sample data and content. For after the workshop, here are a few sites you might try for content. 
-
-### To find photos 
-
-1. Go to [Google images](https://images.google.com/)
-2. Search for a related photo of your choosing
-3. Under "Tools," click "Labeled for Reuse" (more on this later in the workshop) ![](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/google_images_reuse.png)
-4. Right-click on an image in the results and click "Copy Image Location" or "Save Image As," depending on if you want to link out to or upload the image
-
-### To collect data
-
-There are a lot of open data repositories online. Here are a couple places you might check out:
-
-[Connecticut Open Data](https://data.ct.gov/) - many states have complementary sites
-
-[Reference USA](http://search.library.yale.edu/databases/12540702) - good for finding business data
