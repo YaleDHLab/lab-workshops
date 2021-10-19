@@ -130,6 +130,7 @@ With the remaining time in the workshop, expand on New Haven Pizza Rivalries or 
 ## Next steps and additional tips
 
 * [Getting Started Documentation](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4)
+* * [Sidecar Feature (most common interactive tool)](https://storymaps.arcgis.com/stories/82509aafc8ba435f8c1264122d299763)
 
 * Experiment with embedding Story Maps within one another. For example, you could embed an existing Map Tour inside a Map Journal. Follow this [Esri guide](https://blogs.esri.com/esri/arcgis/2016/07/15/embed-story-map-in-story-map/) to try it out.
 
