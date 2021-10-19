@@ -55,10 +55,11 @@ Unselect the **Display** box for everything except for `{Company_Name}` and `{"N
 
 10. Save the map by clicking on the (small) floppy disk icon on the toolbar. 
 
-![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/configure_attributes.png?raw=true)
+![screenshot](https://github.com/YaleDHLab/lab-workshops/blob/master/story-maps/images/savemap.png?raw=true)
 
 Add a "Title" so you can find this map later.
 
+# Include this map of spreadsheet data points in a StoryMap
 
 1. Go to http://storymaps.arcgis.com/en/
 2. Click "Sign In" in the upper right-hand corner
