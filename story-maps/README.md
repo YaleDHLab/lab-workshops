@@ -16,13 +16,14 @@ _In-class exercise_
 2. Click "Sign In" in the upper right-hand corner
 3. Click "Sign in with Enterprise Account"
 4. Type "yalemaps" into the address as indicated and press "Continue"
- ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/yalemapslogin.png) 
-6. Sign in with your NetID
-7. Click past the new user setup screen.
-8. Click on "Map" at the top of the screen to go to the [Web Map Viewer](https://yalemaps.maps.arcgis.com/home/webmap/viewer.html?useExisting=1)
-_(Make sure you're using the "Classic Map Viewer", if offered the choice.)_
+<img src="https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/yalemapslogin.png" width="461">
+5. Sign in with your NetID
+6. Click past the new user setup screen.
+7. Click on "Map" at the top of the screen to go to the [Web Map Viewer](https://yalemaps.maps.arcgis.com/home/webmap/viewer.html)
 
- ![screenshot](https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/newmap_no.png) 
+_Make sure you're using the "Classic Map Viewer", if offered the choice._
+
+ <img src="https://github.com/YaleDHLab/lab-workshops/raw/master/story-maps/images/newmap_no.png" width="627">
 
 3. Download this [spreadsheet of Pizza restuarants in New Haven](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) to your computer. (Hint: **Choose File** -> **Save As...** to save the `geocoded_pizza_locations.csv` file somewhere you can easily find it, such as your Desktop or Downloads folder.)
 4. Take a look at how the text is formatted in the [`geocoded_pizza_locations.csv`](https://raw.githubusercontent.com/YaleDHLab/lab-workshops/master/story-maps/data/geocoded_pizza_locations.csv) file. Is it easy or difficult to read? What do you think the first line of the file is doing?
