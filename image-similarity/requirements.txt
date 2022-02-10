@@ -4,5 +4,5 @@ matplotlib
 numpy
 pixplot>=0.0.100
 pygithub==1.54
-tensorflow==1.15.0
+tensorflow==2.5.3
 umap-learn==0.4.0
