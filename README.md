@@ -1,3 +1,7 @@
+# Note: This repository has been archived
+These workshops were developed under a previous phase of the Yale Digital Humanities Lab. Now a part of Yale Library’s Computational Methods and Data department, the Lab no longer includes these workshops in its scope of work. As such, it will receive no further updates.
+
+
 <!--[![Stories in Ready](https://badge.waffle.io/YaleDHLab/lab-workshops.png?label=ready&title=Ready)](https://waffle.io/YaleDHLab/lab-workshops)-->
 
 ### DHLab Workshops
